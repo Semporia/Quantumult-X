@@ -11,58 +11,58 @@
 ; 断点终结者专为小白定制的一键导入模板
 
 ; TG群传送门：https://t.me/MRHXPJ
-
+  
 [general]  
 server_check_url= http://www.qualcomm.cn/generate_204  
 ;geo_location_checker=http://extreme-ip-lookup.com/json/, https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js  
-
+  
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js  
+  
+;network_check_url=http://bing.com/  
+;dns_exclusion_list=*.qq.com, qq.com  
+;ssid_suspended_list=LINK_22E174, LINK_22E175  
+;udp_whitelist=53, 123, 1900, 80-443  
+;excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8  
+;icmp_auto_reply=true  
+[task_local]  
+30 7 * * * weather_pro.js  
 
-;network_check_url=http://bing.com/
-;dns_exclusion_list=*.qq.com, qq.com
-;ssid_suspended_list=LINK_22E174, LINK_22E175
-;udp_whitelist=53, 123, 1900, 80-443
-;excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
-;icmp_auto_reply=true
-[task_local]
-30 7 * * * weather_pro.js
+# 多合一签到  
+0 7 * * * all_in_one.js  
+[dns]  
+server=114.114.114.114  
+server=202.141.176.93  
+server=202.141.178.13  
+server=117.50.10.10  
+server=223.5.5.5  
+server=119.29.29.29:53  
+server=119.28.28.28  
 
-# 多合一签到
-0 7 * * * all_in_one.js
-[dns]
-server=114.114.114.114
-server=202.141.176.93 
-server=202.141.178.13
-server=117.50.10.10
-server=223.5.5.5
-server=119.29.29.29:53
-server=119.28.28.28
-
-server=/*.taobao.com/223.5.5.5
-server=/*.tmall.com/223.5.5.5
-server=/*.alipay.com/223.5.5.5
-server=/*.alicdn.com/223.5.5.5
-server=/*.aliyun.com/223.5.5.5
-server=/*.jd.com/119.28.28.28
-server=/*.qq.com/119.28.28.28
-server=/*.tencent.com/119.28.28.28
-server=/*.weixin.com/119.28.28.28
-server=/*.bilibili.com/119.29.29.29
-server=/hdslb.com/119.29.29.29
-server=/*.163.com/119.29.29.29
-server=/*.126.com/119.29.29.29
-server=/*.126.net/119.29.29.29
-server=/*.127.net/119.29.29.29
-server=/*.netease.com/119.29.29.29
-server=/*.mi.com/119.29.29.29
-server=/*.xiaomi.com/119.29.29.29
-;server=/*testflight.apple.com/23.76.66.98
-;server=8.8.8.8
-;server=/example1.com/8.8.4.4
-;server=/*.example2.com/223.5.5.5
-;server=/example4.com/[2001:4860:4860::8888]:53
-;address=/example5.com/192.168.16.18
-;address=/example6.com/[2001:8d3:8d3:8d3:8d3:8d3:8d3:8d3]
+server=/*.taobao.com/223.5.5.5  
+server=/*.tmall.com/223.5.5.5  
+server=/*.alipay.com/223.5.5.5  
+server=/*.alicdn.com/223.5.5.5  
+server=/*.aliyun.com/223.5.5.5  
+server=/*.jd.com/119.28.28.28  
+server=/*.qq.com/119.28.28.28  
+server=/*.tencent.com/119.28.28.28  
+server=/*.weixin.com/119.28.28.28  
+server=/*.bilibili.com/119.29.29.29  
+server=/hdslb.com/119.29.29.29  
+server=/*.163.com/119.29.29.29  
+server=/*.126.com/119.29.29.29  
+server=/*.126.net/119.29.29.29  
+server=/*.127.net/119.29.29.29  
+server=/*.netease.com/119.29.29.29  
+server=/*.mi.com/119.29.29.29  
+server=/*.xiaomi.com/119.29.29.29  
+;server=/*testflight.apple.com/23.76.66.98  
+;server=8.8.8.8  
+;server=/example1.com/8.8.4.4  
+;server=/*.example2.com/223.5.5.5  
+;server=/example4.com/[2001:4860:4860::8888]:53  
+;address=/example5.com/192.168.16.18  
+;address=/example6.com/[2001:8d3:8d3:8d3:8d3:8d3:8d3:8d3]  
 
 
 #
