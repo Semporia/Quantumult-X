@@ -1,9 +1,9 @@
 # Qure<br>
-![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Other/Qure_Logo.png)
+![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/Qure/master/Other/Qure_Logo.png)
 <br>
 
 ## 简介
-Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X/) 内策略组而精心设计的图标组。在这里你可以订阅、下载并更新它们。<br>
+Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X/Qure/) 内策略组而精心设计的图标组。在这里你可以订阅、下载并更新它们。<br>
 
 ## 使用说明
 ### 方式一：远程图标(推荐)<br>
