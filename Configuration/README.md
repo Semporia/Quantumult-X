@@ -12,7 +12,7 @@
 
 ; TG群传送门：https://t.me/MRHXPJ
 
-[general]
+[general]  
 server_check_url= http://www.qualcomm.cn/generate_204
 ;geo_location_checker=http://extreme-ip-lookup.com/json/, https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
 
@@ -79,7 +79,7 @@ server=/*.xiaomi.com/119.29.29.29
 
 [policy]  
 
-static=🚫 广告拦截, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🚫 广告拦截, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png  
 static=🔰 运营劫持, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
 static=🍎 苹果服务, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=🌏 国外网站, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Global.png
