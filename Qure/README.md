@@ -1,5 +1,5 @@
 # Qure<br>
-![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/Qure/master/Other/Qure_Logo.png)
+![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Qure_Logo.png)
 <br>
 
 ## 简介
@@ -10,11 +10,11 @@ Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X/Qur
 *跨设备同步策略组图标，及时获取图标更新*<br>
 *该操作以 Quantumult X v1.0.0-build103 为例*<br>
 
-1.在 [IconSet 页面](https://raw.githubusercontent.com/Semporia/master/IconSet)找到需要的策略组图标并记下**图标名称**（[效果图预览](https://github.com/Semporia/Qure#%E6%95%88%E6%9E%9C%E5%9B%BE%E9%A2%84%E8%A7%88)，不含归档图标）；<br>
+1.在 [IconSet 页面](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet)找到需要的策略组图标并记下**图标名称**（[效果图预览](https://github.com/Semporia/Qure#%E6%95%88%E6%9E%9C%E5%9B%BE%E9%A2%84%E8%A7%88)，不含归档图标）；<br>
 2.在 Quantumult X 的“配置文件-编辑”中找到[policy]下的策略组字段，并在该策略组的最后一个节点后方加上：<br>
-`img-url=https://raw.githubusercontent.com/Semporia/master/IconSet/图标名称.png`<br>
+`img-url=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet/图标名称.png`<br>
 例如：<br>
-`static=Hong Kong, 🇭🇰01, img-url=https://raw.githubusercontent.com/Semporia/master/IconSet/Hong_Kong.png`<br>
+`static=Hong Kong, 🇭🇰01, img-url=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet/Hong_Kong.png`<br>
 ```ruby
 注意：此处“img”前的英文逗号和空格以及“Hong_Kong.png”图标名称中的下划短横线和字母大小写
 ```
@@ -22,24 +22,17 @@ Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X/Qur
 
 ><font color=red>更新方法：当远程图标更新时，请手动清理本地图标缓存(打开“文件”应用，依次进入“**我的 iPhone 或 iCloud Drive-Quantumult X-Images**”，删除Images文件夹内所有缓存文件)，并重启 Quantumult X，远程图标会重新下载并生效。</font>
 
-[查看大图](https://raw.githubusercontent.com/Semporia/master/Other/Remote_Icon.png)<br>
-![Image text](https://raw.githubusercontent.com/Semporia/master/Other/Remote_Icon.png)
+[查看大图](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Remote_Icon.png)<br>
+![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Remote_Icon.png)
 
 ### 方式二：本地图标<br>
 *不支持多设备同步图标；图标更新时，需要手动下载图标并进行本地替换操作*<br>
 *该操作以 Quantumult X v1.0.0-build91 为例*<br>
 
 1.打开"文件"应用后，依次进入“我的 iPhone 或 iCloud Drive→Quantumult X→Images”；<br>
-2.将**个人设定**的策略组名称 **同名的.png** 图标文件(.png图标文件可在 [IconSet 页面](https://raw.githubusercontent.com/Semporia/master/IconSet)根据个人需求自行下载)粘贴到 Images 文件夹内，重启 Quantumult X 即可见到效果。<br>
- [查看大图](https://raw.githubusercontent.com/Semporia/master/Other/Local_Icon.png)<br>
-![Image text](https://raw.githubusercontent.com/Semporia/master/Other/Local_Icon.png)
-
-## 补充说明
-1.转载请注明出处，谢谢！<br>
-2.归档图标：图标不在[效果图预览](https://github.com/Semporia/Qure#%E6%95%88%E6%9E%9C%E5%9B%BE%E9%A2%84%E8%A7%88)中展示，但仍支持订阅；Archived：Dler.png、rix.png、N3RO.png、YoYu.png、MAYING.png、Nexitally.png、BosLife.png、BosLife_Letter.png、YTOO_Letter.png、YTOO.png、Taiwan.png；<br>
-3.需要新增策略图标，请提 Issues 或 Telegram 中说明图标名称并附上相关图标资源链接；<br>
-4.推荐使用 Hua姐的 [神机规则](https://github.com/Semporia/Profiles/blob/master/README.md) - [Filter Remote](https://github.com/Semporia/Profiles/tree/master/Quantumult/X) 与 Qure 搭配以强化 Quantumult X 使用体验；<br>
-5.流媒体图标组全面适配神机规则的 [Media](https://github.com/Semporia/Profiles/tree/master/Quantumult/X/Filter/Media)。<br>
+2.将**个人设定**的策略组名称 **同名的.png** 图标文件(.png图标文件可在 [IconSet 页面](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet)根据个人需求自行下载)粘贴到 Images 文件夹内，重启 Quantumult X 即可见到效果。<br>
+ [查看大图](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Local_Icon.png)<br>
+![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Local_Icon.png)
 
 ## 更新日志
 v2.6<br>
@@ -98,5 +91,5 @@ Quantumult X最美简雅风策略组图标现以Qure全新呈现<br>
 4. 其它人通过任何方式登陆本网站或直接、间接使用 Qure 项目相关资源，均应仔细阅读本声明，一旦使用、转载 Qure 项目任何相关教程或资源，即被视为您已接受此免责声明。<br>
 
 ## 效果图预览
-[查看大图](https://raw.githubusercontent.com/Semporia/master/Other/Qure_Preview_All.png)<br>
-![Image text](https://raw.githubusercontent.com/Semporia/master/Other/Qure_Preview_All.png)
+[查看大图](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Qure_Preview_All.png)<br>
+![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Qure_Preview_All.png)
