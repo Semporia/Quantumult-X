@@ -77,7 +77,8 @@ server=/*.xiaomi.com/119.29.29.29
 # SSID策略根据网络环境指向预设服务器。
 #
 
-[policy]
+[policy]  
+
 static=🚫 广告拦截, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
 static=🔰 运营劫持, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
 static=🍎 苹果服务, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
@@ -126,12 +127,14 @@ static=🙈 网易云音乐, direct, proxy, img-url=https://raw.githubuserconten
 # 远程资源的默认同步间隔为24*60*60秒。
 #
 
-[server_remote]
+[server_remote]  
+
 https://www.caissr.xyz/link/R1ucsNa43aqSg5zY?sub=1&extend=1, tag=菜菜云, enabled=true
 https://dingyue.suying666.info/link/Ek4pv3L4P3udYLeX?sub=1, tag=速鹰, enabled=true
 
 
-[filter_remote]
+[filter_remote]  
+
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list, tag=🚫 广告拦截, force-policy=🚫 广告拦截, enabled=true
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📵 广告拦截, force-policy=🚫 广告拦截, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Hijacking.list, tag=🔰 运营劫持, force-policy=🔰 运营劫持, enabled=true
@@ -153,11 +156,13 @@ https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Media/HWTV.list, tag=📡 华文电视PRO, force-policy=📡 华文电视Pro, enabled=true
 https://sub.jiaowoy.top/Rules/Quantumult%20X/NeteaseMusic.list, tag=🙈 解锁网易云音乐, force-policy=🙈 网易云音乐, enabled=true
 
-[rewrite_remote]
+[rewrite_remote]  
+
 http://cloudcompute.lbyczf.com/quanx-rewrite, tag=lhie1复写, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=神机复写规则, enabled=true
 
-[server_local]
+[server_local]  
+
 ;shadowsocks=a.example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=Sample-A
 ;shadowsocks=b.example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, tag=Sample-B
 ;shadowsocks=c.example.com:443, method=chacha20, password=pwd, obfs=tls, obfs-host=bing.com, fast-open=false, udp-relay=false, tag=Sample-C
@@ -166,7 +171,8 @@ https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrit
 ;shadowsocks=f.example.com:443, method=chacha20, password=pwd, obfs=wss, obfs-host=bing.com, obfs-uri=/ws, fast-open=false, udp-relay=false, tag=Sample-F
 ;shadowsocks=g.example.com:443, method=chacha20, password=pwd, ssr-protocol=auth_chain_b, ssr-protocol-param=def, obfs=tls1.2_ticket_fastauth, obfs-host=bing.com, tag=Sample-G
 
-[filter_local]
+[filter_local]  
+
 # 使用规则屏蔽 IP，有可能误伤其他功能或者应用，可以自己抓包缩小 IP 范围
 ip-cidr, 203.119.144.0/23, reject, no-resolve
 ip-cidr, 203.119.175.0/24, reject, no-resolve
