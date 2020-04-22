@@ -177,52 +177,52 @@ ip-cidr, 106.11.162.0/24, reject, no-resolve
 ip-cidr, 47.102.83.0/24, reject, no-resolve
 
 #绕过企业证书过期
-host, ocsp.apple.com, 🚫 广告拦截
+host, ocsp.apple.com, 🚫 广告拦截  
 
 #讯飞语记-广告拦截
-host-suffix, voiceads.cn, 🚫 广告拦截
-host-suffix, ads.voiceads.cn, 🚫 广告拦截
-host-suffix, bj.imp.voiceads.cn, 🚫 广告拦截
-host-suffix, ai.voiceads.cn, 🚫 广告拦截
+host-suffix, voiceads.cn, 🚫 广告拦截  
+host-suffix, ads.voiceads.cn, 🚫 广告拦截  
+host-suffix, bj.imp.voiceads.cn, 🚫 广告拦截  
+host-suffix, ai.voiceads.cn, 🚫 广告拦截  
 
 #TIKTOK-去水印广告拦截
-host-suffix, musical.ly, proxy
-host-suffix, tiktokv.com,proxy
-host-suffix, tiktokcdn.com,proxy
-host-suffix, -tiktokcdn-com,proxy
-host-suffix, muscdn.com, proxy
+host-suffix, musical.ly, proxy  
+host-suffix, tiktokv.com,proxy  
+host-suffix, tiktokcdn.com,proxy  
+host-suffix, -tiktokcdn-com,proxy  
+host-suffix, muscdn.com, proxy  
 user-agent, TikTok*, proxy  
   
 #🦑 蘋果の新聞-广告拦截
-host-suffix, appledaily.com.hk, 🦑 蘋果の新聞
-host-suffix, nxtdig.com.hk, 🦑 蘋果の新聞
-host-suffix, nextmedia.com, 🦑 蘋果の新聞
-host-suffix, omoplanet.com, 🦑 蘋果の新聞
-host-suffix, nxtdig.com, 🦑 蘋果の新聞
-host-suffix, crwdcntrl.net, 🦑 蘋果の新聞
-host-suffix, polldaddy.com, 🦑 蘋果の新聞
-host-suffix, nexage.com, 🦑 蘋果の新聞
-host-suffix, appledaily.com.tw, 🦑 蘋果の新聞
-host-suffix, twnextdigital.com, 🦑 蘋果の新聞
-host-suffix, nxtdig.com.tw, 🦑 蘋果の新聞
+host-suffix, appledaily.com.hk, 🦑 蘋果の新聞  
+host-suffix, nxtdig.com.hk, 🦑 蘋果の新聞  
+host-suffix, nextmedia.com, 🦑 蘋果の新聞  
+host-suffix, omoplanet.com, 🦑 蘋果の新聞  
+host-suffix, nxtdig.com, 🦑 蘋果の新聞  
+host-suffix, crwdcntrl.net, 🦑 蘋果の新聞  
+host-suffix, polldaddy.com, 🦑 蘋果の新聞  
+host-suffix, nexage.com, 🦑 蘋果の新聞  
+host-suffix, appledaily.com.tw, 🦑 蘋果の新聞  
+host-suffix, twnextdigital.com, 🦑 蘋果の新聞  
+host-suffix, nxtdig.com.tw, 🦑 蘋果の新聞  
 host-suffix, branch.io, 🦑 蘋果の新聞  
 
 #📡 华文电视Pro-广告拦截
-HOST-SUFFIX, mob.com, 📡 华文电视Pro
-HOST-SUFFIX, 5itv.tv, 📡 华文电视Pro
-HOST-SUFFIX, ocnttv.com, 📡 华文电视Pro
-USER-AGENT, HWTVMobile*, 📡 华文电视Pro
-;user-agent, ?abc*, proxy
-;host, www.google.com, proxy
-;host-keyword, adsite, reject
-;host-suffix, googleapis.com, proxy
-ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 127.0.0.0/8, direct
-ip-cidr, 172.16.0.0/12, direct
-ip-cidr, 192.168.0.0/16, direct
-ip-cidr, 224.0.0.0/24, direct
-geoip, cn, direct
-final, 🕹 FINAL
+HOST-SUFFIX, mob.com, 📡 华文电视Pro  
+HOST-SUFFIX, 5itv.tv, 📡 华文电视Pro  
+HOST-SUFFIX, ocnttv.com, 📡 华文电视Pro  
+USER-AGENT, HWTVMobile*, 📡 华文电视Pro  
+;user-agent, ?abc*, proxy  
+;host, www.google.com, proxy  
+;host-keyword, adsite, reject  
+;host-suffix, googleapis.com, proxy  
+ip-cidr, 10.0.0.0/8, direct  
+ip-cidr, 127.0.0.0/8, direct  
+ip-cidr, 172.16.0.0/12, direct  
+ip-cidr, 192.168.0.0/16, direct  
+ip-cidr, 224.0.0.0/24, direct  
+geoip, cn, direct  
+final, 🕹 FINAL  
   
 # 以下为复写部分（含本地野比JS），包括YouTube去开头5S广告、各种JS去广告+破解VIP，需要把对应野比的JS文件放到本机——quantumult X——script目录下即可。野比大佬github库地址如下：https://github.com/NobyDa/Script/tree/master/QuantumultX 
 
