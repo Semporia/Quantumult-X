@@ -1,7 +1,3 @@
-// Todo: 待添加多账号签到
-// ToDo: 种菜赚金币
-// ToDo: 幸运大转盘自动获取阶段奖励,奖励每周重置
-// Warn: 睡觉仅在20点和12点触发,获取奖励在8点和14触发
 const cookieName = '趣头条'
 const signKey = 'senku_signKey_qtt'
 const signXTKKey = 'senku_signXTK_qtt'
@@ -12,16 +8,18 @@ const signVal = senku.getdata(signKey)
 const signXTKVal = senku.getdata(signXTKKey)
 const readVal = senku.getdata(readKey)
 const navCoinVal = senku.getdata(navCoinKey)
-const signurlVal = 'https://api.1sapp.com/sign/sign?version=30967000&xhi=200' + signVal
-const adUrl = 'https://api.1sapp.com/sign/adDone?version=30967000&xhi=200' + signVal
-const getinfoUrlVal = 'https://api.1sapp.com/sign/info?version=30967000&xhi=200' + signVal
-const hourUrlVal = 'https://api.1sapp.com/mission/intPointReward?version=30967000&xhi=200' + signVal
-const coinUrlVal = 'https://api.1sapp.com/app/ioscoin/getInfo?version=30967000&xhi=200' + signVal
-const readReawardVal = 'https://api.1sapp.com/app/ioscoin/readReward?version=30967000&xhi=200&type=content_config' + signVal
-const sleepUrlVal = 'https://mvp-sleeper.qutoutiao.net/v1/sleep/update?version=30967000&xhi=200status=1' + signVal
-const sleepRewardVal = 'https://mvp-sleeper.qutoutiao.net/v1/reward?version=30967000&xhi=200status=1&which=2' + signVal
-const signinfo = { playList: [] }
-const playUrl = [adUrl + 'pos=one', adUrl + 'pos=two', adUrl + 'pos=three', adUrl + 'pos=four']
+const vsign = 'version=30967000&xhi=200' + signVal
+const signurlVal = 'https://api.1sapp.com/sign/sign?' + vsign
+const adUrl = 'https://api.1sapp.com/sign/adDone?' + vsign
+const getinfoUrlVal = 'https://api.1sapp.com/sign/info?' + vsign
+const hourUrlVal = 'https://api.1sapp.com/mission/intPointReward?' + vsign
+const coinUrlVal = 'https://api.1sapp.com/app/ioscoin/getInfo?' + vsign
+const readReawardVal = 'https://api.1sapp.com/app/ioscoin/readReward?type=content_config&' + vsign
+const sleepUrlVal = 'https://mvp-sleeper.qutoutiao.net/v1/sleep/update?status=1&' + vsign
+const sleepRewardVal = 'https://mvp-sleeper.qutoutiao.net/v1/reward?which=2&' + vsign
+const luckyUrlVal = 'https://qtt-turntable.qutoutiao.net/press_trigger?' + vsign
+const luckyRewardVal = 'https://qtt-turntable.qutoutiao.net/extra_reward?' + vsign
+const signinfo = { playList: [], luckyList: [] }
 
   ; (sign = async () => {
     senku.log(`🔔 ${cookieName}`)
@@ -34,10 +32,18 @@ const playUrl = [adUrl + 'pos=one', adUrl + 'pos=two', adUrl + 'pos=three', adUr
       await getreadReward()
     }
     if (new Date().getHours() == 20 || new Date().getHours() == 12) {
+      await sleepReward()
       await sleep()
     }
     if (new Date().getHours() == 8 || new Date().getHours() == 14) {
       await sleepReward()
+    }
+    if (new Date().getDay() == 5) {
+      await luckyReward(3)
+      await luckyReward(8)
+      await luckyReward(15)
+      await luckyReward(20)
+      await luckyReward(30)
     }
     await signDay()
     await signHour()
@@ -51,7 +57,7 @@ const playUrl = [adUrl + 'pos=one', adUrl + 'pos=two', adUrl + 'pos=three', adUr
     senku.done()
   })().catch((e) => senku.log(`❌ ${cookieName} 签到失败: ${e}`), senku.done())
 
-
+// 睡觉
 function sleep() {
   return new Promise((resolve, reject) => {
     const url = { url: sleepUrlVal, headers: { 'Host': 'mvp-sleeper.qutoutiao.net', 'X-Tk': signXTKVal } }
@@ -70,6 +76,7 @@ function sleep() {
     })
   })
 }
+// 睡觉金币
 function sleepReward() {
   return new Promise((resolve, reject) => {
     const url = { url: sleepRewardVal, headers: { 'Host': 'mvp-sleeper.qutoutiao.net', 'X-Tk': signXTKVal } }
@@ -88,6 +95,8 @@ function sleepReward() {
     })
   })
 }
+
+// 每日签到
 function signDay() {
   return new Promise((resolve, reject) => {
     const url = { url: signurlVal, headers: { 'Host': 'api.1sapp.com', 'X-Tk': signXTKVal } }
@@ -107,6 +116,7 @@ function signDay() {
   })
 }
 
+// 首页奖励
 function navCoin() {
   return new Promise((resolve, reject) => {
     const url = { url: navCoinVal, headers: { 'Host': 'api.1sapp.com', 'X-Tk': signXTKVal } }
@@ -213,6 +223,7 @@ function getcoininfo() {
 function signHour() {
   return new Promise((resolve, reject) => {
     const url = { url: hourUrlVal, headers: { 'Host': 'api.1sapp.com', 'X-Tk': signXTKVal } }
+    url.headers['User-Agent'] = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
     senku.get(url, (error, response, data) => {
       try {
         senku.log(`❕ ${cookieName} signHour - response: ${JSON.stringify(response)}`)
@@ -230,9 +241,8 @@ function signHour() {
 
 function signLucky() {
   return new Promise((resolve, reject) => {
-
-    const luckyUrlVal = 'https://qtt-turntable.qutoutiao.net/press_trigger?version=30967000&xhi=200' + signVal
-    const url = { url: luckyUrlVal, headers: { "Host": "qtt-turntable.qutoutiao.net", 'X-Tk': signXTKKey } }
+    const url = { url: luckyUrlVal, headers: { 'Host': 'qtt-turntable.qutoutiao.net', 'X-Tk': signXTKKey } }
+    url.headers['User-Agent'] = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
     senku.get(url, (error, response, data) => {
       try {
         senku.log(`❕ ${cookieName} signLucky - response: ${JSON.stringify(response)}`)
@@ -242,6 +252,27 @@ function signLucky() {
         senku.msg(cookieName, `幸运转盘: 失败`, `说明: ${e}`)
         senku.log(`❌ ${cookieName} signLucky - 幸运转盘失败: ${e}`)
         senku.log(`❌ ${cookieName} signLucky - response: ${JSON.stringify(response)}`)
+        resolve()
+      }
+    })
+  })
+}
+
+// 幸运转盘额外奖励
+function luckyReward(times) {
+  return new Promise((resolve, reject) => {
+    const luckyRewardUrl = luckyRewardVal + '&times=' + times
+    const url = { url: luckyRewardUrl, headers: { 'Host': 'qtt-turntable.qutoutiao.net', 'X-Tk': signXTKVal } }
+    url.headers['User-Agent'] = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+    senku.get(url, (error, response, data) => {
+      try {
+        senku.log(`❕ ${cookieName} luckyReward - response: ${JSON.stringify(response)}`)
+        signinfo.luckyList.push(JSON.parse(data))
+        resolve()
+      } catch (e) {
+        senku.msg(cookieName, `转盘额外奖励请求: 失败`, `说明: ${e}`)
+        senku.log(`❌ ${cookieName} luckyReward - 转盘额外奖励请求失败: ${e}`)
+        senku.log(`❌ ${cookieName} luckyReward - response: ${JSON.stringify(response)}`)
         resolve()
       }
     })
@@ -367,28 +398,29 @@ function showmsg() {
   // signDayMsg
   if (signinfo.info && signinfo.info.data.signIn.today == 1) {
     if (signinfo.signDay.code == 0) {
+      subTitle += subTitle == '' ? '' : ' '
       const continuation = signinfo.info.data.signIn.continuation
       const amount = signinfo.info.data.signIn.amount
       const currentCoin = amount[continuation]
       const nextCoin = amount[continuation + 1]
       const coins = signinfo.info.data.show_balance_info.coins
-      subTitle += '每日:✅'
+      subTitle += '每日:成功'
       detail += `【每日签到】获得${currentCoin}💰,明日可得${nextCoin}💰\n`
     }
     else subTitle += ''
   } else {
-    subTitle += '每日:❌'
+    subTitle += '每日:失败'
     senku.log(`❌ ${cookieName} showmsg - 每日签到: ${JSON.stringify(signinfo.signDay)}`)
   }
 
   // signHourMsg
-  subTitle += subTitle == '' ? '' : ', '
+  subTitle += subTitle == '' ? '' : ' '
   if (signinfo.signHour && signinfo.signHour.code == 0) {
-    subTitle += '时段:✅'
+    subTitle += '时段:成功'
     const amount = signinfo.signHour.data.amount
     const next_time = tTime(signinfo.signHour.data.next_time)
     detail += `【时段签到】获得${amount}💰,下次签到:${next_time}\n`
-  } else subTitle += '时段:🔕'
+  } else subTitle += '时段:时间未到'
 
   // readMsg
   if (signinfo.read && signinfo.read.data.status_code == 0) {
@@ -397,7 +429,8 @@ function showmsg() {
       if (signinfo.readReward != undefined && signinfo.readReward.code == 0) {
         detail += `【阅读详情】${desc},奖励:成功\n`
       } else if (signinfo.readReward != undefined && signinfo.readReward.code == -113) {
-        detail += `【阅读详情】${desc},已获取阶段奖励\n`
+        signinfo.coininfo.data.read_num == 18 ? detail += `` : detail += `【阅读详情】${desc},已获取阶段奖励\n`
+
       } else detail += `【阅读详情】${desc},手动获取金币\n`
     }
   } else detail += '【阅读详情】失败\n'
@@ -423,7 +456,7 @@ function showmsg() {
       const cur_amount = signinfo.navCoin.data.cur_amount
       const total_times = signinfo.navCoin.data.total_times
       const done_times = signinfo.navCoin.data.done_times
-      detail += `【首页奖励】${cur_amount}💰,完成${done_times}/${total_times}\n`
+      done_times == 15 ? detail += `` : detail += `【首页奖励】${cur_amount}💰,完成${done_times}/${total_times}\n`
     }
   } else if (signinfo.navCoin && signinfo.navCoin.code == -308) {
     detail += `【首页奖励】时间未到\n`
@@ -432,30 +465,47 @@ function showmsg() {
   } else detail += '【首页奖励】失败或Cookie不存在\n'
 
   // signLuckyMsg
-  subTitle += subTitle == '' ? '' : ', '
+  subTitle += subTitle == '' ? '' : ' '
   if (signinfo.signLucky && signinfo.signLucky.code == 1) {
-    subTitle += `幸运转盘:✅`
+    subTitle += `幸运转盘:成功`
     const amount_coin = signinfo.signLucky.amount_coin
     const count = signinfo.signLucky.count
     const count_limit = signinfo.signLucky.count_limit
     detail += `【幸运转盘】获得${amount_coin},抽奖情况:${count}/${count_limit}次\n`
   } else subTitle += ``
 
+  // luckyExtraMsg
+  if (signinfo.luckyList) {
+    const times = [3, 8, 15, 20, 30]
+    let i = 0
+    for (const extra of signinfo.luckyList) {
+      if (extra.code == 0) {
+        detail += `【转盘额外】次数:${times[i]} 获得${extra.reward_coin}💰\n`
+      } else if (extra.code == -2) {
+        detail += `【转盘额外】次数:${times[i]} 重复领取\n`
+      } else if (extra.code == -1) {
+        detail += `【转盘额外】次数:${times[i]} 当前次数未达到\n`
+      } else detail += `【转盘额外】未知错误\n`
+      i += 1
+    }
+  } else detail += '【转盘额外】失败'
+
   // playAdsMsg
-  subTitle += subTitle == '' ? '' : ', '
+  subTitle += subTitle == '' ? '' : ' '
   if (signinfo.playList) {
     if (signinfo.playList[0].code == 0) {
-      subTitle += ''
       const icon = signinfo.info.data.signIn.ext_ad.icon
       const coins = signinfo.info.data.show_balance_info.coins
       const continuation = signinfo.info.data.signIn.continuation
       for (const poss of icon) {
-        const time = tTime(poss.next_time)
-        detail += `【视频广告】下次🕥${time} 可获得${poss.amount}💰\n`
+        if (poss.next_time > 0) {
+          const time = tTime(poss.next_time)
+          detail += `【视频广告】下次🕥${time} 可获得${poss.amount}💰\n`
+        }
       }
       detail += `【账户详情】共计:${coins}💰,连续签到${continuation}天`
     } else if (signinfo.playList[0].code == -126) subTitle += '广告:权限错误'
-  } else subTitle += '广告:❌'
+  } else subTitle += '广告:失败'
 
   senku.msg(cookieName, subTitle, detail)
   senku.done()
