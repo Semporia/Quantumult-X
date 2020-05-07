@@ -198,7 +198,6 @@ function showmsg() {
   }
 
   chavy.msg(cookieName, subTitle, detail)
-  chavy.done()
 }
 
 function init() {

@@ -1,15 +1,27 @@
-const cookieName = '电信营业厅'
-const KEY_signheader = 'chavy_signheader_10000'
-const KEY_signbody = 'chavy_signbody_10000'
-const KEY_mobile = 'chavy_mobile_10000'
-const chavy = init()
-if (this.$request && this.$request.headers && this.$request.body) {
-  const VAL_signheader = JSON.stringify($request.headers)
-  const VAL_signbody = this.$request.body
-  if (VAL_signheader) chavy.setdata(VAL_signheader, KEY_signheader)
-  if (VAL_signbody) chavy.setdata(VAL_signbody, KEY_signbody)
-  chavy.msg(cookieName, `获取Cookie: 成功`, ``)
-}
+/**
+ * [main.js]
+ * const cookieVal = $persistentStore.read(cookieKey)
+ * =>
+ * const chavy = init()
+ * const cookieVal = chavy.getdata(cookieKey)
+ *
+ * $httpClient.get => chavy.get
+ * $httpClient.post => chavy.post
+ * $notification.post => chavy.msg
+ * console.log => chavy.log
+ * $done({}) => chavy.done()
+ *
+ * [main.cookie.js]
+ * const cookieVal = $request.headers['Cookie']
+ * =>
+ * const chavy = init()
+ * const cookieVal = $request.headers['Cookie']
+ *
+ * $persistentStore.write => chavy.setdata
+ * $notification.post => chavy.msg
+ * console.log => chavy.log
+ * $done({}) => chavy.done()
+ */
 
 function init() {
   isSurge = () => {
@@ -54,4 +66,3 @@ function init() {
   }
   return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, done }
 }
-chavy.done()
