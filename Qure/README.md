@@ -53,7 +53,7 @@ Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X/Qur
 <summary><strong>所有日志</strong></summary><br>
 <strong>v2.8</strong><br>
 2020-5-22<br>
-1.图标新增：10010.png、suning.png、mcdd.png、tieba.png、JD_DailyBonus.png<br>
+1.图标新增Task文件夹：10010.png、suning.png、mcdd.png、tieba.png、JD_DailyBonus.png、aiqiyi.png、bilibili.png、Netease_Music.png、youku.png<br>
 
 <strong>v2.7</strong><br>
 2020-4-12<br>
