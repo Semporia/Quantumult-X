@@ -8,27 +8,25 @@
 * [Rewrite](#Rewrite)
 * [scripts](#scripts)
 
-### Configuration
 ***
+### Configuration
 * [Quantumult X 参考配置](https://github.com/Semporia/Quantumult-X/tree/master/Configuration)  
 
-### Filter
 ***
+### Filter
 * [Quantumult X 分流](https://github.com/Semporia/Quantumult-X/tree/master/Filter)  
 
-
-### Qure
 ***
+### Qure
 * [Quantumult X icon](https://github.com/Semporia/Quantumult-X/tree/master/Qure/IconSet)  
 
 * [Quantumult X Task-icon](https://github.com/Semporia/Quantumult-X/tree/master/Qure/Task)  
 
-
-### Rewrite
 ***
+### Rewrite
 * [Quantumult X 重写](https://github.com/Semporia/Quantumult-X/tree/master/Rewrite)  
 
-### scripts
 ***
+### scripts
 * [Quantumult X 脚本](https://github.com/Semporia/Quantumult-X/tree/master/scripts)  
 
