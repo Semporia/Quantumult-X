@@ -17,7 +17,7 @@ Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X/Qur
 *跨设备同步策略组图标，及时获取图标更新*<br>
 *该操作以 Quantumult X v1.0.8-build249 为例*<br>
 
-1.在 [IconSet 页面](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet)找到需要的策略组图标并记下**图标名称**（[效果图预览](https://github.com/Semporia/Qure#%E6%95%88%E6%9E%9C%E5%9B%BE%E9%A2%84%E8%A7%88)，不含归档图标）；<br>
+1.在 [IconSet 页面](https://github.com/Semporia/Quantumult-X/tree/master/Qure/IconSet)找到需要的策略组图标并记下**图标名称**（[效果图预览](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Other/Qure_Preview_All.png)，不含归档图标）；<br>
 2.在 Quantumult X 的“配置文件-编辑”中找到[policy]下的策略组字段，并在该策略组的最后一个节点后方加上：<br>
 `img-url=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet/图标名称.png`<br>
 例如：<br>
