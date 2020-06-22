@@ -90,13 +90,3 @@ gameapi.hellobike.com
 
      */60 * * * * xxx.js # 每60分执行一次
      ```
-
-## 感谢
-
-[@NobyDa](https://github.com/NobyDa)
-
-[@lhie1](https://github.com/lhie1)
-
-[@ConnersHua](https://github.com/ConnersHua)
-
-[@GideonSenku](https://github.com/GideonSenku)
