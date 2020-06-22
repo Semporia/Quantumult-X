@@ -13,8 +13,8 @@
 *.you.163.com
 
 [Script]
-http-request ^https:\/\/m\.you\.163\.com\/xhr\/points\/index\.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/yanxuan/yanxuan.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/yanxuan/yanxuan.js
+http-request ^https:\/\/m\.you\.163\.com\/xhr\/points\/index\.json script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/yanxuan/yanxuan.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/yanxuan/yanxuan.js
 ```
 
 ## 配置 (QuanX)

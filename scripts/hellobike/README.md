@@ -9,8 +9,8 @@
 gameapi.hellobike.com
 
 [Script]
-http-request ^https:\/\/gameapi\.hellobike\.com\/api script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+http-request ^https:\/\/gameapi\.hellobike\.com\/api script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js, requires-body=true
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js
 ```
 
 ## 配置 (QuanX)
@@ -24,14 +24,14 @@ gameapi.hellobike.com
 ^https:\/\/gameapi\.hellobike\.com\/api url script-request-body hellobike/hellobike.js
 
 # [TestFlight]
-^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js
 
 [task_local]
 # [商店版]
 5 0 * * * hellobike/hellobike.js
 
 # [TestFlight]
-5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+5 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js
 ```
 
 ## 说明

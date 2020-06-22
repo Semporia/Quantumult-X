@@ -19,8 +19,8 @@
 hostname = sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com
 
 [Script]
-http-request ^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
-http-request ^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+http-request ^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/sfexpress/sfexpress.cookie.js
+http-request ^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/sfexpress/sfexpress.cookie.js
 cron "*/10 * * * * *" script-path=scripts/sfexpress.js
 ```
 
@@ -36,8 +36,8 @@ hostname = sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com
 ^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect url script-request-header sfexpress.cookie.js
 
 # [TF版]
-^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
-^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/sfexpress/sfexpress.cookie.js
+^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/sfexpress/sfexpress.cookie.js
 
 [task_local]
 1 0 * * * sfexpress.js

@@ -16,8 +16,8 @@
 *.smzdm.com
 
 [Script]
-http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
+http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/smzdm/smzdm.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/smzdm/smzdm.js
 ```
 
 ## 说明

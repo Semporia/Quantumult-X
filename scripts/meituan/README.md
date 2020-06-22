@@ -11,8 +11,8 @@
 hostname = i.meituan.com
 
 [Script]
-http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
+http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/meituan/meituan.cookie.js, requires-body=true
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/meituan/meituan.js
 ```
 
 ## 配置 (QuanX)

@@ -19,8 +19,8 @@
 *.video.qq.com
 
 [Script]
-http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/videoqq/videoqq.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/videoqq/videoqq.js
 ```
 
 ## 配置 (QuanX)

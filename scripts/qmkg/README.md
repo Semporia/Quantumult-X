@@ -13,9 +13,9 @@
 node.kg.qq.com
 
 [Script]
-http-request ^https://node\.kg\.qq\.com/webapp/proxy? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.cookie.js, requires-body=true
+http-request ^https://node\.kg\.qq\.com/webapp/proxy? script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qmkg/qmkg.cookie.js, requires-body=true
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qmkg/qmkg.js
 ```
 
 ## 配置 (QuanX)
@@ -30,7 +30,7 @@ node.kg.qq.com
 # 不支持
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https://node\.kg\.qq\.com/webapp/proxy? url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.cookie.js
+^https://node\.kg\.qq\.com/webapp/proxy? url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qmkg/qmkg.cookie.js
 
 [task_local]
 1 0 * * * qmkg.js

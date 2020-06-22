@@ -9,8 +9,8 @@
 maicai.api.ddxq.mobi
 
 [Script]
-http-request ^https:\/\/maicai.api.ddxq.mobi\/point\/home script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js
+http-request ^https:\/\/maicai.api.ddxq.mobi\/point\/home script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/mcdd/mcdd.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/mcdd/mcdd.js
 ```
 
 ## 配置 (QuanX)

@@ -18,9 +18,9 @@
 
 [Script]
 # 注意获取Cookie有两条脚本
-http-request ^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg requires-body=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.cookie.js
-http-response ^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg requires-body=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js
+http-request ^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg requires-body=true,script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qqmusic/qqmusic.cookie.js
+http-response ^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg requires-body=true,script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qqmusic/qqmusic.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qqmusic/qqmusic.js
 ```
 
 ## 配置 (QuanX)

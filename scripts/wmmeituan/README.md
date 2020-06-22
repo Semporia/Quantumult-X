@@ -10,9 +10,9 @@ promotion.waimai.meituan.com
 
 [Script]
 # 注意获取Cookie有两条脚本
-http-request ^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
-http-request ^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,requires-body=true
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js
+http-request ^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/wmmeituan/wmmeituan.cookie.js
+http-request ^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/wmmeituan/wmmeituan.cookie.js,requires-body=true
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/wmmeituan/wmmeituan.js
 ```
 
 ## 配置 (QuanX)

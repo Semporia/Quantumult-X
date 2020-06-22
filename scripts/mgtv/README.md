@@ -9,8 +9,8 @@
 credits.bz.mgtv.com
 
 [Script]
-http-request ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js
+http-request ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/mgtv/mgtv.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/mgtv/mgtv.js
 ```
 
 ## 配置 (QuanX)

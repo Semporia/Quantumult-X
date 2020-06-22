@@ -12,9 +12,9 @@
 daojia.jd.com
 
 [Script]
-http-request ^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
+http-request ^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/jddj/jddj.cookie.js
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/jddj/jddj.js
 ```
 
 ## 配置 (QuanX)
@@ -29,7 +29,7 @@ daojia.jd.com
 # ^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header jddj.cookie.js
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
+^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/jddj/jddj.cookie.js
 
 [task_local]
 1 0 * * * jddj.js

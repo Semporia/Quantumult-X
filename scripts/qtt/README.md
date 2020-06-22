@@ -28,11 +28,11 @@
 api.1sapp.com
 
 [Script]
-http-request ^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
-http-request ^https:\/\/api\.1sapp\.com\/content\/readV2? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
-http-request ^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+http-request ^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.cookie.js
+http-request ^https:\/\/api\.1sapp\.com\/content\/readV2? script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.cookie.js
+http-request ^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.cookie.js
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.js
 ```
 
 ## 配置 (QuanX)
@@ -48,9 +48,9 @@ api.1sapp.com
 ^https:\/\/api\.1sapp\.com\/content\/readV2? url script-request-header qtt.cookie.js
 ^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? url script-request-header qtt.cookie.js
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/api\.1sapp\.com\/sign\/info? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
-^https:\/\/api\.1sapp\.com\/content\/readV2? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
-^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+^https:\/\/api\.1sapp\.com\/sign\/info? url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.cookie.js
+^https:\/\/api\.1sapp\.com\/content\/readV2? url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.cookie.js
+^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/qtt/qtt.cookie.js
 
 [task_local]
 1 0 * * * qtt.js
