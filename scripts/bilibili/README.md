@@ -6,7 +6,6 @@
 
 > 2020.1.11 QuanX 在`190`版本开始, 获取 Cookie 方式需要从`script-response-body`改为`script-request-header`
 
-> 2020.3.16 添加银瓜子转硬币脚本 感谢[@lcandy2](https://github.com/lcandy2) PR
 
 ## 配置 (Surge)
 
@@ -95,13 +94,3 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quant
 
      */60 * * * * xxx.js # 每60分执行一次
      ```
-
-## 感谢
-
-[@NobyDa](https://github.com/NobyDa)
-
-[@lhie1](https://github.com/lhie1)
-
-[@ConnersHua](https://github.com/ConnersHua)
-
-[@lcandy2](https://github.com/lcandy2)
