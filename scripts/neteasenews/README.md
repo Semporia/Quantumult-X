@@ -4,8 +4,6 @@
 
 > 2020.2.4 QuanX v1.0.6-build195 及以后版本可以直接使用 `neteasenews.cookie.js` 自动获取 Cookie
 
-> 2020.2.4 如果是 195 以前的版本, 或者想尝试手动抓包获取参数, 请点[这里](https://github.com/chavyleung/scripts/tree/master/neteasenews/README.old.md)
-
 ## 配置 (Surge)
 
 ```properties
@@ -13,8 +11,8 @@
 *.m.163.com
 
 [Script]
-http-request ^https:\/\/v6-c\.m\.163\.com\/uc\/api\/sign\/v3\/commit script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js
+http-request ^https:\/\/(.*?)c\.m\.163\.com\/uc\/api\/sign\/v3\/commit script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/neteasemusic/neteasenews.cookie.js,requires-body=true
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/neteasemusic/neteasenews.js
 ```
 
 ## 配置 (QuanX)
@@ -24,8 +22,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 *.m.163.com
 
 [rewrite_local]
-# 195及以后版本
-^https:\/\/v6-c\.m\.163\.com\/uc\/api\/sign\/v3\/commit url script-request-body neteasenews.cookie.js
+^https:\/\/(.*?)c\.m\.163\.com\/uc\/api\/sign\/v3\/commit url script-request-body neteasenews.cookie.js
 
 [task_local]
 1 0 * * * neteasenews.js
@@ -87,11 +84,3 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 
      */60 * * * * xxx.js # 每60分执行一次
      ```
-
-## 感谢
-
-[@NobyDa](https://github.com/NobyDa)
-
-[@lhie1](https://github.com/lhie1)
-
-[@ConnersHua](https://github.com/ConnersHua)
