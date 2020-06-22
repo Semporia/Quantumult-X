@@ -1,9 +1,6 @@
 # 京东到家
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
-> 感谢 [@barry](https://t.me/barrymchen) 编写
-> 
-> 感谢 [@GideonSenku](https://github.com/GideonSenku) 对代码优化
 
 ## 配置 (Surge)
 
@@ -90,15 +87,3 @@ daojia.jd.com
 
      */60 * * * * xxx.js # 每60分执行一次
      ```
-
-## 感谢
-
-[@NobyDa](https://github.com/NobyDa)
-
-[@lhie1](https://github.com/lhie1)
-
-[@ConnersHua](https://github.com/ConnersHua)
-
-[@barry](https://t.me/barrymchen)
-
-[@GideonSenku](https://github.com/GideonSenku)
