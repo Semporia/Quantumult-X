@@ -34,10 +34,10 @@ QuantumultX 脚本配置:
 
 [rewrite_local]
 #QQ会员获取cookie
-https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi? url script-request-header https://raw.githubusercontent.com/Semporia/master/Scripts/QQVip/qqVipCheckIn.js
+https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi? url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/QQVip/qqVipCheckIn.js
 
 [task_local]
-1 0 * * * https://raw.githubusercontent.com/Semporia/master/Scripts/QQVip/qqVipCheckIn.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/QQVip/qqVipCheckIn.js
 
 [mitm]
 hostname= proxy.vac.qq.com
@@ -47,8 +47,8 @@ LOON 本地脚本配置:
 ************************
 
 [Script]
-http-request https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi script-path=https://raw.githubusercontent.com/Semporia/master/Scripts/QQVip/qqVipCheckIn.js, timeout=10, tag=QQ会员获取
-cron "0 0 0,1 * * *" script-path=https://raw.githubusercontent.com/lSemporia/master/Scripts/QQVip/qqVipCheckIn.js, tag=QQ会员签到
+http-request https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/QQVip/qqVipCheckIn.js, timeout=10, tag=QQ会员获取
+cron "0 0 0,1 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/QQVip/qqVipCheckIn.js, tag=QQ会员签到
 
 mitm= proxy.vac.qq.com
 */
