@@ -1,0 +1,110 @@
+{
+  "id": "Semporia.app.sub",
+  "name": "Semporia 订阅",
+  "author": "@Semporia",
+  "icon": "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/IconSet/user.png",
+  "repo": "https://github.com/Semporia/Quantumult-X/master/scripts",
+  "apps": [
+    // 京东 签到
+    {
+      "id": "Semporia.JD_DailyBonus",
+      "name": "京东签到",
+      "keys": ["CookieJD", "CookieJD2"],
+      "author": "@Semporia",
+      "repo": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/JD_DailyBonus.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/JD_DailyBonus.png"]
+    },
+    // 苏宁易购 签到
+    {
+      "id": "Semporia.suning",
+      "name": "苏宁易购",
+      "keys": ["chavy_login_url_suning", "chavy_login_body_suning", "chavy_login_header_suning", "chavy_sign_url_suning", "chavy_sign_header_suning", "chavy_signweb_url_suning", "snyg_userTokenKey", "chavy_signweb_header_suning", "chavy_signgame_url_suning", "chavy_signgame_header_suning", "chavy_signgetgame_url_suning", "chavy_signgetgame_header_suning"],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/master/scripts/suning/suning.js",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/suning.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/suning.png"]
+    },
+    // 中国联通 签到
+    {
+      "id": "10010",
+      "name": "中国联通",
+      "keys": ["chavy_tokenurl_10010", "chavy_tokenheader_10010", "chavy_signurl_10010", "chavy_signheader_10010", "chavy_loginlotteryurl_10010", "chavy_loginlotteryheader_10010", "chavy_findlotteryurl_10010", "chavy_findlotteryheader_10010"],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/master/scripts/10010",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/10010.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/10010.png"]
+    },
+    // bilibili 签到
+    {
+      "id": "Semporia.bilibili.live",
+      "name": "bilibili",
+      "keys": ["chavy_cookie_bilibili"],
+      "author": "@Semporia",
+      "repo": "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/bilibili/bilibili.js",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/bilibili.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/bilibili.png"]
+    },
+    // 威锋网 签到
+    {
+      "id": "feng",
+      "name": "威锋网",
+      "settings": [{ "id": "chavy_accounts_feng", "name": "威锋账号", "val": "", "type": "textarea", "placeholder": "账号,密码 (回车) 账号,密码", "autoGrow": true, "rows": 5, "desc": "以英文逗号分隔账号与密码, 回车添加多个账号" }],
+      "keys": [],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/tree/master/scripts/feng",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/Feng.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/Feng.png"]
+    },
+    // 百度贴吧 签到
+    {
+      "id": "BAIDU",
+      "name": "百度签到",
+      "keys": ["chavy_cookie_tieba"],
+      "settings": [
+        { "id": "CFG_tieba_isOrderBars", "name": "按连签排序", "val": false, "type": "boolean", "desc": "默认按经验排序" },
+        { "id": "CFG_tieba_maxShowBars", "name": "每页显示数", "val": 15, "type": "text", "desc": "每页最显示多少个吧信息" },
+        { "id": "CFG_tieba_maxSignBars", "name": "每次并发", "val": 5, "type": "text", "desc": "每次并发签到多少个吧" },
+        { "id": "CFG_tieba_signWaitTime", "name": "并发间隔 (毫秒)", "val": 2000, "type": "text", "desc": "每次并发间隔时间" }
+      ],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/tree/master/scripts/TieBa",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/tieba.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/tieba.png"]
+    },
+    // 爱奇艺 签到
+    {
+      "id": "iQIYI",
+      "name": "爱奇艺",
+      "keys": ["CookieQY"],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/tree/master/scripts/iQIYI-DailyBonus/iQIYI.js",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/iQIYI.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/iQIYI.png"]
+    },
+    // 腾讯视频 签到
+    {
+      "id": "videoqq",
+      "name": "腾讯视频",
+      "keys": ["chavy_cookie_videoqq", "chavy_auth_url_videoqq", "chavy_auth_header_videoqq", "chavy_msign_url_videoqq", "chavy_msign_header_videoqq"],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/tree/master/scripts/videoqq",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/videoQQ.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/videoQQ.png"]
+    },
+    // 网易云音乐 签到
+    {
+      "id": "NeteaseMusic",
+      "name": "网易云音乐",
+      "keys": ["chavy_cookie_neteasemusic"],
+      "settings": [
+        { "id": "CFG_neteasemusic_retryCnt", "name": "重试次数", "val": 10, "type": "text", "desc": "一直尝试签到直至出现“重复签到”标识!" },
+        { "id": "CFG_neteasemusic_retryInterval", "name": "重试间隔 (毫秒)", "val": 500, "type": "text", "desc": "每次重试间隔时间 (毫秒)！" }
+      ],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/tree/master/scripts/neteasemusic",
+      "icons": ["https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/Netease_Music.png", "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Qure/Task/Netease_Music.png"]
+    },
+    // 顺丰速运 签到
+    {
+      "id": "sfexpress",
+      "name": "顺丰速运",
+      "keys": ["chavy_loginurl_sfexpress", "chavy_loginheader_sfexpress"],
+      "author": "@Semporia",
+      "repo": "https://github.com/Semporia/Quantumult-X/tree/master/scripts/sfexpress",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/sfexpress.png", "https://raw.githubusercontent.com/Orz-3/task/master/sfexpress.png"]
+    }
+  ]
+}
