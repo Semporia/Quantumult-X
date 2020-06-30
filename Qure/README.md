@@ -53,7 +53,7 @@ Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X) �
 <summary><strong>所有日志</strong></summary><br>
 <strong>v2.8</strong><br>
 2020-6-30<br>
-1.Task文件夹新增图标：BoxJs.png<br>
+1.Task文件夹新增图标：BoxJs.png、Feng.png<br>
 <br>
 
 <strong>v2.9</strong><br>
