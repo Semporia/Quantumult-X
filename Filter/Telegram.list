@@ -1,4 +1,5 @@
 # > Telegram
+
 host-suffix,t.me,Telegram
 host-suffix,tdesktop.com,Telegram
 host-suffix,telegra.ph,Telegram,force-remote-dns
