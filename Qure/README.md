@@ -50,6 +50,11 @@ Qure 是一套专为 [Quantumult X](https://github.com/Semporia/Quantumult-X) �
 <details>
 <summary><strong>所有日志</strong></summary><br>
 
+<strong>v2.8.2</strong><br>
+2020-7-20<br>
+1.新增图标：GitHub.png<br>
+<br>
+
 <strong>v2.8.1</strong><br>
 2020-7-10<br>
 1.新增图标：Amazon.png<br>
