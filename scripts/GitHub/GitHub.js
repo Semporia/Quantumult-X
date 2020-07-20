@@ -7,13 +7,17 @@ let repositories = [
         url: "https://github.com/yichengchen/clashX/releases",
     },
     {
-        name: "Chavy 脚本",
+        name: "Chavy Scripts",
         url: "https://github.com/chavyleung/scripts",
     },
     {
         name: "NobyDa",
         file_names: ["JD-DailyBonus/JD_DailyBonus.js", "52pojie-DailyBonus"], 
         url: "https://github.com/NobyDa/Script/tree/master",
+    },
+    {
+        name: "Peng-YM",
+        url: "https://github.com/Peng-YM/QuanX/tree/master",
     },
 ];
 
@@ -118,11 +122,11 @@ async function checkUpdate(item) {
                         };
                         if (needUpdate(url, published_at)) {
                             $.notify(
-                                `🎉🎉🎉 [${name}] 新版本发布`,
-                                `📦 版本: ${release_name}`,
-                                `⏰ 发布于: ${formatTime(
+                                `[${name}] 新版本发布`,
+                                `版本: ${release_name}`,
+                                `发布于: ${formatTime(
                                     published_at
-                                )}\n👨🏻‍💻 发布者: ${author}\n📌 更新说明: \n${body}`,
+                                )}\n发布者: ${author}\n更新说明: \n${body}`,
                                 notificationURL
                             );
                             $.write(published_at, hash(url));
@@ -157,11 +161,11 @@ async function checkUpdate(item) {
             if (!item.hasOwnProperty("file_names")) {
                 if (needUpdate(url, published_at)) {
                     $.notify(
-                        `🎈🎈🎈 [${name}] 新提交`,
+                        `[${name}] 新提交`,
                         "",
-                        `⏰ 提交于: ${formatTime(
+                        `提交于: ${formatTime(
                             published_at
-                        )}\n👨🏻‍💻 发布者: ${author}\n📌 更新说明: \n${body}`,
+                        )}\n发布者: ${author}\n更新说明: \n${body}`,
                         notificationURL
                     );
                     // update stored timestamp
@@ -188,9 +192,9 @@ async function checkUpdate(item) {
 function findFile(name, tree_url, paths, current_pos) {
     if (current_pos == paths.length) {
         $.notify(
-            `🐬 [${name}]`,
+            `[${name}]`,
             "",
-            `🚫 仓库中没有该文件：${paths[paths.length - 1]}`
+            `仓库中没有该文件：${paths[paths.length - 1]}`
         );
     }
     $.get({
@@ -207,7 +211,7 @@ function findFile(name, tree_url, paths, current_pos) {
                     fileType = file_list[i].type;
                     isDir = paths[current_pos].match(/\.js/) == null ? true : false;
                     $.log(
-                        `🔍正在判断：${paths[current_pos]} is a ${
+                        `正在判断：${paths[current_pos]} is a ${
                             isDir ? "directory" : "file"
                         }`
                     );
@@ -216,14 +220,14 @@ function findFile(name, tree_url, paths, current_pos) {
                         let file_hash = file_list[i].sha;
                         let last_sha = $.read(hash(name + paths[current_pos]));
                         if (file_hash != last_sha) {
-                            $.notify(`🐬 [${name}]`, "", `📌 ${paths[current_pos]}有更新`);
+                            $.notify(`[${name}]`, "", `📌 ${paths[current_pos]}有更新`);
                             $.write(file_hash, hash(name + paths[current_pos]));
                         }
                         $.log(
-                            `🐬 ${
+                            `${
                                 paths[current_pos]
                             }：\n\tlast sha: ${last_sha}\n\tlatest sha: ${file_hash}\n\t${
-                                file_hash == last_sha ? "✅当前已是最新" : "🔅需要更新"
+                                file_hash == last_sha ? "当前已是最新" : "需要更新"
                             }`
                         );
                     } else if (
@@ -235,14 +239,14 @@ function findFile(name, tree_url, paths, current_pos) {
                         let file_hash = file_list[i].sha;
                         let last_sha = $.read(hash(name + paths[current_pos]));
                         if (file_hash != last_sha) {
-                            $.notify(`🐬 [${name}]`, "", `📌 ${paths[current_pos]}有更新`);
+                            $.notify(`[${name}]`, "", `📌 ${paths[current_pos]}有更新`);
                             $.write(file_hash, hash(name + paths[current_pos]));
                         }
                         $.log(
-                            `🐬 ${
+                            `${
                                 paths[current_pos]
                             }：\n\tlast sha: ${last_sha}\n\tlatest sha: ${file_hash}\n\t${
-                                file_hash == last_sha ? "✅当前已是最新" : "🔅需要更新"
+                                file_hash == last_sha ? "当前已是最新" : "需要更新"
                             }`
                         );
                     } else if (fileType == "tree") {
@@ -254,11 +258,11 @@ function findFile(name, tree_url, paths, current_pos) {
             }
             if (isFind == false) {
                 $.notify(
-                    `🐬 [${name}]`,
+                    `[${name}]`,
                     "",
-                    `🚫 仓库中没有该文件：${
+                    `仓库中没有该文件：${
                         paths[paths.length - 1]
-                    }\n🚫 请检查你的路径是否填写正确`
+                    }\n请检查你的路径是否填写正确`
                 );
             }
         },
