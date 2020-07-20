@@ -1,4 +1,3 @@
-
 var LogDetails = false; //是否开启响应日志, true则开启
 
 var stop = 0; //自定义延迟签到,单位毫秒. 默认分批并发无延迟. 延迟作用于每个签到接口, 如填入延迟则切换顺序签到(耗时较长), VPN重启或越狱用户建议填写1, Surge用户请注意在SurgeUI界面调整脚本超时
@@ -21,7 +20,6 @@ async function all() {
       JDFlashSale(stop), //京东闪购
       JDOverseas(stop), //京东国际
       JingDongCash(stop), //京东现金红包
-      // JingRSeeAds(stop), //金融看广告
       JDMagicCube(stop), //京东小魔方
       JingDongPrize(stop), //京东抽大奖
       JingDongSubsidy(stop), //京东金贴
@@ -58,7 +56,6 @@ async function all() {
     await JDUserSignPre(stop, 'JDVege', '京东商城-菜场'); //京东菜场
     await JingDongCash(stop); //京东现金红包
     await JDUserSignPre(stop, 'JDFood', '京东商城-美食'); //京东美食馆
-    // await JingRSeeAds(stop); //金融看广告
     await JDUserSignPre(stop, 'JDClean', '京东商城-清洁'); //京东清洁馆
     await JDUserSignPre(stop, 'JDCare', '京东商城-个护'); //京东个人护理馆
     await JDUserSignPre(stop, 'JDJewels', '京东商城-珠宝'); //京东珠宝馆
@@ -219,6 +216,7 @@ function double() {
 
 function JingDongBean(s) {
   return new Promise(resolve => {
+    if (disable("JDBean")) return resolve()
     setTimeout(() => {
       const JDBUrl = {
         url: 'https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld',
@@ -293,6 +291,7 @@ function JingDongBean(s) {
 
 function JingDongTurn(s) {
   return new Promise(resolve => {
+    if (disable("JDTurn")) return resolve()
     setTimeout(() => {
       const JDTUrl = {
         url: 'https://api.m.jd.com/client.action?functionId=lotteryDraw&body=%7B%22actId%22%3A%22jgpqtzjhvaoym%22%2C%22appSource%22%3A%22jdhome%22%2C%22lotteryCode%22%3A%224wwzdq7wkqx2usx4g5i2nu5ho4auto4qxylblkxacm7jqdsltsepmgpn3b2hgyd7hiawzpccizuck%22%7D&appid=ld',
@@ -360,6 +359,7 @@ function JingDongTurn(s) {
 
 function JingRongBean(s) {
   return new Promise(resolve => {
+    if (disable("JRBean")) return resolve()
     setTimeout(() => {
       const login = {
         url: 'https://ms.jr.jd.com/gw/generic/zc/h5/m/signRecords',
@@ -461,6 +461,7 @@ function JRBeanCheckin(s) {
 
 function JingRongSteel(s) {
   return new Promise(resolve => {
+    if (disable("JRSteel")) return resolve()
     setTimeout(() => {
       const JRSUrl = {
         url: 'https://ms.jr.jd.com/gw/generic/gry/h5/m/signIn',
@@ -524,6 +525,7 @@ function JingRongSteel(s) {
 
 function JRDoubleSign(s) {
   return new Promise(resolve => {
+    if (disable("JRDSign")) return resolve()
     setTimeout(() => {
       const JRDSUrl = {
         url: 'https://nu.jr.jd.com/gw/generic/jrm/h5/m/process?',
@@ -580,6 +582,7 @@ function JRDoubleSign(s) {
 
 function JingDongShake(s) {
   return new Promise(resolve => {
+    if (disable("JDShake")) return resolve()
     setTimeout(() => {
       const JDSh = {
         url: 'https://api.m.jd.com/client.action?appid=vip_h5&functionId=vvipclub_shaking',
@@ -658,6 +661,7 @@ function JDUserSignPre(s, key, title) {
 
 function JDUserSignPre1(s, key, title) {
   return new Promise((resolve, reject) => {
+    if (disable(key)) return reject()
     //setTimeout(() => {
     const JDUrl = {
       url: 'https://api.m.jd.com/?client=wh5&functionId=qryH5BabelFloors',
@@ -716,6 +720,7 @@ function JDUserSignPre1(s, key, title) {
 
 function JDUserSignPre2(s, key, title) {
   return new Promise((resolve, reject) => {
+    if (disable(key)) return reject()
     //setTimeout(() => {
     const JDUrl = {
       url: `https://pro.m.jd.com/mall/active/${acData[key]}/index.html`,
@@ -813,6 +818,7 @@ function JDUserSign(s, key, title, body) {
 
 function JDFlashSale(s) {
   return new Promise(resolve => {
+    if (disable("JDFSale")) return resolve()
     setTimeout(() => {
       const JDPETUrl = {
         url: 'https://api.m.jd.com/client.action?functionId=partitionJdSgin',
@@ -936,6 +942,7 @@ function FlashSaleDivide(s) {
 
 function JingDongCash(s) {
   return new Promise(resolve => {
+    if (disable("JDCash")) return resolve()
     setTimeout(() => {
       const JDCAUrl = {
         url: 'https://api.m.jd.com/client.action?functionId=ccSignInNew',
@@ -995,69 +1002,9 @@ function JingDongCash(s) {
   });
 }
 
-function JingRSeeAds(s) {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      const JRAdsUrl = {
-        url: 'https://ms.jr.jd.com/gw/generic/jrm/h5/m/sendAdGb',
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          Cookie: KEY,
-        },
-        body: "reqData=%7B%22clientType%22%3A%22ios%22%2C%22actKey%22%3A%22176696%22%2C%22userDeviceInfo%22%3A%7B%22adId%22%3A9999999%7D%2C%22deviceInfoParam%22%3A%7B%22macAddress%22%3A%2202%3A00%3A00%3A00%3A00%3A00%22%2C%22channelInfo%22%3A%22appstore%22%2C%22IPAddress1%22%3A%22%22%2C%22OpenUDID%22%3A%22%22%2C%22clientVersion%22%3A%225.3.30%22%2C%22terminalType%22%3A%2202%22%2C%22osVersion%22%3A%22%22%2C%22appId%22%3A%22com.jd.jinrong%22%2C%22deviceType%22%3A%22iPhone8%2C2%22%2C%22networkType%22%3A%22%22%2C%22startNo%22%3A212%2C%22UUID%22%3A%22%22%2C%22IPAddress%22%3A%22%22%2C%22deviceId%22%3A%22%22%2C%22IDFA%22%3A%22%22%2C%22resolution%22%3A%22%22%2C%22osPlatform%22%3A%22iOS%22%7D%2C%22bussource%22%3A%22%22%7D"
-      };
-      $nobyda.post(JRAdsUrl, function(error, response, data) {
-        try {
-          if (error) {
-            merge.JRSeeAds.notify = "京东金融-广告: 签到接口请求失败 ‼️‼️"
-            merge.JRSeeAds.fail = 1
-          } else {
-            const Details = LogDetails ? "response:\n" + data : '';
-            const cc = JSON.parse(data)
-            if (data.match(/(\"canGetGb\":true)/)) {
-              console.log("\n" + "京东金融-广告签到成功 " + Details)
-              if (data.match(/(\"volumn\"|\"volume\")/)) {
-                merge.JRSeeAds.notify = "京东金融-广告: 成功, 明细: " + cc.resultData.data.volumn + "京豆 🐶"
-                merge.JRSeeAds.bean = cc.resultData.data.volumn
-                merge.JRSeeAds.success = 1
-              } else {
-                merge.JRSeeAds.notify = "京东金融-广告: 成功, 明细: 无京豆 🐶"
-                merge.JRSeeAds.success = 1
-              }
-            } else {
-              console.log("\n" + "京东金融-广告签到失败 " + Details)
-              if (data.match(/(已经发完|已签到|已领取|\"code\":\"2000\")/)) {
-                merge.JRSeeAds.notify = "京东金融-广告: 失败, 原因: 已签过 ⚠️"
-                merge.JRSeeAds.fail = 1
-              } else {
-                if (data.match(/(不存在|已结束|未找到)/)) {
-                  merge.JRSeeAds.notify = "京东金融-广告: 失败, 原因: 活动已结束 ⚠️"
-                  merge.JRSeeAds.fail = 1
-                } else {
-                  if (data.match(/(\"resultCode\":3|先登录)/)) {
-                    merge.JRSeeAds.notify = "京东金融-广告: 失败, 原因: Cookie失效‼️"
-                    merge.JRSeeAds.fail = 1
-                  } else {
-                    merge.JRSeeAds.notify = "京东金融-广告: 失败, 原因: 未开始 ⚠️"
-                    merge.JRSeeAds.fail = 1
-                  }
-                }
-              }
-            }
-          }
-        } catch (eor) {
-          $nobyda.notify("京东金融-广告" + eor.name + "‼️", JSON.stringify(eor), eor.message)
-        } finally {
-          resolve()
-        }
-      })
-    }, s)
-    if (out) setTimeout(resolve, out + s)
-  });
-}
-
 function JDMagicCube(s) {
   return new Promise(resolve => {
+    if (disable("JDCube")) return resolve()
     setTimeout(() => {
       const JDMCUrl = {
         url: 'https://api.m.jd.com/client.action?functionId=getNewsInteractionLotteryInfo&appid=smfe',
@@ -1117,6 +1064,7 @@ function JDMagicCube(s) {
 
 function JingDongPrize(s) {
   return new Promise(resolve => {
+    if (disable("JDPrize")) return resolve()
     setTimeout(() => {
       const JDkey = {
         url: 'https://api.m.jd.com/client.action?functionId=vvipscdp_raffleAct_index&client=apple&clientVersion=8.1.0&appid=member_benefit_m',
@@ -1232,6 +1180,7 @@ function JDPrizeCheckin(s) {
 
 function JingDongSpeedUp(s, id) {
   return new Promise(resolve => {
+    if (disable("SpeedUp")) return resolve()
     setTimeout(() => {
       const GameUrl = {
         url: 'https://api.m.jd.com/?appid=memberTaskCenter&functionId=flyTask_' + (id ? 'start&body=%7B%22source%22%3A%22game%22%2C%22source_id%22%3A' + id + '%7D' : 'state&body=%7B%22source%22%3A%22game%22%7D'),
@@ -1491,6 +1440,7 @@ function JDUseProps(s, PropID) {
 
 function JingDongSubsidy(s) {
   return new Promise(resolve => {
+    if (disable("subsidy")) return resolve()
     setTimeout(() => {
       const subsidyUrl = {
         url: 'https://ms.jr.jd.com/gw/generic/uc/h5/m/signIn7',
@@ -1540,6 +1490,7 @@ function JingDongSubsidy(s) {
 
 function JingRongDoll(s, type, num) {
   return new Promise(resolve => {
+    if (disable("JRDoll")) return resolve()
     setTimeout(() => {
       const DollUrl = {
         url: "https://nu.jr.jd.com/gw/generic/jrm/h5/m/process",
@@ -1606,6 +1557,7 @@ function JingRongDoll(s, type, num) {
 
 function JDOverseas(s) {
   return new Promise(resolve => {
+    if (disable("Overseas")) return resolve()
     setTimeout(() => {
       const OverseasUrl = {
         url: 'https://api.m.jd.com/client.action?functionId=checkin',
@@ -1656,6 +1608,7 @@ function JDOverseas(s) {
 
 function TotalSteel() {
   return new Promise(resolve => {
+    if (disable("TSteel")) return resolve()
     const SteelUrl = {
       url: 'https://coin.jd.com/m/gb/getBaseInfo.html',
       headers: {
@@ -1688,6 +1641,7 @@ function TotalSteel() {
 
 function TotalBean() {
   return new Promise(resolve => {
+    if (disable("Qbear")) return resolve()
     const BeanUrl = {
       url: 'https://wq.jd.com/user/info/QueryJDUserInfo?sceneval=2',
       headers: {
@@ -1728,6 +1682,7 @@ function TotalBean() {
 
 function TotalCash() {
   return new Promise(resolve => {
+    if (disable("TCash")) return resolve()
     const CashUrl = {
       url: 'https://api.m.jd.com/client.action?functionId=myhongbao_balance',
       headers: {
@@ -1760,6 +1715,14 @@ function TotalCash() {
   });
 }
 
+function disable(name) {
+  const read = $nobyda.read("JD_DailyBonusDisable")
+  if (read === "" || read && read.indexOf(name) == -1) {
+    return true
+  } else {
+    return false
+  }
+}
 function initial() {
 
   acData = {
@@ -1802,7 +1765,6 @@ function initial() {
     JDMakeup: {},
     Overseas: {},
     JDWomen: {},
-    JRSeeAds: {},
     JDCare: {},
     JDFood: {},
     JDClean: {},
@@ -1866,6 +1828,8 @@ function GetCookie() {
           } else {
             $nobyda.notify("用户名: " + DecodeName, "", "更新京东" + CookieName + "Cookie成功 🎉");
           }
+        } else {
+          console.log("京东: \n与历史Cookie相同, 跳过写入")
         }
       } else {
         var cookie = $nobyda.write(CookieValue, CookieKey);
