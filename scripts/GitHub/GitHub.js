@@ -9,16 +9,17 @@ let repositories = [
     },
     {
         name: "Peng-YM",
-        file_names: ["Tasks"], 
+        file_names: ["Tasks/github.js"], 
         url: "https://github.com/Peng-YM/QuanX/tree/master",
+    },
+    {
+        name: "lowking",
+        file_names: ["QQVip"], 
+        url: "https://github.com/lowking/Scripts/tree/master",
     },
     {
         name: "Chavy Scripts",
         url: "https://github.com/chavyleung/scripts",
-    },
-    {
-        name: "lowking",
-        url: "https://github.com/lowking/Scripts/tree/master",
     },
     {
         name: "ClashX",
@@ -245,7 +246,7 @@ function findFile(name, tree_url, paths, current_pos) {
                         let file_hash = file_list[i].sha;
                         let last_sha = $.read(hash(name + paths[current_pos]));
                         if (file_hash != last_sha) {
-                            $.notify(`[${name}]`, "", `📌 ${paths[current_pos]}有更新`);
+                            $.notify(`[${name}]`, "", `${paths[current_pos]}有更新`);
                             $.write(file_hash, hash(name + paths[current_pos]));
                         }
                         $.log(
