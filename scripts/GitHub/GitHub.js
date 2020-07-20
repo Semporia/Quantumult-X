@@ -4,12 +4,12 @@ let token = "bca4a80f4fa309e8e86e310c59860199d8a2daa1";
 let repositories = [
     {
         name: "NobyDa",
-        file_names: ["JD-DailyBonus/JD_DailyBonus.js", "52pojie-DailyBonus"], 
+        file_names: ["JD-DailyBonus", "52pojie-DailyBonus"], 
         url: "https://github.com/NobyDa/Script/tree/master",
     },
     {
         name: "Peng-YM",
-        file_names: ["Tasks/github.js"], 
+        file_names: ["Tasks"], 
         url: "https://github.com/Peng-YM/QuanX/tree/master",
     },
     {
