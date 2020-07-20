@@ -16,8 +16,8 @@ let repositories = [
         url: "https://github.com/NobyDa/Script/tree/master",
     },
     {
-        name: "Peng-YM",
-        url: "https://github.com/Peng-YM/QuanX/tree/master",
+        name: "Peng-YM｜GitHub",
+        url: "https://github.com/Peng-YM/QuanX/tree/master/Tasks",
     },
 ];
 
