@@ -17,8 +17,8 @@ let repositories = [
         url: "https://github.com/chavyleung/scripts",
     },
     {
-        name: "Semporia",
-        url: "https://github.com/Semporia",
+        name: "lowking",
+        url: "https://github.com/lowking/Scripts/tree/master",
     },
     {
         name: "ClashX",
