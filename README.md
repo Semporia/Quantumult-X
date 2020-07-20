@@ -4,7 +4,7 @@
 ***
 * [Configuration](#Configuration)
 * [Filter](#Filter)
-* [Qure](#Qure)
+* [Bubble](#Bubble)
 * [Rewrite](#Rewrite)
 * [scripts](#scripts)
 
@@ -17,10 +17,10 @@
 * [Quantumult X 分流](https://github.com/Semporia/Quantumult-X/tree/master/Filter)  
 
 ***
-### Qure
-* [Quantumult X icon](https://github.com/Semporia/Quantumult-X/tree/master/Qure/IconSet)  
+### Bubble
+* [Quantumult X icon](https://github.com/Semporia/Quantumult-X/tree/master/Bubble/IconSet)  
 
-* [Quantumult X Task-icon](https://github.com/Semporia/Quantumult-X/tree/master/Qure/Task)  
+* [Quantumult X Task-icon](https://github.com/Semporia/Quantumult-X/tree/master/Bubble/Task)  
 
 ***
 ### Rewrite
