@@ -1,5 +1,5 @@
 
-let token = "784a03feb07989d3339dfa41c7eb41777436cbfa";
+let token = "bca4a80f4fa309e8e86e310c59860199d8a2daa1";
 
 let repositories = [
     {
@@ -16,8 +16,9 @@ let repositories = [
         url: "https://github.com/NobyDa/Script/tree/master",
     },
     {
-        name: "Peng-YM｜GitHub",
-        url: "https://github.com/Peng-YM/QuanX/tree/master/Tasks",
+        name: "Peng-YM",
+        file_names: ["Tasks/github.js"], 
+        url: "https://github.com/Peng-YM/QuanX/tree/master",
     },
 ];
 
