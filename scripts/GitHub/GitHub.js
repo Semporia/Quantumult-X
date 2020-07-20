@@ -3,14 +3,6 @@ let token = "bca4a80f4fa309e8e86e310c59860199d8a2daa1";
 
 let repositories = [
     {
-        name: "ClashX",
-        url: "https://github.com/yichengchen/clashX/releases",
-    },
-    {
-        name: "Chavy Scripts",
-        url: "https://github.com/chavyleung/scripts",
-    },
-    {
         name: "NobyDa",
         file_names: ["JD-DailyBonus/JD_DailyBonus.js", "52pojie-DailyBonus"], 
         url: "https://github.com/NobyDa/Script/tree/master",
@@ -20,6 +12,19 @@ let repositories = [
         file_names: ["Tasks/github.js"], 
         url: "https://github.com/Peng-YM/QuanX/tree/master",
     },
+    {
+        name: "Chavy Scripts",
+        url: "https://github.com/chavyleung/scripts",
+    },
+    {
+        name: "Semporia",
+        url: "https://github.com/Semporia",
+    },
+    {
+        name: "ClashX",
+        url: "https://github.com/yichengchen/clashX/releases",
+    },
+    
 ];
 
 const $ = API("github", false);
@@ -221,7 +226,7 @@ function findFile(name, tree_url, paths, current_pos) {
                         let file_hash = file_list[i].sha;
                         let last_sha = $.read(hash(name + paths[current_pos]));
                         if (file_hash != last_sha) {
-                            $.notify(`[${name}]`, "", `📌 ${paths[current_pos]}有更新`);
+                            $.notify(`[${name}]`, "", `${paths[current_pos]}有更新`);
                             $.write(file_hash, hash(name + paths[current_pos]));
                         }
                         $.log(
