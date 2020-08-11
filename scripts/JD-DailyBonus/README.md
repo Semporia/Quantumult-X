@@ -1,6 +1,6 @@
 # 京东多合一签到脚本
 
-> 更新时间: 2020.8.3 21:50 v1.37 (Beta)  
+> 更新时间: 2020.8.9 18:00 v1.39 (Beta)  
 > 有效接口: 24+  
 > 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js  
 
