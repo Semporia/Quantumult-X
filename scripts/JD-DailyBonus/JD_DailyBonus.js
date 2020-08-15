@@ -1,4 +1,17 @@
 
+// 京东多合一签到脚本
+
+// 更新时间: 2020.8.14 23:00 v1.41 (Beta)
+// 有效接口: 27+
+// 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+
+
+
+var Key = ''; //单引号内自行填写您抓取的Cookie
+
+var DualKey = ''; //如需双账号签到,此处单引号内填写抓取的"账号2"Cookie, 否则请勿填写
+
+
 var LogDetails = false; //是否开启响应日志, true则开启
 
 var stop = 0; //自定义延迟签到,单位毫秒. 默认分批并发无延迟. 延迟作用于每个签到接口, 如填入延迟则切换顺序签到(耗时较长), VPN重启或越狱用户建议填写1, Surge用户请注意在SurgeUI界面调整脚本超时
