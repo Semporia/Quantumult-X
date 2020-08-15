@@ -1,16 +1,28 @@
+/*************************
 
-// 京东多合一签到脚本
+京东多合一签到脚本
 
-// 更新时间: 2020.8.14 23:00 v1.41 (Beta)
-// 有效接口: 27+
-// 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+更新时间: 2020.8.14 23:00 v1.41 (Beta)
+有效接口: 27+
+脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 
+*************************
+【 JSbox, Node.js 说明 】 :
+*************************
 
+开启抓包app后, Safari浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历后, 返回抓包app搜索关键字 functionId=signBean 复制请求头Cookie填入以下Key处的单引号内即可 */
 
 var Key = ''; //单引号内自行填写您抓取的Cookie
 
 var DualKey = ''; //如需双账号签到,此处单引号内填写抓取的"账号2"Cookie, 否则请勿填写
 
+/* 注1: 以上选项仅针对于JsBox或Node.js, 如果使用QX,Surge,Loon, 请使用脚本获取Cookie.
+   注2: 双账号用户抓取"账号1"Cookie后, 请勿点击退出账号(可能会导致Cookie失效), 需清除浏览器资料或更换浏览器登录"账号2"抓取.
+   注3: 如果复制的Cookie开头为"Cookie: "请把它删除后填入.
+   注4: 如果使用QX,Surge,Loon并获取Cookie后, 再重复填写以上选项, 则签到优先读取以上Cookie.
+   注5: 如果使用Node.js, 需自行安装'request'模块. 例: npm install request -g
+
+*************************/
 
 var LogDetails = false; //是否开启响应日志, true则开启
 
