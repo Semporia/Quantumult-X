@@ -2,13 +2,9 @@
 
 京东多合一签到脚本
 
-更新时间: 2020.8.16 8:20 v1.43 (Beta)
+更新时间: 2020.8.18 2:00 v1.44 (Beta)
 有效接口: 29+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-
-*************************
-【 JSbox, Node.js 说明 】 :
-*************************
 
 开启抓包app后, Safari浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历后, 返回抓包app搜索关键字 functionId=signBean 复制请求头Cookie填入以下Key处的单引号内即可 */
 
@@ -61,19 +57,21 @@ async function all() {
       JDUserSignPre(stop, 'JDBaby', '京东商城-母婴'), //京东母婴馆
       JDUserSignPre(stop, 'JD3C', '京东商城-数码'), //京东数码电器馆
       JDUserSignPre(stop, 'JDSubsidy', '京东晚市-补贴'), //京东晚市补贴金
-      JDUserSignPre(stop, 'JDClocks', '京东商城-钟表'), //京东钟表馆
       JDUserSignPre(stop, 'JDDrug', '京东商城-医药'), //京东医药馆
-      JDUserSignPre(stop, 'JDVege', '京东商城-菜场'), //京东菜场
-      JDUserSignPre(stop, 'JDFood', '京东商城-美食'), //京东美食馆
+      JDUserSignPre(stop, 'JDWomen', '京东商城-女装'), //京东女装馆
+      JDUserSignPre(stop, 'JDGStore', '京东商城-超市'), //京东超市
+      JDUserSignPre(stop, 'JDBook', '京东商城-图书') //京东图书
+    ]);
+    await Promise.all([
+      JDUserSignPre(stop, 'JDPet', '京东商城-宠物'), //京东宠物馆
+      JDUserSignPre(stop, 'JDShand', '京东拍拍-二手'), //京东拍拍二手
       JDUserSignPre(stop, 'JDClean', '京东商城-清洁'), //京东清洁馆
       JDUserSignPre(stop, 'JDCare', '京东商城-个护'), //京东个人护理馆
       JDUserSignPre(stop, 'JDJewels', '京东商城-珠宝'), //京东珠宝馆
-      JDUserSignPre(stop, 'JDShand', '京东拍拍-二手'), //京东拍拍二手
-      JDUserSignPre(stop, 'JDWomen', '京东商城-女装'), //京东女装馆
-      JDUserSignPre(stop, 'JDGStore', '京东商城-超市'), //京东超市
-      JDUserSignPre(stop, 'JDPet', '京东商城-宠物'), //京东宠物馆
-      JDUserSignPre(stop, 'JDBook', '京东商城-图书'), //京东图书
-      JDUserSignPre(stop, 'JDMakeup', '京东商城-美妆') //京东美妆馆
+      JDUserSignPre(stop, 'JDClocks', '京东商城-钟表'), //京东钟表馆
+      JDUserSignPre(stop, 'JDMakeup', '京东商城-美妆'), //京东美妆馆
+      JDUserSignPre(stop, 'JDVege', '京东商城-菜场'), //京东菜场
+      JDUserSignPre(stop, 'JDFood', '京东商城-美食') //京东美食馆
     ]);
   } else {
     await JingDongBean(stop); //京东京豆
@@ -1011,7 +1009,7 @@ function JDFlashSale(s) {
               console.log("\n" + "京东商城-闪购签到失败 " + Details)
               if (data.match(/(已签到|已领取|\"2005\")/)) {
                 merge.JDFSale.notify = "京东商城-闪购: 失败, 原因: 已签过 ⚠️"
-              } else if (data.match(/(不存在|已结束|\"2008\")/)) {
+              } else if (data.match(/不存在|已结束|\"2008\"|\"3001\"/)) {
                 //merge.JDFSale.notify = "京东商城-闪购: 失败, 原因: 需瓜分 ⚠️"
                 await FlashSaleDivide(s)
               } else if (data.match(/(\"code\":\"3\"|\"1003\")/)) {
@@ -1041,7 +1039,7 @@ function FlashSaleDivide(s) {
           "Content-Type": "application/x-www-form-urlencoded",
           Cookie: KEY,
         },
-        body: "body=%7B%7D&client=apple&clientVersion=8.5.0&d_brand=apple&openudid=1fce88cd05c42fe2b054e846f11bdf33f016d676&sign=958ba0e805094b4b0f6216e86190ab51&st=1582042405636&sv=120&wifiBssid=unknown"
+        body: "body=%7B%22version%22%3A%22v2%22%7D&client=apple&clientVersion=9.0.8&openudid=1fce88cd05c42fe2b054e846f11bdf33f016d676&sign=49baa3b3899b02bbf06cdf41fe191986&st=1597682588351&sv=111"
       };
       $nobyda.post(Url, function(error, response, data) {
         try {
