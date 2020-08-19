@@ -1,8 +1,8 @@
 # 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
 
 # > Apple
-DOMAIN-KEYWORD,apple
-DOMAIN-KEYWORD,icloud
+DOMAIN-KEYWORD,apple,Apple
+DOMAIN-KEYWORD,icloud,Apple
 # Apple Music
 DOMAIN,aod.itunes.apple.com
 DOMAIN,api.smoot.apple.cn
