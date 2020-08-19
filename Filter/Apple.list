@@ -27,7 +27,6 @@ DOMAIN,news-client.apple.com,Apple
 DOMAIN,news-edge.apple.com,Apple
 DOMAIN,news-events.apple.com,Apple
 
-
 # Apple Music
 DOMAIN,aod.itunes.apple.com,Apple
 DOMAIN,api.smoot.apple.cn,Apple
@@ -35,8 +34,6 @@ DOMAIN,music.apple.com,Apple
 DOMAIN,mvod.itunes.apple.com,Apple
 
 # > App Store
-USER-AGENT,com.apple.appstored*,Apple
-PROCESS-NAME,storedownloadd,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN,iosapps.itunes.apple.com,Apple
 DOMAIN,osxapps.itunes.apple.com,Apple
