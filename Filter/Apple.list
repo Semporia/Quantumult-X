@@ -1,31 +1,49 @@
 # 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
 
- # > Apple
+# > Apple
+DOMAIN-KEYWORD,apple,Apple
+DOMAIN-KEYWORD,icloud,Apple
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple.com.cn,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,crashlytics.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 
- DOMAIN-KEYWORD,apple,Apple
- DOMAIN-KEYWORD,icloud,Apple
- DOMAIN-SUFFIX,aaplimg.com,Apple
- DOMAIN-SUFFIX,apple.co,Apple
- DOMAIN-SUFFIX,apple.com,Apple
- DOMAIN-SUFFIX,apple.com.cn,Apple
- DOMAIN-SUFFIX,apple-cloudkit.com,Apple
- DOMAIN-SUFFIX,appstore.com,Apple
- DOMAIN-SUFFIX,cdn-apple.com,Apple
- DOMAIN-SUFFIX,crashlytics.com,Apple
- DOMAIN-SUFFIX,icloud.com,Apple
- DOMAIN-SUFFIX,icloud.com.cn,Apple
- DOMAIN-SUFFIX,icloud-content.com,Apple
- DOMAIN-SUFFIX,me.com,Apple
- DOMAIN-SUFFIX,mzstatic.com,Apple
- DOMAIN,www-cdn.icloud.com.akadns.net,Apple
- IP-CIDR,17.0.0.0/8,Apple
+# > Map
+DOMAIN-SUFFIX,ls.apple.com,Apple
+DOMAIN,gs-loc-cn.apple.com,Apple
 
- # > Apple News and Apple Map TOMTOM Version
+# Apple News
+DOMAIN-SUFFIX,apple.news,Apple
+DOMAIN,news-client.apple.com,Apple
+DOMAIN,news-edge.apple.com,Apple
+DOMAIN,news-events.apple.com,Apple
 
- DOMAIN,gateway.icloud.com,Apple
- DOMAIN,gspe1-ssl.ls.apple.com,Apple
- DOMAIN-SUFFIX,apple.news,Apple
- DOMAIN,news-client.apple.com,Apple
- DOMAIN,news-edge.apple.com,Apple
- DOMAIN,news-events.apple.com,Apple
- DOMAIN,apple.comscoreresearch.com,Apple
+
+# Apple Music
+DOMAIN,aod.itunes.apple.com,Apple
+DOMAIN,api.smoot.apple.cn,Apple
+DOMAIN,music.apple.com,Apple
+DOMAIN,mvod.itunes.apple.com,Apple
+
+# > App Store
+USER-AGENT,com.apple.appstored*,Apple
+PROCESS-NAME,storedownloadd,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,iosapps.itunes.apple.com,Apple
+DOMAIN,osxapps.itunes.apple.com,Apple
+
+# > Update
+DOMAIN,supportdownload.apple.com,Apple
+DOMAIN,appldnld.apple.com,Apple
+DOMAIN,swcdn.apple.com,Apple
+DOMAIN,apptrailers.itunes.apple.com,Apple
+DOMAIN,updates-http.cdn-apple.com,Apple
