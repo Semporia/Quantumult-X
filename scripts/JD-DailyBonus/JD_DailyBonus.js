@@ -2,9 +2,13 @@
 
 京东多合一签到脚本
 
-更新时间: 2020.8.19 0:10 v1.45 (Beta)
+更新时间: 2020.8.21 22:00 v1.46 (Beta)
 有效接口: 29+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+
+*************************
+【 JSbox, Node.js 说明 】 :
+*************************
 
 开启抓包app后, Safari浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历后, 返回抓包app搜索关键字 functionId=signBean 复制请求头Cookie填入以下Key处的单引号内即可 */
 
@@ -2236,7 +2240,7 @@ function nobyda() {
     return console.log('\n签到用时: ' + end + ' 秒')
   }
   const done = (value = {}) => {
-    if (isQuanX) isRequest ? $done(value) : null
+    if (isQuanX) return $done(value)
     if (isSurge) isRequest ? $done(value) : $done()
   }
   return {
