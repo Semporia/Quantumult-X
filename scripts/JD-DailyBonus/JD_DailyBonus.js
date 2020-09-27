@@ -2,8 +2,8 @@
 
 京东多合一签到脚本
 
-更新时间: 2020.9.25 0:40 v1.61
-有效接口: 31+
+更新时间: 2020.9.26 22:00 v1.63
+有效接口: 32+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 
 *************************
@@ -22,6 +22,7 @@ var DualKey = ''; //如需双账号签到,此处单引号内填写抓取的"账�
    注4: 如果使用QX,Surge,Loon并获取Cookie后, 再重复填写以上选项, 则签到优先读取以上Cookie.
    注5: 如果使用Node.js, 需自行安装'request'模块. 例: npm install request -g
    注6: Node.js或JSbox环境下已配置数据持久化, 填写Cookie运行一次后, 后续更新脚本无需再次填写, 待Cookie失效后重新抓取填写即可.
+
 
 *************************/
 
@@ -43,6 +44,7 @@ async function all() {
   if (stop == 0) {
     await Promise.all([
       JingDongBean(stop), //京东京豆
+      JingDongWebcasts(stop), //京东直播
       JingRongBean(stop), //金融简单赚钱
       JingRongDoll(stop), //金融抓娃娃
       JingRongSteel(stop), //金融钢镚
@@ -82,6 +84,7 @@ async function all() {
     ]);
   } else {
     await JingDongBean(stop); //京东京豆
+    await JingDongWebcasts(stop); //京东直播
     await JingRongBean(stop); //金融简单赚钱
     await JingRongDoll(stop); //金融抓娃娃
     await JingRongSteel(stop); //金融钢镚
@@ -1813,6 +1816,43 @@ function JingDongGetCash(s) {
   });
 }
 
+function JingDongWebcasts(s) {
+  return new Promise(resolve => {
+    if (disable("JDWebcasts")) return resolve()
+    setTimeout(() => {
+      $nobyda.get({
+        url: `https://api.m.jd.com/api?functionId=getChannelTaskRewardToM&appid=h5-live&body=%7B%22type%22%3A%22signTask%22%2C%22itemId%22%3A%221%22%7D`,
+        headers: {
+          Cookie: KEY,
+          Origin: `https://h.m.jd.com`
+        }
+      }, (error, response, data) => {
+        try {
+          if (error) throw new Error(error)
+          const cc = JSON.parse(data);
+          const Details = LogDetails ? "response:\n" + data : '';
+          if (cc.code == 0 && cc.subCode == 0) {
+            console.log(`\n京东商城-直播签到成功 ${Details}`)
+            merge.JDWebcasts.bean = cc.sum || 0
+            merge.JDWebcasts.success = 1
+            merge.JDWebcasts.notify = `京东商城-直播: 成功, 明细: ${merge.JDWebcasts.bean||`无`}京豆 🐶`
+          } else {
+            console.log(`\n京东商城-直播签到失败 ${Details}`)
+            const tp = data.match(/擦肩而过/) ? `无机会` : cc.code == 3 ? `Cookie失效` : `${cc.msg||`未知`}`
+            merge.JDWebcasts.notify = `京东商城-直播: 失败, 原因: ${tp} ${cc.code==3?`‼️`:`⚠️`}`
+            merge.JDWebcasts.fail = 1
+          }
+        } catch (eor) {
+          $nobyda.AnError("京东商城-直播", "JDWebcasts", eor)
+        } finally {
+          resolve()
+        }
+      })
+    }, s)
+    if (out) setTimeout(resolve, out + s)
+  });
+}
+
 function TotalSteel() {
   return new Promise(resolve => {
     if (disable("TSteel")) return resolve()
@@ -2027,6 +2067,7 @@ function initial() {
     JDClean: {},
     JDVege: {},
     JDJewels: {},
+    JDWebcasts: {},
     JDCube: {},
     JDPrize: {},
     JRSteel: {},
