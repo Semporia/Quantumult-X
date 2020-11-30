@@ -1,10 +1,25 @@
+/**
+ * 1、监控github仓库的commits和release。
+ * 2、监控具体的文件或目录是否有更新。
+ * 3、新增：可以监控多层目录里面的某个文件
+ * 配置方法：
+ * 1. 填写github token, 在github > settings > developer settings > personal access token 里面生成一个新token。
+ * 默认TOKEN用的是我自己的，请不要请求过于频繁，每天一两次即可。例如：cron "0 9 * * *"* 2. 配置仓库地址，格式如下：
+ * {
+ *  name: "",//填写仓库名称，可自定义
+ *  file_names:[],//可选参数。若需要监控具体文件或目录，请填写路径（具体看下面示例）。
+ *  url: "" //仓库的url
+ * }
+ * 📌 如果希望监控某个分支的Commit，请切换到该分支，直接复制URL填入；
+ * 📌 如果希望监控Release，请切换至Release界面，直接复制URL填入；
+ */
 
 let token = "bca4a80f4fa309e8e86e310c59860199d8a2daa1";
 
 let repositories = [
     {
         name: "NobyDa",
-        file_names: ["JD-DailyBonus", "52pojie-DailyBonus"], 
+        file_names: ["JD-DailyBonus"], 
         url: "https://github.com/NobyDa/Script/tree/master",
     },
     {
@@ -25,7 +40,6 @@ let repositories = [
         name: "ClashX",
         url: "https://github.com/yichengchen/clashX/releases",
     },
-    
 ];
 
 const $ = API("github", false);
@@ -112,7 +126,7 @@ async function checkUpdate(item) {
     try {
         const repository = parseURL(url);
         if (repository.type === "releases") {
-            await $.get({
+            await $.http.get({
                 url: `${baseURL}/repos/${repository.owner}/${repository.repo}/releases`,
                 headers,
             })
@@ -125,15 +139,15 @@ async function checkUpdate(item) {
                         const {published_at, body} = releases[0];
                         const notificationURL = {
                             "open-url": `https://github.com/${repository.owner}/${repository.repo}/releases`,
-                            "media-url": `https://raw.githubusercontent.com/Orz-3/task/master/github.png`,
+                            "media-url": `https://raw.githubusercontent.com/58xinian/icon/master/Github2.png`,
                         };
                         if (needUpdate(url, published_at)) {
                             $.notify(
-                                `[${name}] 新版本发布`,
-                                `版本: ${release_name}`,
-                                `发布于: ${formatTime(
+                                `🎉🎉🎉 [${name}] 新版本发布`,
+                                `📦 版本: ${release_name}`,
+                                `⏰ 发布于: ${formatTime(
                                     published_at
-                                )}\n发布者: ${author}\n更新说明: \n${body}`,
+                                )}\n👨🏻‍💻 发布者: ${author}\n📌 更新说明: \n${body}`,
                                 notificationURL
                             );
                             $.write(published_at, hash(url));
@@ -144,7 +158,7 @@ async function checkUpdate(item) {
                     $.error(e);
                 });
         } else {
-            const {author, body, published_at, file_url} = await $.get({
+            const {author, body, published_at, file_url} = await $.http.get({
                 url: `${baseURL}/repos/${repository.owner}/${repository.repo}/commits/${repository.branch}`,
                 headers,
             })
@@ -162,17 +176,17 @@ async function checkUpdate(item) {
             $.log({author, body, published_at, file_url});
             const notificationURL = {
                 "open-url": `https://github.com/${repository.owner}/${repository.repo}/commits/${repository.branch}`,
-                "media-url": `https://raw.githubusercontent.com/Orz-3/task/master/github.png`,
+                "media-url": `https://raw.githubusercontent.com/58xinian/icon/master/Github2.png`,
             };
             //监控仓库是否有更新
             if (!item.hasOwnProperty("file_names")) {
                 if (needUpdate(url, published_at)) {
                     $.notify(
-                        `[${name}] 新提交`,
+                        `🎈🎈🎈 [${name}] 新提交`,
                         "",
-                        `提交于: ${formatTime(
+                        `⏰ 提交于: ${formatTime(
                             published_at
-                        )}\n发布者: ${author}\n更新说明: \n${body}`,
+                        )}\n👨🏻‍💻 发布者: ${author}\n📌 更新说明: \n${body}`,
                         notificationURL
                     );
                     // update stored timestamp
@@ -199,12 +213,12 @@ async function checkUpdate(item) {
 function findFile(name, tree_url, paths, current_pos) {
     if (current_pos == paths.length) {
         $.notify(
-            `[${name}]`,
+            `🐬 [${name}]`,
             "",
-            `仓库中没有该文件：${paths[paths.length - 1]}`
+            `🚫 仓库中没有该文件：${paths[paths.length - 1]}`
         );
     }
-    $.get({
+    $.http.get({
         url: tree_url,
         headers,
     }).then(
@@ -218,7 +232,7 @@ function findFile(name, tree_url, paths, current_pos) {
                     fileType = file_list[i].type;
                     isDir = paths[current_pos].match(/\.js/) == null ? true : false;
                     $.log(
-                        `正在判断：${paths[current_pos]} is a ${
+                        `🔍正在判断：${paths[current_pos]} is a ${
                             isDir ? "directory" : "file"
                         }`
                     );
@@ -227,14 +241,14 @@ function findFile(name, tree_url, paths, current_pos) {
                         let file_hash = file_list[i].sha;
                         let last_sha = $.read(hash(name + paths[current_pos]));
                         if (file_hash != last_sha) {
-                            $.notify(`[${name}]`, "", `${paths[current_pos]}有更新`);
+                            $.notify(`🐬 [${name}]`, "", `📌 ${paths[current_pos]}有更新`);
                             $.write(file_hash, hash(name + paths[current_pos]));
                         }
                         $.log(
-                            `${
+                            `🐬 ${
                                 paths[current_pos]
                             }：\n\tlast sha: ${last_sha}\n\tlatest sha: ${file_hash}\n\t${
-                                file_hash == last_sha ? "当前已是最新" : "需要更新"
+                                file_hash == last_sha ? "✅当前已是最新" : "🔅需要更新"
                             }`
                         );
                     } else if (
@@ -246,14 +260,14 @@ function findFile(name, tree_url, paths, current_pos) {
                         let file_hash = file_list[i].sha;
                         let last_sha = $.read(hash(name + paths[current_pos]));
                         if (file_hash != last_sha) {
-                            $.notify(`[${name}]`, "", `${paths[current_pos]}有更新`);
+                            $.notify(`🐬 [${name}]`, "", `📌 ${paths[current_pos]}有更新`);
                             $.write(file_hash, hash(name + paths[current_pos]));
                         }
                         $.log(
-                            `${
+                            `🐬 ${
                                 paths[current_pos]
                             }：\n\tlast sha: ${last_sha}\n\tlatest sha: ${file_hash}\n\t${
-                                file_hash == last_sha ? "当前已是最新" : "需要更新"
+                                file_hash == last_sha ? "✅当前已是最新" : "🔅需要更新"
                             }`
                         );
                     } else if (fileType == "tree") {
@@ -265,11 +279,11 @@ function findFile(name, tree_url, paths, current_pos) {
             }
             if (isFind == false) {
                 $.notify(
-                    `[${name}]`,
+                    `🐬 [${name}]`,
                     "",
-                    `仓库中没有该文件：${
+                    `🚫 仓库中没有该文件：${
                         paths[paths.length - 1]
-                    }\n请检查你的路径是否填写正确`
+                    }\n🚫 请检查你的路径是否填写正确`
                 );
             }
         },
@@ -290,4 +304,9 @@ Promise.all(
     repositories.map(async (item) => await checkUpdate(item))
 ).finally(() => $.done());
 
-function API(s="untitled",t=!1){return new class{constructor(s,t){this.name=s,this.debug=t,this.isQX="undefined"!=typeof $task,this.isLoon="undefined"!=typeof $loon,this.isSurge="undefined"!=typeof $httpClient&&!this.isLoon,this.isNode="function"==typeof require,this.isJSBox=this.isNode&&"undefined"!=typeof $jsbox,this.node=(()=>{if(this.isNode){return{request:"undefined"!=typeof $request?void 0:require("request"),fs:require("fs")}}return null})(),this.initCache();Promise.prototype.delay=function(s){return this.then(function(t){return((s,t)=>new Promise(function(e){setTimeout(e.bind(null,t),s)}))(s,t)})}}get(s){return this.isQX?("string"==typeof s&&(s={url:s,method:"GET"}),$task.fetch(s)):new Promise((t,e)=>{this.isLoon||this.isSurge?$httpClient.get(s,(s,i,o)=>{s?e(s):t({status:i.status,headers:i.headers,body:o})}):this.node.request(s,(s,i,o)=>{s?e(s):t({...i,status:i.statusCode,body:o})})})}post(s){return this.isQX?("string"==typeof s&&(s={url:s}),s.method="POST",$task.fetch(s)):new Promise((t,e)=>{this.isLoon||this.isSurge?$httpClient.post(s,(s,i,o)=>{s?e(s):t({status:i.status,headers:i.headers,body:o})}):this.node.request.post(s,(s,i,o)=>{s?e(s):t({...i,status:i.statusCode,body:o})})})}initCache(){if(this.isQX&&(this.cache=JSON.parse($prefs.valueForKey(this.name)||"{}")),(this.isLoon||this.isSurge)&&(this.cache=JSON.parse($persistentStore.read(this.name)||"{}")),this.isNode){let s="root.json";this.node.fs.existsSync(s)||this.node.fs.writeFileSync(s,JSON.stringify({}),{flag:"wx"},s=>console.log(s)),this.root={},s=`${this.name}.json`,this.node.fs.existsSync(s)?this.cache=JSON.parse(this.node.fs.readFileSync(`${this.name}.json`)):(this.node.fs.writeFileSync(s,JSON.stringify({}),{flag:"wx"},s=>console.log(s)),this.cache={})}}persistCache(){const s=JSON.stringify(this.cache);this.isQX&&$prefs.setValueForKey(s,this.name),(this.isLoon||this.isSurge)&&$persistentStore.write(s,this.name),this.isNode&&(this.node.fs.writeFileSync(`${this.name}.json`,s,{flag:"w"},s=>console.log(s)),this.node.fs.writeFileSync("root.json",JSON.stringify(this.root),{flag:"w"},s=>console.log(s)))}write(s,t){this.log(`SET ${t}`),-1!==t.indexOf("#")?(t=t.substr(1),this.isSurge&this.isLoon&&$persistentStore.write(s,t),this.isQX&&$prefs.setValueForKey(s,t),this.isNode&&(this.root[t]=s)):this.cache[t]=s,this.persistCache()}read(s){return this.log(`READ ${s}`),-1===s.indexOf("#")?this.cache[s]:(s=s.substr(1),this.isSurge&this.isLoon&&$persistentStore.read(data,s),this.isQX?$prefs.valueForKey(s):this.isNode?this.root[s]:void 0)}delete(s){this.log(`DELETE ${s}`),delete this.cache[s],-1!==s.indexOf("#")?(s=s.substr(1),this.isSurge&this.isLoon&&$persistentStore.write(null,s),this.isQX&&$prefs.setValueForKey(null,s),this.isNode&&delete this.root[s]):this.cache[s]=data,this.persistCache()}notify(s,t="",e="",i={}){const o=i["open-url"],n=i["media-url"],r=e+(o?`\n点击跳转: ${o}`:"")+(n?`\n多媒体: ${n}`:"");if(this.isQX&&$notify(s,t,e,i),this.isSurge&&$notification.post(s,t,r),this.isLoon&&$notification.post(s,t,e,o),this.isNode)if(this.isJSBox){require("push").schedule({title:s,body:(t?t+"\n":"")+r})}else console.log(`${s}\n${t}\n${r}\n\n`)}log(s){this.debug&&console.log(s)}info(s){console.log(s)}error(s){console.log("ERROR: "+s)}wait(s){return new Promise(t=>setTimeout(t,s))}done(s={}){this.isQX||this.isLoon||this.isSurge?$done(s):this.isNode&&!this.isJSBox&&"undefined"!=typeof $context&&($context.headers=s.headers,$context.statusCode=s.statusCode,$context.body=s.body)}}(s,t)}
+// prettier-ignore
+/*********************************** API *************************************/
+function ENV(){const e="undefined"!=typeof $task,t="undefined"!=typeof $loon,s="undefined"!=typeof $httpClient&&!t,o="function"==typeof require&&"undefined"!=typeof $jsbox;return{isQX:e,isLoon:t,isSurge:s,isNode:"function"==typeof require&&!o,isJSBox:o,isRequest:"undefined"!=typeof $request,isScriptable:"undefined"!=typeof importModule}}function HTTP(e,t={}){const{isQX:s,isLoon:o,isSurge:i,isScriptable:n,isNode:r}=ENV();const u={};return["GET","POST","PUT","DELETE","HEAD","OPTIONS","PATCH"].forEach(c=>u[c.toLowerCase()]=(u=>(function(u,c){(c="string"==typeof c?{url:c}:c).url=e?e+c.url:c.url;const h=(c={...t,...c}).timeout,l={onRequest:()=>{},onResponse:e=>e,onTimeout:()=>{},...c.events};let a,d;if(l.onRequest(u,c),s)a=$task.fetch({method:u,...c});else if(o||i||r)a=new Promise((e,t)=>{(r?require("request"):$httpClient)[u.toLowerCase()](c,(s,o,i)=>{s?t(s):e({statusCode:o.status||o.statusCode,headers:o.headers,body:i})})});else if(n){const e=new Request(c.url);e.method=u,e.headers=c.headers,e.body=c.body,a=new Promise((t,s)=>{e.loadString().then(s=>{t({statusCode:e.response.statusCode,headers:e.response.headers,body:s})}).catch(e=>s(e))})}const f=h?new Promise((e,t)=>{d=setTimeout(()=>(l.onTimeout(),t(`${u} URL: ${c.url} exceeds the timeout ${h} ms`)),h)}):null;return(f?Promise.race([f,a]).then(e=>(clearTimeout(d),e)):a).then(e=>l.onResponse(e))})(c,u))),u}function API(e="untitled",t=!1){const{isQX:s,isLoon:o,isSurge:i,isNode:n,isJSBox:r,isScriptable:u}=ENV();return new class{constructor(e,t){this.name=e,this.debug=t,this.http=HTTP(),this.env=ENV(),this.node=(()=>{if(n){return{fs:require("fs")}}return null})(),this.initCache();Promise.prototype.delay=function(e){return this.then(function(t){return((e,t)=>new Promise(function(s){setTimeout(s.bind(null,t),e)}))(e,t)})}}initCache(){if(s&&(this.cache=JSON.parse($prefs.valueForKey(this.name)||"{}")),(o||i)&&(this.cache=JSON.parse($persistentStore.read(this.name)||"{}")),n){let e="root.json";this.node.fs.existsSync(e)||this.node.fs.writeFileSync(e,JSON.stringify({}),{flag:"wx"},e=>console.log(e)),this.root={},e=`${this.name}.json`,this.node.fs.existsSync(e)?this.cache=JSON.parse(this.node.fs.readFileSync(`${this.name}.json`)):(this.node.fs.writeFileSync(e,JSON.stringify({}),{flag:"wx"},e=>console.log(e)),this.cache={})}}persistCache(){const e=JSON.stringify(this.cache);s&&$prefs.setValueForKey(e,this.name),(o||i)&&$persistentStore.write(e,this.name),n&&(this.node.fs.writeFileSync(`${this.name}.json`,e,{flag:"w"},e=>console.log(e)),this.node.fs.writeFileSync("root.json",JSON.stringify(this.root),{flag:"w"},e=>console.log(e)))}write(e,t){this.log(`SET ${t}`),-1!==t.indexOf("#")?(t=t.substr(1),i&o&&$persistentStore.write(e,t),s&&$prefs.setValueForKey(e,t),n&&(this.root[t]=e)):this.cache[t]=e,this.persistCache()}read(e){return this.log(`READ ${e}`),-1===e.indexOf("#")?this.cache[e]:(e=e.substr(1),i&o?$persistentStore.read(e):s?$prefs.valueForKey(e):n?this.root[e]:void 0)}delete(e){this.log(`DELETE ${e}`),-1!==e.indexOf("#")?(e=e.substr(1),i&o&&$persistentStore.write(null,e),s&&$prefs.removeValueForKey(e),n&&delete this.root[e]):delete this.cache[e],this.persistCache()}notify(e,t="",c="",h={}){const l=h["open-url"],a=h["media-url"];if(s&&$notify(e,t,c,h),i&&$notification.post(e,t,c+`${a?"\n多媒体:"+a:""}`,{url:l}),o){let s={};l&&(s.openUrl=l),a&&(s.mediaUrl=a),"{}"==JSON.stringify(s)?$notification.post(e,t,c):$notification.post(e,t,c,s)}if(n||u){const s=c+(l?`\n点击跳转: ${l}`:"")+(a?`\n多媒体: ${a}`:"");if(r){require("push").schedule({title:e,body:(t?t+"\n":"")+s})}else console.log(`${e}\n${t}\n${s}\n\n`)}}log(e){this.debug&&console.log(e)}info(e){console.log(e)}error(e){console.log("ERROR: "+e)}wait(e){return new Promise(t=>setTimeout(t,e))}done(e={}){s||o||i?$done(e):n&&!r&&"undefined"!=typeof $context&&($context.headers=e.headers,$context.statusCode=e.statusCode,$context.body=e.body)}}(e,t)}
+/*****************************************************************************/
+
+
