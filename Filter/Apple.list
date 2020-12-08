@@ -17,6 +17,33 @@ DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 
+# > Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re,Apple
+
+# > iBooks Store download
+DOMAIN,books.itunes.apple.com,Apple
+
+# > App Store Preview
+DOMAIN,apps.apple.com,Apple
+DOMAIN,itunes.apple.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,iosapps.itunes.apple.com,Apple
+DOMAIN,osxapps.itunes.apple.com,Apple
+
+# > Spotlight
+DOMAIN,api-glb-sea.smoot.apple.com,Apple
+
+# > Look Up
+DOMAIN-SUFFIX,smoot.apple.com,Apple
+DOMAIN,lookup-api.apple.com,Apple
+
+# > Apple Music Web
+DOMAIN,beta.music.apple.com,Apple
+DOMAIN,aod.itunes.apple.com,Apple
+DOMAIN,api.smoot.apple.cn,Apple
+DOMAIN,music.apple.com,Apple
+DOMAIN,mvod.itunes.apple.com,Apple
+
 # > Map
 DOMAIN-SUFFIX,ls.apple.com,Apple
 DOMAIN,gs-loc-cn.apple.com,Apple
@@ -26,17 +53,6 @@ DOMAIN-SUFFIX,apple.news,Apple
 DOMAIN,news-client.apple.com,Apple
 DOMAIN,news-edge.apple.com,Apple
 DOMAIN,news-events.apple.com,Apple
-
-# Apple Music
-DOMAIN,aod.itunes.apple.com,Apple
-DOMAIN,api.smoot.apple.cn,Apple
-DOMAIN,music.apple.com,Apple
-DOMAIN,mvod.itunes.apple.com,Apple
-
-# > App Store
-DOMAIN-SUFFIX,mzstatic.com,Apple
-DOMAIN,iosapps.itunes.apple.com,Apple
-DOMAIN,osxapps.itunes.apple.com,Apple
 
 # > Update
 DOMAIN,supportdownload.apple.com,Apple
