@@ -394,7 +394,6 @@ IP-CIDR,208.80.152.0/22,PROXY
 DOMAIN-SUFFIX,noxinfluencer.com,PROXY
 DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 DOMAIN-SUFFIX,weebly.com,PROXY
-DOMAIN-SUFFIX,twitter.jp,PROXY
 
 # > Others
 DOMAIN-SUFFIX,bing.com,PROXY
@@ -407,10 +406,8 @@ DOMAIN-SUFFIX,shopeemobile.com,PROXY
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
-DOMAIN-KEYWORD,buy.itunes.apple.com,PROXY
 DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
-DOMAIN,ocsp.apple.com,PROXY
