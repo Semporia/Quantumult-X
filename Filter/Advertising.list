@@ -1,4 +1,4 @@
-# > 广告
+# Update > 2020.7.27 This rule is based on optimization.
 
 DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
 DOMAIN-SUFFIX,comet.yahoo.com,REJECT
