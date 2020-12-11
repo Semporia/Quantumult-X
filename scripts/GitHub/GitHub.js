@@ -18,6 +18,11 @@ let token = "bca4a80f4fa309e8e86e310c59860199d8a2daa1";
 
 let repositories = [
     {
+        name: "lxk0301",
+        file_names: ["jd_scripts"], 
+        url: "https://github.com/lxk0301/jd_scripts/tree/master",
+    },
+    {
         name: "NobyDa",
         file_names: ["JD-DailyBonus"], 
         url: "https://github.com/NobyDa/Script/tree/master",
