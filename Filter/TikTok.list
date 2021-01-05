@@ -9,8 +9,8 @@ DOMAIN-KEYWORD,-tiktokcdn-com,TikTok
 DOMAIN-KEYWORD,musical.ly,TikTok
 DOMAIN-KEYWORD,TikTok,TikTok
 DOMAIN-KEYWORD,tiktokv,TikTok
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,tik-tokapi.com
-USER-AGENT,tiktok*
+DOMAIN-SUFFIX,byteoversea.com,TikTok
+DOMAIN-SUFFIX,ibytedtos.com,TikTok
+DOMAIN-SUFFIX,ipstatp.com,TikTok
+DOMAIN-SUFFIX,tik-tokapi.com,TikTok
+USER-AGENT,tiktok*,TikTok
