@@ -17,11 +17,17 @@ DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 
+# >> TestFlight
+DOMAIN,testflight.apple.com,Apple
+
 # > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re,Apple
 
 # > iBooks Store download
 DOMAIN,books.itunes.apple.com,Apple
+
+# >> iTunes Store Moveis Trailers
+DOMAIN,hls.itunes.apple.com,Apple
 
 # > App Store Preview
 DOMAIN,apps.apple.com,Apple
@@ -35,6 +41,8 @@ DOMAIN,api-glb-sea.smoot.apple.com,Apple
 
 # > Look Up
 DOMAIN-SUFFIX,smoot.apple.com,Apple
+
+# >> Dictionary
 DOMAIN,lookup-api.apple.com,Apple
 
 # > Apple Music Web
