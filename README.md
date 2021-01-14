@@ -7,7 +7,6 @@
 * [Bubble](#Bubble)
 * [Rewrite](#Rewrite)
 * [scripts](#scripts)
-* [Flag-icon](#Flag-icon)
 
 ***
 ### Configuration
