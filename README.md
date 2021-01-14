@@ -7,6 +7,7 @@
 * [Bubble](#Bubble)
 * [Rewrite](#Rewrite)
 * [scripts](#scripts)
+* [Flag-icon](#Flag-icon)
 
 ***
 ### Configuration
@@ -21,6 +22,8 @@
 * [Quantumult X icon](https://github.com/Semporia/Quantumult-X/tree/master/Bubble/IconSet)  
 
 * [Quantumult X Task-icon](https://github.com/Semporia/Quantumult-X/tree/master/Bubble/Task)  
+
+* [Quantumult X Flag-icon](https://github.com/Semporia/Quantumult-X/tree/master/Bubble/Flag-icon)  
 
 ***
 ### Rewrite
