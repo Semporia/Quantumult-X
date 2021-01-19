@@ -1,16 +1,20 @@
-# > TikTok
-USER-AGENT,TikTok*,TikTok
-DOMAIN-SUFFIX,muscdn.com,TikTok
-DOMAIN-SUFFIX,musical.ly,TikTok
-DOMAIN-SUFFIX,tiktok.com,TikTok
-DOMAIN-SUFFIX,tiktokv.com,TikTok
-DOMAIN-SUFFIX,tiktokcdn.com,TikTok
-DOMAIN-SUFFIX,byteoversea.com,TikTok
-DOMAIN-SUFFIX,ibytedtos.com,TikTok
-DOMAIN-SUFFIX,ipstatp.com,TikTok
-DOMAIN-SUFFIX,tik-tokapi.com,TikTok
-DOMAIN-KEYWORD,-tiktokcdn-com,TikTok
+# TikTok
+HOST,p16-tiktokcdn-com.akamaized.net,TikTok
+HOST-SUFFIX,amemv.com,TikTok
+HOST-SUFFIX,byteoversea.com,TikTok
+HOST-SUFFIX,ibytedtos.com,TikTok
+HOST-SUFFIX,ibyteimg.com,TikTok
+HOST-SUFFIX,ipstatp.com,TikTok
+HOST-SUFFIX,muscdn.com,TikTok
+HOST-SUFFIX,musical.ly,TikTok
+HOST-SUFFIX,sgpstatp.com,TikTok
+HOST-SUFFIX,snssdk.com,TikTok
+HOST-SUFFIX,tik-tokapi.com,TikTok
+HOST-SUFFIX,tiktok.com,TikTok
+HOST-SUFFIX,tiktokcdn.com,TikTok
+HOST-SUFFIX,tiktokv.com,TikTok
+HOST-KEYWORD,-tiktokcdn-com,TikTok
 DOMAIN-KEYWORD,musical.ly,TikTok
 DOMAIN-KEYWORD,TikTok,TikTok
 DOMAIN-KEYWORD,tiktokv,TikTok
-
+USER-AGENT,TikTok*,TikTok
