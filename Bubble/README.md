@@ -1,4 +1,4 @@
-### ![彩色手绘图标入口]（https://github.com/Semporia/Hand-Painted-icon）
+### 彩色手绘图标入口 https://github.com/Semporia/Hand-Painted-icon
 
 # Bubble<br>
 ![Image text](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Bubble/Other/Logo.png)
