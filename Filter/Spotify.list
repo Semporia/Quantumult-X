@@ -1,8 +1,20 @@
-# > Spotify
+# Spotify
+HOST-SUFFIX,byspotify.com,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-SUFFIX,spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,spotify-everywhere.com,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spotify.design,Spotify
+HOST-SUFFIX,spotifycdn.com,Spotify
+HOST-SUFFIX,spotifycdn.net,Spotify
+HOST-SUFFIX,spotifycharts.com,Spotify
+HOST-SUFFIX,spotifycodes.com,Spotify
+HOST-SUFFIX,spotifyforbrands.com,Spotify
+HOST-SUFFIX,spotifyjobs.com,Spotify
+HOST-KEYWORD,-spotify-com,Spotify
+HOST-KEYWORD,spotify.com,Spotify
+USER-AGENT,*Spotify*,Spotify
 USER-AGENT,Spotify*,Spotify
-DOMAIN-SUFFIX,pscdn.co,Spotify
-DOMAIN-SUFFIX,scdn.co,Spotify
-DOMAIN-SUFFIX,spotify.com,Spotify
-DOMAIN-SUFFIX,spoti.fi,Spotify
-DOMAIN-KEYWORD,spotify.com,Spotify
-DOMAIN-KEYWORD,-spotify-com,Spotify
+IP-CIDR,35.186.224.47/32,Spotify
