@@ -361,7 +361,6 @@ DOMAIN,cc.tvbs.com.tw,Global
 DOMAIN,ocsp.int-x3.letsencrypt.org,Global
 DOMAIN,search.avira.com,Global
 DOMAIN,us.weibo.com,Global
-DOMAIN-KEYWORD,.pinterest.,Global
 DOMAIN-SUFFIX,edu,Global
 DOMAIN-SUFFIX,gov,Global
 DOMAIN-SUFFIX,mil,Global
