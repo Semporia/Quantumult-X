@@ -2,9 +2,10 @@
 
 京东多合一签到脚本
 
-更新时间: 2021.01.20 20:00 v1.91
+更新时间: 2021.01.29 19:14 v1.92
 有效接口: 40+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+
 
 *************************
 【 JSbox, Node.js 说明 】 :
@@ -845,7 +846,7 @@ function JDUserSign1(s, key, title, body) {
 async function JDUserSign2(s, key, title, tid) {
   await new Promise(resolve => {
     $nobyda.get({
-      url: `https://jdjoy.jd.com/api/turncard/channel/detail?turnTableId=${tid}`,
+      url: `https://jdjoy.jd.com/api/turncard/channel/detail?turnTableId=${tid}&invokeKey=yPsq1PHN`,
       headers: {
         Cookie: KEY
       }
@@ -857,7 +858,7 @@ async function JDUserSign2(s, key, title, tid) {
   return new Promise(resolve => {
     setTimeout(() => {
       const JDUrl = {
-        url: 'https://jdjoy.jd.com/api/turncard/channel/sign',
+        url: 'https://jdjoy.jd.com/api/turncard/channel/sign?invokeKey=yPsq1PHN',
         headers: {
           Cookie: KEY
         },
