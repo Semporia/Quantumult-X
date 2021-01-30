@@ -30,10 +30,10 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quant
 *.video.qq.com
 
 [rewrite_local]
-^https:\/\/access.video.qq.com\/user\/auth_refresh url script-request-header videoqq.cookie.js
+^https:\/\/access.video.qq.com\/user\/auth_refresh url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/videoqq/videoqq.cookie.js
 
 [task_local]
-1 0 * * * videoqq.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/videoqq/videoqq.js
 ```
 
 ## 说明 （PC 端）
