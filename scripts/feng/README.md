@@ -31,12 +31,12 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quant
 
 [rewrite_local]
 # 189及以前版本
-^https:\/\/(www\.)?feng\.com\/?.? url script-response-body feng.cookie.js
+^https:\/\/(www\.)?feng\.com\/?.? url script-response-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/feng/feng.cookie.js
 # 190及以后版本
-^https:\/\/(www\.)?feng\.com\/?.? url script-request-header feng.cookie.js
+^https:\/\/(www\.)?feng\.com\/?.? url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/feng/feng.cookie.js
 
 [task_local]
-1 0 * * * feng.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/feng/feng.js
 ```
 
 ## 说明

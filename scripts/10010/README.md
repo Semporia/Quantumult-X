@@ -32,12 +32,12 @@ hostname = act.10010.com, m.client.10010.com
 
 [rewrite_local]
 # 注意获取Cookie有两条脚本
-^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header 10010.cookie.js
-^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header 10010.cookie.js
-^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header 10010.cookie.js
+^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/10010/10010.cookie.js
+^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/10010/10010.cookie.js
+^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/10010/10010.cookie.js
 
 [task_local]
-1 0 * * * 10010.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/10010/10010.js
 ```
 
 ## 说明

@@ -27,10 +27,10 @@ i.meituan.com
 # 不支持
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body meituan.cookie.js
+^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/meituan/meituan.cookie.js
 
 [task_local]
-1 0 * * * meituan.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/meituan/meituan.js
 ```
 
 ## 说明

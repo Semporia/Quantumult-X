@@ -23,10 +23,10 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quant
 music.163.com
 
 [rewrite_local]
-^https:\/\/music.163.com\/weapi\/user\/level url script-request-body neteasemusic.cookie.js
+^https:\/\/music.163.com\/weapi\/user\/level url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/neteasemusic/neteasemusic.cookie.js
 
 [task_local]
-1 0 * * * neteasemusic.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/neteasemusic/neteasemusic.js
 ```
 
 ## 说明

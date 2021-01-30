@@ -33,13 +33,13 @@ hostname = passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.sun
 
 [rewrite_local]
 # 注意有4条获取 Cookie 脚本
-^https:\/\/passport.suning.com\/ids\/login$ url script-request-body suning.cookie.js
-^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do url script-request-header suning.cookie.js
-^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do url script-request-header suning.cookie.js
-^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) url script-request-header suning.cookie.js
+^https:\/\/passport.suning.com\/ids\/login$ url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/suning/suning.cookie.js
+^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/suning/suning.cookie.js
+^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/suning/suning.cookie.js
+^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/suning/suning.cookie.js
 
 [task_local]
-1 0 * * * suning.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/suning/suning.js
 ```
 
 ## 说明

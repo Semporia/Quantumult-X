@@ -20,10 +20,10 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quant
 maicai.api.ddxq.mobi
 
 [rewrite_local]
-^https:\/\/maicai.api.ddxq.mobi\/point\/home url script-request-header mcdd.cookie.js
+^https:\/\/maicai.api.ddxq.mobi\/point\/home url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/mcdd/mcdd.cookie.js
 
 [task_local]
-1 0 * * * mcdd.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/mcdd/mcdd.js
 ```
 
 ## 说明

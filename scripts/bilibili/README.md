@@ -28,14 +28,14 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Semporia/Quant
 
 [rewrite_local]
 # 189及以前版本
-^https:\/\/(www|live)\.bilibili\.com\/?.? url script-response-body bilibili.cookie.js
+^https:\/\/(www|live)\.bilibili\.com\/?.? url script-response-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/bilibili/bilibili.cookie.js
 # 190及以后版本
-^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header bilibili.cookie.js
+^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/bilibili/bilibili.cookie.js
 
 [task_local]
-1 0 * * * bilibili.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/bilibili/bilibili.js
 # 如需银瓜子转硬币，添加以下内容 
-1 0 * * * bilibili.silver2coin.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/bilibili/bilibili.silver2coin.js
 ```
 
 ## 说明

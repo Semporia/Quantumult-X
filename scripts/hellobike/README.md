@@ -21,14 +21,14 @@ gameapi.hellobike.com
 
 [rewrite_local]
 # [商店版]
-^https:\/\/gameapi\.hellobike\.com\/api url script-request-body hellobike/hellobike.js
+^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js
 
 # [TestFlight]
 ^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js
 
 [task_local]
 # [商店版]
-5 0 * * * hellobike/hellobike.js
+5 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js
 
 # [TestFlight]
 5 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/hellobike/hellobike.js

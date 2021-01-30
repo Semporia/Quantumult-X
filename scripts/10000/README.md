@@ -25,7 +25,7 @@ wapside.189.cn
 ^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-request-body https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/10000/10000.cookie.js
 
 [task_local]
-1 0 * * * 10000.js
+1 0 * * * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/scripts/10000/10000.js
 ```
 
 ## 说明
