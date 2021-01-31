@@ -1,9 +1,4 @@
 # NAME: Adobe
-# UPDATE: 2020-10-16 16:11:04
-# DOMAIN: 2
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 31
-# TOTAL: 34
 HOST,adbemdigitalmediarebootprod2.112.2o7.net,Adobe
 HOST,cc-ext-prod-pkgs.s3.amazonaws.com,Adobe
 HOST-SUFFIX,acrobat.com,Adobe
