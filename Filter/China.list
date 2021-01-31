@@ -113,23 +113,6 @@ DOMAIN-SUFFIX,sogoucdn.com,DIRECT
 DOMAIN-SUFFIX,steamcontent.com,DIRECT
 DOMAIN-SUFFIX,steampowered.com,DIRECT
 DOMAIN-SUFFIX,steamstatic.com,DIRECT
-# > Tencent
-USER-AGENT,MicroMessenger%20Client,DIRECT
-USER-AGENT,WeChat*,DIRECT
-USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
-DOMAIN-SUFFIX,gtimg.com,DIRECT
-DOMAIN-SUFFIX,idqqimg.com,DIRECT
-DOMAIN-SUFFIX,igamecj.com,DIRECT
-DOMAIN-SUFFIX,myapp.com,DIRECT
-DOMAIN-SUFFIX,myqcloud.com,DIRECT
-DOMAIN-SUFFIX,qq.com,DIRECT
-DOMAIN-SUFFIX,qqmail.com,DIRECT
-DOMAIN-SUFFIX,servicewechat.com,DIRECT
-DOMAIN-SUFFIX,tencent.com,DIRECT
-DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
-DOMAIN-SUFFIX,tenpay.com,DIRECT
-DOMAIN-SUFFIX,wechat.com,DIRECT
-DOMAIN,file-igamecj.akamaized.net,DIRECT
 # > Content Delivery Network
 DOMAIN-SUFFIX,ccgslb.com,DIRECT
 DOMAIN-SUFFIX,ccgslb.net,DIRECT
@@ -149,10 +132,6 @@ DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,whatismyip.com,DIRECT
 DOMAIN,ip.istatmenus.app,DIRECT
 DOMAIN,sms.imagetasks.com,DIRECT
-# > Speed Test
-# DOMAIN-SUFFIX,speedtest.net,DIRECT
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
 # > Private Tracker
 DOMAIN-SUFFIX,acg.rip,DIRECT
 DOMAIN-SUFFIX,animebytes.tv,DIRECT
