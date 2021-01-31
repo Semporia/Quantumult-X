@@ -132,10 +132,6 @@ DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,whatismyip.com,DIRECT
 DOMAIN,ip.istatmenus.app,DIRECT
 DOMAIN,sms.imagetasks.com,DIRECT
-# > Speed Test
-# DOMAIN-SUFFIX,speedtest.net,DIRECT
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
 # > Private Tracker
 DOMAIN-SUFFIX,acg.rip,DIRECT
 DOMAIN-SUFFIX,animebytes.tv,DIRECT
