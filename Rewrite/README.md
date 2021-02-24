@@ -25,4 +25,4 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, 
 
 * 完整示例：
 
-file:///Users/username/Downloads/chavy.boxjs.html?baseURL=http://192.168.1.62:9999
+* file:///Users/username/Downloads/chavy.boxjs.html?baseURL=http://192.168.1.62:9999
