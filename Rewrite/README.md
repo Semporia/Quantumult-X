@@ -1,5 +1,6 @@
 # BoxJs 在 Mac 上访问
-** Quantumult X 
+
+**Quantumult X**
 
 ```
 [http_backend]
@@ -18,12 +19,12 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, 
 
 * 在浏览器地址的 URL 地址后面，增加 baseURL 参数
 
-* 在 URL 后面增加：?baseURL=http://192.168.50.100:9999 
+* 在 URL 后面增加：?baseURL=http://192.168.1.100:9999 
 
-* 注意：192.168.50.100 是 Quantumult X 的局域网地址
+* 注意：192.168.1.100 是 Quantumult X 的局域网地址
 
-* 在 iOS 的系统设置里找到自己的局域网地址，如：192.168.50.100
+* 在 iOS 的系统设置里找到自己的局域网地址，如：192.168.1.100
 
 * 完整示例：
 
-* file:///Users/username/Downloads/chavy.boxjs.html?baseURL=http://192.168.1.62:9999
+* file:///Users/username/Downloads/chavy.boxjs.html?baseURL=http://192.168.1.100:9999
