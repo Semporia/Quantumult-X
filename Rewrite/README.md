@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, 
 
 * 重启 HTTP Backend 模块，重启代理（VPN)  
 
-* 下载 [chavy.boxjs.html]（https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.html） 到 Mac
+* 下载 [chavy.boxjs.html](https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.html) 到 Mac
 
 * 在 iOS 的系统设置里找到自己的局域网地址，如：192.168.50.100
 
