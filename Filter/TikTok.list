@@ -15,6 +15,6 @@ HOST-SUFFIX,tiktokcdn.com,TikTok
 HOST-SUFFIX,tiktokv.com,TikTok
 HOST-KEYWORD,-tiktokcdn-com,TikTok
 HOST-KEYWORD,musical.ly,TikTok
-HOST-KEYWORD,TikTok,TikTok
+HOST-KEYWORD,tiktok,TikTok
 HOST-KEYWORD,tiktokv,TikTok
 USER-AGENT,TikTok*,TikTok
