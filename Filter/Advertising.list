@@ -3675,7 +3675,6 @@ HOST,log.ad.xiaomi.com,Advertising
 HOST,log.api.zaloapp.com,Advertising
 HOST,log.btopenworld.com,Advertising
 HOST,log.byteoversea.com,Advertising
-HOST,log.tiktokv.com,Advertising
 HOST,logica-info.com,Advertising
 HOST,login.ozlee.com,Advertising
 HOST,login.peloclub.com,Advertising
@@ -10786,7 +10785,6 @@ HOST-SUFFIX,ads-go.adroi.com.cn,Advertising
 HOST-SUFFIX,ads-pixiv.net,Advertising
 HOST-SUFFIX,ads-sdk-cn.upltv.com,Advertising
 HOST-SUFFIX,ads-sdk.upltv.com,Advertising
-HOST-SUFFIX,ads-sg.tiktok.com,Advertising
 HOST-SUFFIX,ads-trk.vidible.tv,Advertising
 HOST-SUFFIX,ads-twitter.com,Advertising
 HOST-SUFFIX,ads-union.jd.com,Advertising
@@ -12162,7 +12160,6 @@ HOST-SUFFIX,analytics-egain.com,Advertising
 HOST-SUFFIX,analytics-production.hapyak.com,Advertising
 HOST-SUFFIX,analytics-rhwg.rhcloud.com,Advertising
 HOST-SUFFIX,analytics-scripts.cablelabs.com,Advertising
-HOST-SUFFIX,analytics-sg.tiktok.com,Advertising
 HOST-SUFFIX,analytics-static.ugc.bazaarvoice.com,Advertising
 HOST-SUFFIX,analytics-union.sandai.net,Advertising
 HOST-SUFFIX,analytics-union.xunlei.com,Advertising
@@ -12328,7 +12325,6 @@ HOST-SUFFIX,analytics.theneweuropean.co.uk,Advertising
 HOST-SUFFIX,analytics.thenewslens.com,Advertising
 HOST-SUFFIX,analytics.thetab.com,Advertising
 HOST-SUFFIX,analytics.threedeepmarketing.com,Advertising
-HOST-SUFFIX,analytics.tiktok.com,Advertising
 HOST-SUFFIX,analytics.tio.ch,Advertising
 HOST-SUFFIX,analytics.tool.lu,Advertising
 HOST-SUFFIX,analytics.tooso.ai,Advertising
@@ -31061,7 +31057,6 @@ HOST-SUFFIX,mcontigo.com,Advertising
 HOST-SUFFIX,mcore.vcgame.cn,Advertising
 HOST-SUFFIX,mcprofits.com,Advertising
 HOST-SUFFIX,mcrzrxwrtpr.com,Advertising
-HOST-SUFFIX,mcs-va.tiktokv.com,Advertising
 HOST-SUFFIX,mcs.delvenetworks.com,Advertising
 HOST-SUFFIX,mcs.snssdk.com,Advertising
 HOST-SUFFIX,mcskucrxgwx.com,Advertising
