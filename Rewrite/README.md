@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, 
 
 ```
 
-* 设置 HTTP Backend 地址与端口（127.0.0.1:9999）
+* 设置 HTTP Backend 地址与端口（0.0.0.0:9999）
 
 * 重启 HTTP Backend 模块，重启代理（VPN)  
 
