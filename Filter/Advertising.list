@@ -11151,7 +11151,7 @@ HOST-SUFFIX,adtrue.com,Advertising
 HOST-SUFFIX,adtruism.com,Advertising
 HOST-SUFFIX,adttt.com,Advertising
 HOST-SUFFIX,adtwirl.com,Advertising
-HOST-SUFFIX,adui.tg.meitu.com,Advertising
+# HOST-SUFFIX,adui.tg.meitu.com,Advertising
 HOST-SUFFIX,aduic.com,Advertising
 HOST-SUFFIX,adult-adv.com,Advertising
 HOST-SUFFIX,adult.xyz,Advertising
@@ -17438,7 +17438,7 @@ HOST-SUFFIX,cornplus.cn,Advertising
 HOST-SUFFIX,coro.benbaisteel.com,Advertising
 HOST-SUFFIX,corocksi.com,Advertising
 HOST-SUFFIX,coroheyjses.com,Advertising
-HOST-SUFFIX,corp.meitu.com,Advertising
+# HOST-SUFFIX,corp.meitu.com,Advertising
 HOST-SUFFIX,corp.sohu.com,Advertising
 HOST-SUFFIX,corp.sts.microsoft.com,Advertising
 HOST-SUFFIX,corp.youdao.com,Advertising
@@ -18855,7 +18855,7 @@ HOST-SUFFIX,dc.cp21.ott.cibntv.net,Advertising
 HOST-SUFFIX,dc.csdn.net,Advertising
 HOST-SUFFIX,dc.letv.com,Advertising
 HOST-SUFFIX,dc.liuliang100.com,Advertising
-HOST-SUFFIX,dc.meitustat.com,Advertising
+# HOST-SUFFIX,dc.meitustat.com,Advertising
 HOST-SUFFIX,dc.sigmob.cn,Advertising
 HOST-SUFFIX,dc.tremormedia.com,Advertising
 HOST-SUFFIX,dc.vmoters.com,Advertising
@@ -23575,7 +23575,7 @@ HOST-SUFFIX,gg.huolinhe.com,Advertising
 HOST-SUFFIX,gg.jkmeishi.com,Advertising
 HOST-SUFFIX,gg.jtertp.com,Advertising
 HOST-SUFFIX,gg.kugou.com,Advertising
-HOST-SUFFIX,gg.meitu.com,Advertising
+# HOST-SUFFIX,gg.meitu.com,Advertising
 HOST-SUFFIX,gg.ptfish.com,Advertising
 HOST-SUFFIX,gg.sonhoo.com,Advertising
 HOST-SUFFIX,gg.uuu9.com,Advertising
@@ -31328,7 +31328,7 @@ HOST-SUFFIX,meriesbefor.fun,Advertising
 HOST-SUFFIX,merlin.abc.go.com,Advertising
 HOST-SUFFIX,merunexcuses.club,Advertising
 HOST-SUFFIX,meryjane.pro,Advertising
-HOST-SUFFIX,message.meitu.com,Advertising
+# HOST-SUFFIX,message.meitu.com,Advertising
 HOST-SUFFIX,messengernewspapers-gb.messengernewspapers.co.uk,Advertising
 HOST-SUFFIX,messengerpeople.com,Advertising
 HOST-SUFFIX,met.vgwort.de,Advertising
@@ -32473,7 +32473,7 @@ HOST-SUFFIX,mxvp-ad-config-prod-1.zenmxapps.com,Advertising
 HOST-SUFFIX,mxvp-feature-toggle-prod-1.zenmxapps.com,Advertising
 HOST-SUFFIX,mxysalqnbj.com,Advertising
 HOST-SUFFIX,my-hanson.com,Advertising
-HOST-SUFFIX,my-material.zone1.meitudata.com,Advertising
+# HOST-SUFFIX,my-material.zone1.meitudata.com,Advertising
 HOST-SUFFIX,my-ranking.de,Advertising
 HOST-SUFFIX,my-rigs.com,Advertising
 HOST-SUFFIX,my-stats.info,Advertising
@@ -37477,9 +37477,9 @@ HOST-SUFFIX,r8nu86wg.me,Advertising
 HOST-SUFFIX,r932o.com,Advertising
 HOST-SUFFIX,ra.gtimg.com,Advertising
 HOST-SUFFIX,ra.ripple6.com,Advertising
-HOST-SUFFIX,rabbit.meitustat.com,Advertising
+# HOST-SUFFIX,rabbit.meitustat.com,Advertising
 HOST-SUFFIX,rabbit.mtadvert.com,Advertising
-HOST-SUFFIX,rabbit.tg.meitu.com,Advertising
+# HOST-SUFFIX,rabbit.tg.meitu.com,Advertising
 HOST-SUFFIX,rabc1.iteye.com,Advertising
 HOST-SUFFIX,rabc2.iteye.com,Advertising
 HOST-SUFFIX,rabjkklvegagrn.com,Advertising
@@ -44109,7 +44109,7 @@ HOST-SUFFIX,tuia.cn,Advertising
 HOST-SUFFIX,tuidang.org,Advertising
 HOST-SUFFIX,tuigoo.com,Advertising
 HOST-SUFFIX,tuiguang.178.com,Advertising
-HOST-SUFFIX,tuiguang.meitu.com,Advertising
+# HOST-SUFFIX,tuiguang.meitu.com,Advertising
 HOST-SUFFIX,tuijian.baidu.com,Advertising
 HOST-SUFFIX,tuinei.com,Advertising
 HOST-SUFFIX,tuinfra.com,Advertising
@@ -46886,7 +46886,7 @@ HOST-SUFFIX,wo685.com,Advertising
 HOST-SUFFIX,woafujoa.com,Advertising
 HOST-SUFFIX,woaizhongguo.cdn111222.com,Advertising
 HOST-SUFFIX,wocfrherjxm.com,Advertising
-HOST-SUFFIX,wodemeitu.com,Advertising
+# HOST-SUFFIX,wodemeitu.com,Advertising
 HOST-SUFFIX,wodhid.com,Advertising
 HOST-SUFFIX,wodipaca.com,Advertising
 HOST-SUFFIX,wodizapt.com,Advertising
@@ -47631,8 +47631,8 @@ HOST-SUFFIX,xitongku.cc,Advertising
 HOST-SUFFIX,xitongqingli.com,Advertising
 HOST-SUFFIX,xiukeshop.com,Advertising
 HOST-SUFFIX,xiuqixuan.cn,Advertising
-HOST-SUFFIX,xiuxiu.android.dl.meitu.com,Advertising
-HOST-SUFFIX,xiuxiu.mobile.meitudata.com,Advertising
+# HOST-SUFFIX,xiuxiu.android.dl.meitu.com,Advertising
+# HOST-SUFFIX,xiuxiu.mobile.meitudata.com,Advertising
 HOST-SUFFIX,xiweywhnx.com,Advertising
 HOST-SUFFIX,xixianad.com,Advertising
 HOST-SUFFIX,xixiashengdian.com,Advertising
