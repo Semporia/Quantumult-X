@@ -11,6 +11,7 @@
 ***
 ### Configuration
 * [Quantumult X 参考配置](https://github.com/Semporia/Quantumult-X/blob/master/Quantumult-X.conf)  
+* [Quantumult X 参考配置截图预览](https://github.com/Semporia/Quantumult-X/blob/master/Quantumult-X.conf)
 
 ***
 ### Filter
