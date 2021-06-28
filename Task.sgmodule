@@ -73,6 +73,8 @@
         "0 0-23/2 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_EsportsManager.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/icon/jd_EsportsManager.png, enabled=true",
         "1 12,23 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png, enabled=true",
         "10-20/5 12 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
-        "20 0,22 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+        "20 0,22 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "0 7 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
+        "8 0-23/3 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed.js, tag=京东天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true"
     ]
 }
