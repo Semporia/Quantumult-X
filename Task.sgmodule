@@ -34,6 +34,7 @@
         "0 */3 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_daily_egg.js, tag=京东金融-天天提鹅 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_daily_egg.png",
         "12 * * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_pigPet.js, tag=京东金融-养猪猪 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_pigPet.png",
         "10 7 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_crazy_joy.js, tag=CrazyJoy任务 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_crazy_joy.png",
+        "10 7 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_crazy_joy_bonus.js, tag=监控crazyJoy分红 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_crazy_joy.png",
         "1 8,12,18 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_bookshop.js, tag=口袋书店 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_bookshop.png",
         "0 2 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_cash.js, tag=签到领现金 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_cash.png",
         "20 8 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_sgmh.js, tag=闪购盲盒 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_sgmh.png",
@@ -64,6 +65,9 @@
         "11 1 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_lotteryMachine.js, tag=抽奖机 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_lotteryMachine.png",
         "11 9 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_rankingList.js, tag=排行榜 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_rankingList.png",
         "0 9,12,18 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_jxnc.js, tag=京喜农场 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jx_nc.png",
-        "2 9 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd.png, enabled=true"
+        "2 9 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd.png, enabled=true",
+        "0 0 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_blueCoin.js, tag=东东超市兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
+        "0 0-18/6 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_carnivalcity.js, tag=京东手机狂欢城, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        ""
     ]
 }
