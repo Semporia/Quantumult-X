@@ -64,6 +64,6 @@
         "11 1 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_lotteryMachine.js, tag=抽奖机 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_lotteryMachine.png",
         "11 9 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_rankingList.js, tag=排行榜 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_rankingList.png",
         "0 9,12,18 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_jxnc.js, tag=京喜农场 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jx_nc.png",
-        "2 9 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+        "2 9 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd.png, enabled=true"
     ]
 }
