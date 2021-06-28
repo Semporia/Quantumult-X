@@ -70,6 +70,7 @@
         "0 0 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_blueCoin.js, tag=东东超市兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
         "0 0-18/6 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_carnivalcity.js, tag=京东手机狂欢城, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "10 * * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_daily_egg.js, tag=天天提鹅, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdte.png, enabled=true",
-        "0 0-23/2 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_EsportsManager.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/icon/jd_EsportsManager.png, enabled=true"
+        "0 0-23/2 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_EsportsManager.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/icon/jd_EsportsManager.png, enabled=true",
+        "1 12,23 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png, enabled=true"
     ]
 }
