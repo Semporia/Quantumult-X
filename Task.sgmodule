@@ -50,6 +50,7 @@
         "13 0-23/2 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_zoo.js, tag=618动物联萌 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_zoo.png",
         "0-59/30 * * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_zooCollect.js, tag=618动物联萌收集金币 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_zooCollect.png",
         "0 0 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_xtg.js, tag=家电星推官 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_xtg.png",
+        "0 0 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_xtg_help.js, tag=家电星推官好友互助 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_xtg.png",
         "13 1,22 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_gold_creator.js, tag=金榜创造营 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_gold_creator.png",
         "0 0,1-23/3 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_mohe.js, tag=5G超级盲盒 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_mohe.png",
         "0 1,21 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_star_shop.js, tag=明星小店 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_star_shop.png",
@@ -75,6 +76,7 @@
         "10-20/5 12 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "20 0,22 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "0 7 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
-        "8 0-23/3 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed.js, tag=京东天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true"
+        "8 0-23/3 * * * https://raw.githubusercontent.com/Semporia/Scripts/jd_speed.js, tag=京东天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true",
+        ""
     ]
 }
