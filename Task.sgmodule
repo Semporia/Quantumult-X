@@ -76,6 +76,6 @@
         "4 10 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_jxlhb.js, tag=京喜领88元红包 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_jxlhb.png",
         "0 9,12,18 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_jxnc.js, tag=京喜农场 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jx_nc.png",
         "0 * * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_cfd.js, tag=京喜财富岛 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jx_cfd.png",
-        "0 0 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_cfdtx.js, tag=京喜财富岛提现 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jx_cfdtx.png"
+        "0 0 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_cfdtx.js, tag=京喜财富岛提现 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jx_cfd.png"
     ]
 }
