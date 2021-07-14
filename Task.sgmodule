@@ -1,7 +1,7 @@
 
 {
     "name":"Cron Task",
-    "description":"2021.06.28  20:38:42",
+    "description":"2021.07.14  20:31:16",
     "task":[
         "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/JD_DailyBonus.png",
         "0 10,11 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_pk.js, tag=京东京享值PK, img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd.png"
