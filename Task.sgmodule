@@ -4,6 +4,7 @@
     "description":"2021.06.28  20:38:42",
     "task":[
         "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/JD_DailyBonus.png",
+        "0 10,11 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_pk.js, tag=京东京享值PK, img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd.png"
         "5 6-18/6 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_fruit.png",
         "15 6-18/6 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_pet.js, tag=东东萌宠 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_pet.png",
         "1 7-21/2 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_plantBean.js, tag=种豆得豆 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_plantBean.png",
