@@ -2,7 +2,7 @@
 {
     "name":"Semporia",
     "description":"https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Semporia.json",
-    "UpdateTime" : "2021-07-17 14:00",
+    "UpdateTime" : "2021-07-17 14:18",
     "task":[
         "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/JD_DailyBonus.png, enabled=true",
         "0 10,11 * * * https://raw.githubusercontent.com/Semporia/Scripts/he1pu/jd_pk.js, tag=京东京享值PK, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/jd.png, enabled=true",
