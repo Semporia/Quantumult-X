@@ -1,5 +1,8 @@
-# Spotify
+# NAME: Spotify
+
+HOST-SUFFIX,audio-ak-spotify-com.akamaized.net,Spotify
 HOST-SUFFIX,byspotify.com,Spotify
+HOST-SUFFIX,heads4-ak-spotify-com.akamaized.net,Spotify
 HOST-SUFFIX,pscdn.co,Spotify
 HOST-SUFFIX,scdn.co,Spotify
 HOST-SUFFIX,spoti.fi,Spotify
