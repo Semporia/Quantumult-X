@@ -1,4 +1,4 @@
-# 自用整合Quantumult X 复写+分流+icon
+# 自用整合 Quantumult X 重写 + 分流 + icon
 
 ### 目录
 ***
@@ -6,7 +6,7 @@
 * [Filter](#Filter)
 * [Bubble](#Bubble)
 * [Rewrite](#Rewrite)
-* [scripts](#scripts)
+* [Scripts](#Scripts)
 
 ***
 ### Configuration
@@ -30,7 +30,7 @@
 * [Quantumult X 重写](https://github.com/Semporia/Quantumult-X/tree/master/Rewrite)  
 
 ***
-### scripts
+### Scripts
 * [Quantumult X 脚本](https://github.com/Semporia/Quantumult-X/tree/master/scripts)  
 
 
