@@ -3,14 +3,20 @@
 # > Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,apple.comscoreresearch.com,Apple
+HOST,none,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
+HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com.cdn20.com,Apple
 HOST-SUFFIX,apple.com.cn,Apple
+HOST-SUFFIX,apple.com.mwcloudcdn.com,Apple
+HOST-SUFFIX,apple.com.mwcname.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
@@ -18,10 +24,12 @@ HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,crashlytics.com,Apple
+HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
@@ -62,15 +70,18 @@ HOST-SUFFIX,icloudsecure.net,Apple
 HOST-SUFFIX,icloudsetup.com,Apple
 HOST-SUFFIX,ios-icloud.com,Apple
 HOST-SUFFIX,itunes.com,Apple
+HOST-SUFFIX,itunes.com.edgekey.net,Apple
 HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
 HOST-SUFFIX,mzstatic.com,Apple
+HOST-SUFFIX,safebrowsing.apple,Apple
 HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
-HOST-KEYWORD,icloud.com.akadns.net,Apple
+HOST-KEYWORD,icoudo,Apple
+HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
 USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
@@ -90,6 +101,7 @@ USER-AGENT,com.apple.Maps,Apple
 USER-AGENT,com.apple.appstored*,Apple
 USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.news*,Apple
+USER-AGENT,com.apple.trustd*,Apple
 USER-AGENT,com.apple.tv*,Apple
 USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
@@ -135,6 +147,17 @@ HOST-SUFFIX,sharpdaily.tw,AppleDaily
 HOST-SUFFIX,mail.icloud.com.cn,AppleMail
 HOST-SUFFIX,mail.me.com,AppleMail
 
+# > Apple Music
+HOST,aod-ssl.itunes.apple.com,AppleMusic
+HOST,aod.itunes.apple.com,AppleMusic
+HOST,audio-ssl.itunes.apple.com,AppleMusic
+HOST,audio.itunes.apple.com,AppleMusic
+HOST,mvod.itunes.apple.com,AppleMusic
+HOST,streamingaudio.itunes.apple.com,AppleMusic
+HOST-SUFFIX,blobstore.apple.com,AppleMusic
+HOST-SUFFIX,music.apple.com,AppleMusic
+USER-AGENT,Music*,AppleMusic
+
 # Apple News
 HOST,apple.comscoreresearch.com,AppleNews
 HOST,gateway.icloud.com,AppleNews
@@ -143,15 +166,34 @@ HOST,news-assets.apple.com,AppleNews
 HOST,news-client.apple.com,AppleNews
 HOST,news-edge.apple.com,AppleNews
 HOST,news-events.apple.com,AppleNews
+HOST,none,AppleNews
 HOST-SUFFIX,apple.news,AppleNews
 USER-AGENT,AppleNews*,AppleNews
 USER-AGENT,com.apple.news*,AppleNews
+
+# AppleProxy
+HOST,api-glb-sea.smoot.apple.com,AppleProxy
+HOST,books.itunes.apple.com,AppleProxy
+HOST,cvws.icloud-content.com,AppleProxy
+HOST,developer.apple.com,AppleProxy
+HOST,hls.itunes.apple.com,AppleProxy
+HOST,itunes.apple.com,AppleProxy
+HOST,lookup-api.apple.com,AppleProxy
+HOST,sandbox.itunes.apple.com,AppleProxy
+HOST,testflight.apple.com,AppleProxy
+HOST-SUFFIX,apple-dns.net,AppleProxy
+HOST-SUFFIX,apps.apple.com,AppleProxy
+HOST-SUFFIX,appsto.re,AppleProxy
+HOST-SUFFIX,blobstore.apple.com,AppleProxy
+HOST-SUFFIX,digicert.com,AppleProxy
+USER-AGENT,com.apple.trustd*,AppleProxy
 
 # Apple TV
 HOST,hls-amt.itunes.apple.com,AppleTV
 HOST,hls.itunes.apple.com,AppleTV
 HOST,np-edge.itunes.apple.com,AppleTV
 HOST,play-edge.itunes.apple.com,AppleTV
+HOST,uts-api.itunes.apple.com,AppleTV
 HOST-SUFFIX,tv.apple.com,AppleTV
 USER-AGENT,AppleTV*,AppleTV
 USER-AGENT,com.apple.tv*,AppleTV
@@ -163,13 +205,6 @@ HOST,guzzoni.apple.com,Siri
 HOST,beta.apple.com,TestFlight
 HOST,testflight.apple.com,TestFlight
 HOST-KEYWORD,testflight,TestFlight
-
-# > Apple Music Web
-DOMAIN,beta.music.apple.com,Apple
-DOMAIN,aod.itunes.apple.com,Apple
-DOMAIN,api.smoot.apple.cn,Apple
-DOMAIN,music.apple.com,Apple
-DOMAIN,mvod.itunes.apple.com,Apple
 
 # > Map
 DOMAIN-SUFFIX,ls.apple.com,Apple
