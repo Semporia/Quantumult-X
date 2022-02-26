@@ -1,8 +1,8 @@
 # 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
 
 # NAME: AppStore
-HOST,apps.apple.com,Apple
-HOST,itunes.apple.com,Apple
+HOST,apps.apple.com,AppStore
+HOST,itunes.apple.com,AppStore
 # NAME: Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -109,79 +109,79 @@ IP-CIDR,205.180.175.0/24,Apple
 IP-CIDR,63.92.224.0/19,Apple
 IP-CIDR,65.199.22.0/23,Apple
 # NAME: AppleDaily
-HOST-SUFFIX,appledaily.com,Apple
-HOST-SUFFIX,appledaily.com.hk,Apple
-HOST-SUFFIX,appledaily.com.tw,Apple
-HOST-SUFFIX,appledaily.hk,Apple
-HOST-SUFFIX,atnext.com,Apple
-HOST-SUFFIX,eracom.com.tw,Apple
-HOST-SUFFIX,next.hk,Apple
-HOST-SUFFIX,nextdigital.com.hk,Apple
-HOST-SUFFIX,nextmag.com.tw,Apple
-HOST-SUFFIX,nextmedia.com,Apple
-HOST-SUFFIX,nextmgz.com,Apple
-HOST-SUFFIX,nexttv.com.tw,Apple
-HOST-SUFFIX,sharpdaily.tw,Apple
+HOST-SUFFIX,appledaily.com,AppleDaily
+HOST-SUFFIX,appledaily.com.hk,AppleDaily
+HOST-SUFFIX,appledaily.com.tw,AppleDaily
+HOST-SUFFIX,appledaily.hk,AppleDaily
+HOST-SUFFIX,atnext.com,AppleDaily
+HOST-SUFFIX,eracom.com.tw,AppleDaily
+HOST-SUFFIX,next.hk,AppleDaily
+HOST-SUFFIX,nextdigital.com.hk,AppleDaily
+HOST-SUFFIX,nextmag.com.tw,AppleDaily
+HOST-SUFFIX,nextmedia.com,AppleDaily
+HOST-SUFFIX,nextmgz.com,AppleDaily
+HOST-SUFFIX,nexttv.com.tw,AppleDaily
+HOST-SUFFIX,sharpdaily.tw,AppleDaily
 # NAME: AppleMail
-HOST-SUFFIX,mail.icloud.com.cn,Apple
-HOST-SUFFIX,mail.me.com,Apple
+HOST-SUFFIX,mail.icloud.com.cn,AppleMail
+HOST-SUFFIX,mail.me.com,AppleMail
 # NAME: AppleMusic
-HOST,aod-ssl.itunes.apple.com,Apple
-HOST,aod.itunes.apple.com,Apple
-HOST,audio-ssl.itunes.apple.com,Apple
-HOST,audio.itunes.apple.com,Apple
-HOST,mvod.itunes.apple.com,Apple
-HOST,streamingaudio.itunes.apple.com,Apple
-HOST-SUFFIX,applemusic.com,Apple
-HOST-SUFFIX,blobstore.apple.com,Apple
-HOST-SUFFIX,music.apple.com,Apple
-USER-AGENT,Music*,Apple
+HOST,aod-ssl.itunes.apple.com,AppleMusic
+HOST,aod.itunes.apple.com,AppleMusic
+HOST,audio-ssl.itunes.apple.com,AppleMusic
+HOST,audio.itunes.apple.com,AppleMusic
+HOST,mvod.itunes.apple.com,AppleMusic
+HOST,streamingaudio.itunes.apple.com,AppleMusic
+HOST-SUFFIX,applemusic.com,AppleMusic
+HOST-SUFFIX,blobstore.apple.com,AppleMusic
+HOST-SUFFIX,music.apple.com,AppleMusic
+USER-AGENT,Music*,AppleMusic
 # NAME: AppleNews
-HOST,apple.comscoreresearch.com,Apple
-HOST,gateway.icloud.com,Apple
-HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,news-assets.apple.com,Apple
-HOST,news-client-search.apple.com,Apple
-HOST,news-client.apple.com,Apple
-HOST,news-edge.apple.com,Apple
-HOST,news-events.apple.com,Apple
-HOST-SUFFIX,apple.news,Apple
-USER-AGENT,AppleNews*,Apple
-USER-AGENT,com.apple.news*,Apple
+HOST,apple.comscoreresearch.com,AppleNews
+HOST,gateway.icloud.com,AppleNews
+HOST,gspe1-ssl.ls.apple.com,AppleNews
+HOST,news-assets.apple.com,AppleNews
+HOST,news-client-search.apple.com,AppleNews
+HOST,news-client.apple.com,AppleNews
+HOST,news-edge.apple.com,AppleNews
+HOST,news-events.apple.com,AppleNews
+HOST-SUFFIX,apple.news,AppleNews
+USER-AGENT,AppleNews*,AppleNews
+USER-AGENT,com.apple.news*,AppleNews
 # NAME: AppleProxy
-HOST,api-glb-sea.smoot.apple.com,Apple
-HOST,books.itunes.apple.com,Apple
-HOST,cvws.icloud-content.com,Apple
-HOST,developer.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
-HOST,itunes.apple.com,Apple
-HOST,lookup-api.apple.com,Apple
-HOST,sandbox.itunes.apple.com,Apple
-HOST,testflight.apple.com,Apple
-HOST-SUFFIX,apple-dns.net,Apple
-HOST-SUFFIX,apps.apple.com,Apple
-HOST-SUFFIX,appsto.re,Apple
-HOST-SUFFIX,blobstore.apple.com,Apple
-HOST-SUFFIX,digicert.com,Apple
-USER-AGENT,com.apple.trustd*,Apple
+HOST,api-glb-sea.smoot.apple.com,AppleProxy
+HOST,books.itunes.apple.com,AppleProxy
+HOST,cvws.icloud-content.com,AppleProxy
+HOST,developer.apple.com,AppleProxy
+HOST,hls.itunes.apple.com,AppleProxy
+HOST,itunes.apple.com,AppleProxy
+HOST,lookup-api.apple.com,AppleProxy
+HOST,sandbox.itunes.apple.com,AppleProxy
+HOST,testflight.apple.com,AppleProxy
+HOST-SUFFIX,apple-dns.net,AppleProxy
+HOST-SUFFIX,apps.apple.com,AppleProxy
+HOST-SUFFIX,appsto.re,AppleProxy
+HOST-SUFFIX,blobstore.apple.com,AppleProxy
+HOST-SUFFIX,digicert.com,AppleProxy
+USER-AGENT,com.apple.trustd*,AppleProxy
 # NAME: AppleTV
-HOST,hls-amt.itunes.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
-HOST,np-edge.itunes.apple.com,Apple
-HOST,play-edge.itunes.apple.com,Apple
-HOST,tv.applemusic.com,Apple
-HOST,uts-api.itunes.apple.com,Apple
-HOST-SUFFIX,tv.apple.com,Apple
-USER-AGENT,AppleTV*,Apple
-USER-AGENT,com.apple.tv*,Apple
+HOST,hls-amt.itunes.apple.com,AppleTV
+HOST,hls.itunes.apple.com,AppleTV
+HOST,np-edge.itunes.apple.com,AppleTV
+HOST,play-edge.itunes.apple.com,AppleTV
+HOST,tv.applemusic.com,AppleTV
+HOST,uts-api.itunes.apple.com,AppleTV
+HOST-SUFFIX,tv.apple.com,AppleTV
+USER-AGENT,AppleTV*,AppleTV
+USER-AGENT,com.apple.tv*,AppleTV
 
 # Siri
-HOST,guzzoni.apple.com,Apple
+HOST,guzzoni.apple.com,Siri
 
 # TestFlight
-HOST,beta.apple.com,Apple
-HOST,testflight.apple.com,Apple
-HOST-KEYWORD,testflight,Apple
+HOST,beta.apple.com,TestFlight
+HOST,testflight.apple.com,TestFlight
+HOST-KEYWORD,testflight,TestFlight
 
 # > Map
 DOMAIN-SUFFIX,ls.apple.com,Apple
