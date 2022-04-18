@@ -132,7 +132,6 @@ HOST,audio-ssl.itunes.apple.com,AppleMusic
 HOST,audio.itunes.apple.com,AppleMusic
 HOST,mvod.itunes.apple.com,AppleMusic
 HOST,streamingaudio.itunes.apple.com,AppleMusic
-HOST-SUFFIX,applemusic.com,AppleMusic
 HOST-SUFFIX,blobstore.apple.com,AppleMusic
 HOST-SUFFIX,music.apple.com,AppleMusic
 USER-AGENT,Music*,AppleMusic
@@ -169,7 +168,6 @@ HOST,hls-amt.itunes.apple.com,AppleTV
 HOST,hls.itunes.apple.com,AppleTV
 HOST,np-edge.itunes.apple.com,AppleTV
 HOST,play-edge.itunes.apple.com,AppleTV
-HOST,tv.applemusic.com,AppleTV
 HOST,uts-api.itunes.apple.com,AppleTV
 HOST-SUFFIX,tv.apple.com,AppleTV
 USER-AGENT,AppleTV*,AppleTV
