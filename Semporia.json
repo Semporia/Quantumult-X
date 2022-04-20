@@ -4,7 +4,7 @@
     "description":"https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Semporia.json",
     "UpdateTime" : "2021-07-17 14:18",
     "task":[
-        "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/JD_DailyBonus.png, enabled=true",
+        "5 0 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/JD_DailyBonus.js, tag=京东, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/JD_DailyBonus.png, enabled=true",
         "0 10,11 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_pk.js, tag=京东京享值PK, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/jd.png, enabled=true",
         "5 6-18/6 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_fruit.js, tag=东东农场, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/jd_fruit.png, enabled=true",
         "15 6-18/6 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_pet.js, tag=东东萌宠, img-url=https://cdn.jsdelivr.net/gh/Semporia/Scripts@main/API-Icon/jd_pet.png, enabled=true",
