@@ -1,5 +1,4 @@
 # NAME: Microsoft
-
 HOST-SUFFIX,1drv.com,Microsoft
 HOST-SUFFIX,a-msedge.net,Microsoft
 HOST-SUFFIX,a1158.g.akamai.net,Microsoft
@@ -146,7 +145,6 @@ HOST-SUFFIX,ie11.com,Microsoft
 HOST-SUFFIX,ie8.co,Microsoft
 HOST-SUFFIX,ie9.com,Microsoft
 HOST-SUFFIX,imaginecup.pl,Microsoft
-HOST-SUFFIX,img-prod-cms-rt-microsoft-com,Microsoft
 HOST-SUFFIX,img-prod-cms-rt-microsoft-com.akamaized.net,Microsoft
 HOST-SUFFIX,img-s-msn-com.akamaized.net,Microsoft
 HOST-SUFFIX,ingads.com,Microsoft
@@ -161,6 +159,7 @@ HOST-SUFFIX,latampartneruniversity.com,Microsoft
 HOST-SUFFIX,live.com,Microsoft
 HOST-SUFFIX,live.net,Microsoft
 HOST-SUFFIX,livefilestore.com,Microsoft
+HOST-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,Microsoft
 HOST-SUFFIX,livingyourambition.com,Microsoft
 HOST-SUFFIX,localytics.com,Microsoft
 HOST-SUFFIX,lync.com,Microsoft
@@ -257,6 +256,7 @@ HOST-SUFFIX,msgamestudios.com,Microsoft
 HOST-SUFFIX,msidentity.com,Microsoft
 HOST-SUFFIX,msignitechina.com,Microsoft
 HOST-SUFFIX,msinnovationchallenge.com,Microsoft
+HOST-SUFFIX,msn.cn,Microsoft
 HOST-SUFFIX,msn.com,Microsoft
 HOST-SUFFIX,msnkids.com,Microsoft
 HOST-SUFFIX,msnmaps.com,Microsoft
@@ -423,3 +423,11 @@ HOST-KEYWORD,skydrive,Microsoft
 USER-AGENT,Microsoft*,Microsoft
 USER-AGENT,OneDrive*,Microsoft
 USER-AGENT,OneDriveiOSApp*,Microsoft
+# NAME: Mail
+HOST,imap-mail.outlook.com,Mail
+HOST,imap.gmail.com,Mail
+HOST,outlook.office365.com,Mail
+HOST,pop.gmail.com,Mail
+HOST,smtp-mail.outlook.com,Mail
+HOST,smtp.gmail.com,Mail
+HOST,smtp.office365.com,Mail
