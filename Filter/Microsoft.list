@@ -431,3 +431,18 @@ HOST,pop.gmail.com,Mail
 HOST,smtp-mail.outlook.com,Mail
 HOST,smtp.gmail.com,Mail
 HOST,smtp.office365.com,Mail
+# NAME: OneDrive
+HOST-SUFFIX,livefilestore.com,OneDrive
+HOST-SUFFIX,oneclient.sfx.ms,OneDrive
+HOST-SUFFIX,photos.live.com,OneDrive
+HOST-SUFFIX,sharepoint.com,OneDrive
+HOST-SUFFIX,sharepointonline.com,OneDrive
+HOST-SUFFIX,spoprod-a.akamaihd.net,OneDrive
+HOST-SUFFIX,storage.live.com,OneDrive
+HOST-SUFFIX,storage.msn.com,OneDrive
+HOST-KEYWORD,1drv,OneDrive
+HOST-KEYWORD,onedrive,OneDrive
+HOST-KEYWORD,skydrive,OneDrive
+USER-AGENT,OneDrive*,OneDrive
+USER-AGENT,OneDriveiOSApp*,OneDrive
+
