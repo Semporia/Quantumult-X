@@ -425,12 +425,10 @@ USER-AGENT,OneDrive*,Microsoft
 USER-AGENT,OneDriveiOSApp*,Microsoft
 # NAME: Mail
 HOST,imap-mail.outlook.com,Mail
-HOST,imap.gmail.com,Mail
 HOST,outlook.office365.com,Mail
-HOST,pop.gmail.com,Mail
 HOST,smtp-mail.outlook.com,Mail
-HOST,smtp.gmail.com,Mail
 HOST,smtp.office365.com,Mail
+
 # NAME: OneDrive
 HOST-SUFFIX,livefilestore.com,OneDrive
 HOST-SUFFIX,oneclient.sfx.ms,OneDrive
