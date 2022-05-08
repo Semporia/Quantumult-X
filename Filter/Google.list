@@ -699,3 +699,10 @@ HOST-KEYWORD,www.google.,GoogleSearch
 # NAME: GoogleVoice
 
 HOST,lens.l.google.com,GoogleVoice
+
+
+# NAME: GoogleMail
+
+HOST,imap.gmail.com,Mail
+HOST,smtp.gmail.com,Mail
+HOST,pop.gmail.com,Mail
