@@ -23,3 +23,13 @@ IP-CIDR,203.104.128.0/20,Line
 IP-CIDR,203.104.144.0/21,Line
 IP-CIDR,203.174.66.64/26,Line
 IP-CIDR,203.174.77.0/24,Line
+
+HOST,d17lx9ucc6k9fc.cloudfront.net,LineTV
+HOST,d3c7rimkq79yfu.cloudfront.net,LineTV
+HOST,d3pgb93pk7bvxj.cloudfront.net,LineTV
+HOST,d3vm9lcxb6xcm4.cloudfront.net,LineTV
+HOST-SUFFIX,chocotv.com.tw,LineTV
+HOST-SUFFIX,line-cdn.net,LineTV
+HOST-SUFFIX,line-scdn.net,LineTV
+HOST-SUFFIX,linetv.tw,LineTV
+USER-AGENT,LINE%20TV*,LineTV
