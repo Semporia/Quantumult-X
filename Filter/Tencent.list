@@ -293,7 +293,3 @@ USER-AGENT,live4iphone*,Tencent
 USER-AGENT,qqlive4iphone*,Tencent
 IP-CIDR,103.238.16.0/23,Tencent
 IP-CIDR,103.7.28.0/22,Tencent
-
-# NAME: TencentVideo
-HOST-SUFFIX,v.smtcdns.com,TencentVideo
-HOST-SUFFIX,vv.video.qq.com,TencentVideo
