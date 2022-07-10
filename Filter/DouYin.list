@@ -1,5 +1,7 @@
 # > DouYin
 host-suffix, snssdk.com, DouYin
 host-suffix, amemv.com, DouYin
+USER-AGENT, douyin*.com, DouYin
+USER-AGENT, zijie*.com, DouYin
 HOST-KEYWORD, douyin, DouYin
-HOST-KEYWORD, zijie, DouYin
+HOST-KEYWORD, zijie, DouYinÍ
