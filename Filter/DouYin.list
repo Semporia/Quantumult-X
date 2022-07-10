@@ -1,5 +1,5 @@
 # > DouYin
-host-suffix, snssdk.com
-host-suffix, amemv.com
-host-keyword, douyin
-host-keyword, zijie
+host-suffix, snssdk.com, DouYin
+host-suffix, amemv.com, DouYin
+HOST-KEYWORD, douyin, DouYin
+HOST-KEYWORD, zijie, DouYin
