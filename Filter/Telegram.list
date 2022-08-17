@@ -1,4 +1,5 @@
 # NAME: Telegram
+
 HOST-SUFFIX,comments.app,Telegram
 HOST-SUFFIX,contest.com,Telegram
 HOST-SUFFIX,graph.org,Telegram
@@ -8,6 +9,7 @@ HOST-SUFFIX,t.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
 HOST-SUFFIX,telega.one,Telegram
 HOST-SUFFIX,telegra.ph,Telegram
+HOST-SUFFIX,telegram-cdn.org,Telegram
 HOST-SUFFIX,telegram.dog,Telegram
 HOST-SUFFIX,telegram.me,Telegram
 HOST-SUFFIX,telegram.org,Telegram
@@ -22,6 +24,7 @@ HOST-KEYWORD,telegram,Telegram
 IP-CIDR,109.239.140.0/24,Telegram
 IP-CIDR,149.154.160.0/20,Telegram
 IP-CIDR,185.76.151.0/24,Telegram
+IP-CIDR,5.28.195.205/32,Telegram
 IP-CIDR,91.105.192.0/23,Telegram
 IP-CIDR,91.108.0.0/16,Telegram
 IP-CIDR,95.161.64.0/20,Telegram

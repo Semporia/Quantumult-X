@@ -1,6 +1,6 @@
 # NAME: Instagram
 
 HOST-SUFFIX,cdninstagram.com,Instagram
+HOST-SUFFIX,instagr.am,Instagram
 HOST-SUFFIX,instagram.com,Instagram
-DOMAIN-KEYWORD,instagram,Instagram
-
+HOST-KEYWORD,instagram,Instagram

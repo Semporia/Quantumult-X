@@ -1,4 +1,10 @@
-# > pixiv
+# NAME: Pixiv
 
-DOMAIN-SUFFIX,pixiv.net,pixiv
-DOMAIN-KEYWORD,pixiv,pixiv
+HOST-SUFFIX,booth.pm,Pixiv
+HOST-SUFFIX,fanbox.cc,Pixiv
+HOST-SUFFIX,pixiv.cat,Pixiv
+HOST-SUFFIX,pixiv.co.jp,Pixiv
+HOST-SUFFIX,pixiv.me,Pixiv
+HOST-SUFFIX,pixiv.net,Pixiv
+HOST-SUFFIX,pixiv.org,Pixiv
+HOST-SUFFIX,pximg.net,Pixiv

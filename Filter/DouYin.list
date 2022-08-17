@@ -1,5 +1,8 @@
-# > DouYin
-host-suffix, snssdk.com, DouYin
-host-suffix, amemv.com, DouYin
-HOST-KEYWORD, douyin, DouYin
-HOST-KEYWORD, zijie, DouYinÍ
+# NAME: DouYin
+
+HOST-SUFFIX,amemv.com,DouYin
+HOST-SUFFIX,ixigua.com,DouYin
+HOST-SUFFIX,ixiguavideo.com,DouYin
+HOST-SUFFIX,pstatp.com,DouYin
+HOST-SUFFIX,snssdk.com,DouYin
+HOST-SUFFIX,toutiao.com,DouYin
