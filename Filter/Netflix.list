@@ -1,9 +1,12 @@
 # NAME: Netflix
+
 HOST,api.fast.com,Netflix
 HOST,netflix.com.edgesuite.net,Netflix
 HOST-SUFFIX,fast.com,Netflix
+HOST-SUFFIX,flxvpn.net,Netflix
 HOST-SUFFIX,netflix.ca,Netflix
 HOST-SUFFIX,netflix.com,Netflix
+HOST-SUFFIX,netflix.com.au,Netflix
 HOST-SUFFIX,netflix.com.edgesuite.net,Netflix
 HOST-SUFFIX,netflix.net,Netflix
 HOST-SUFFIX,netflixdnstest0.com,Netflix
@@ -18,6 +21,7 @@ HOST-SUFFIX,netflixdnstest7.com,Netflix
 HOST-SUFFIX,netflixdnstest8.com,Netflix
 HOST-SUFFIX,netflixdnstest9.com,Netflix
 HOST-SUFFIX,netflixinvestor.com,Netflix
+HOST-SUFFIX,netflixstudios.com,Netflix
 HOST-SUFFIX,netflixtechblog.com,Netflix
 HOST-SUFFIX,nflxext.com,Netflix
 HOST-SUFFIX,nflximg.com,Netflix
@@ -28,9 +32,7 @@ HOST-SUFFIX,nflxvideo.net,Netflix
 HOST-SUFFIX,us-west-2.amazonaws.com,Netflix
 HOST-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.apiproxy-,Netflix
-HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.ichnaea-web-,Netflix
-HOST-KEYWORD,netflix,Netflix
 HOST-KEYWORD,netflixdnstest,Netflix
 USER-AGENT,Argo*,Netflix
 IP-CIDR,103.87.204.0/22,Netflix
@@ -39,6 +41,7 @@ IP-CIDR,108.128.160.0/23,Netflix
 IP-CIDR,108.128.162.0/24,Netflix
 IP-CIDR,108.136.154.16/28,Netflix
 IP-CIDR,108.136.154.32/27,Netflix
+IP-CIDR,108.137.114.0/28,Netflix
 IP-CIDR,108.175.32.0/20,Netflix
 IP-CIDR,13.112.191.184/29,Netflix
 IP-CIDR,13.113.196.64/26,Netflix
@@ -81,6 +84,7 @@ IP-CIDR,13.211.12.160/27,Netflix
 IP-CIDR,13.211.12.192/27,Netflix
 IP-CIDR,13.211.12.248/29,Netflix
 IP-CIDR,13.211.166.192/28,Netflix
+IP-CIDR,13.212.132.0/22,Netflix
 IP-CIDR,13.212.209.128/26,Netflix
 IP-CIDR,13.212.209.94/31,Netflix
 IP-CIDR,13.212.209.96/27,Netflix
@@ -139,6 +143,7 @@ IP-CIDR,13.245.93.140/30,Netflix
 IP-CIDR,13.245.93.160/29,Netflix
 IP-CIDR,13.245.93.176/28,Netflix
 IP-CIDR,13.245.93.192/28,Netflix
+IP-CIDR,13.246.108.0/22,Netflix
 IP-CIDR,13.246.70.0/23,Netflix
 IP-CIDR,13.248.224.0/21,Netflix
 IP-CIDR,13.248.232.0/23,Netflix
@@ -220,6 +225,8 @@ IP-CIDR,130.176.86.0/23,Netflix
 IP-CIDR,130.176.88.0/21,Netflix
 IP-CIDR,130.176.96.0/19,Netflix
 IP-CIDR,15.152.10.0/24,Netflix
+IP-CIDR,15.152.133.112/28,Netflix
+IP-CIDR,15.152.133.128/28,Netflix
 IP-CIDR,15.152.174.0/23,Netflix
 IP-CIDR,15.152.176.0/22,Netflix
 IP-CIDR,15.152.24.0/26,Netflix
@@ -285,6 +292,7 @@ IP-CIDR,15.228.126.72/30,Netflix
 IP-CIDR,15.228.129.0/24,Netflix
 IP-CIDR,15.228.144.0/24,Netflix
 IP-CIDR,15.228.151.0/24,Netflix
+IP-CIDR,15.228.64.0/22,Netflix
 IP-CIDR,15.228.72.64/26,Netflix
 IP-CIDR,15.228.92.192/26,Netflix
 IP-CIDR,15.228.97.0/24,Netflix
@@ -313,6 +321,7 @@ IP-CIDR,18.132.21.0/24,Netflix
 IP-CIDR,18.132.22.0/23,Netflix
 IP-CIDR,18.134.255.160/27,Netflix
 IP-CIDR,18.134.255.192/26,Netflix
+IP-CIDR,18.134.68.0/22,Netflix
 IP-CIDR,18.135.226.192/26,Netflix
 IP-CIDR,18.136.1.192/26,Netflix
 IP-CIDR,18.138.134.128/25,Netflix
@@ -374,6 +383,7 @@ IP-CIDR,18.188.9.0/26,Netflix
 IP-CIDR,18.188.9.64/29,Netflix
 IP-CIDR,18.188.9.80/28,Netflix
 IP-CIDR,18.192.142.0/23,Netflix
+IP-CIDR,18.192.216.0/22,Netflix
 IP-CIDR,18.196.161.0/26,Netflix
 IP-CIDR,18.196.161.184/29,Netflix
 IP-CIDR,18.196.161.192/28,Netflix
@@ -413,10 +423,12 @@ IP-CIDR,18.237.140.160/29,Netflix
 IP-CIDR,18.252.145.156/30,Netflix
 IP-CIDR,18.252.145.160/28,Netflix
 IP-CIDR,18.252.145.192/27,Netflix
+IP-CIDR,18.252.165.140/30,Netflix
 IP-CIDR,18.252.4.0/30,Netflix
 IP-CIDR,18.252.4.16/29,Netflix
 IP-CIDR,18.252.56.0/23,Netflix
 IP-CIDR,18.253.186.0/24,Netflix
+IP-CIDR,18.254.68.0/23,Netflix
 IP-CIDR,185.2.220.0/22,Netflix
 IP-CIDR,185.9.188.0/22,Netflix
 IP-CIDR,192.173.64.0/18,Netflix
@@ -431,8 +443,10 @@ IP-CIDR,204.246.166.0/24,Netflix
 IP-CIDR,205.251.218.0/24,Netflix
 IP-CIDR,207.45.72.0/22,Netflix
 IP-CIDR,208.75.76.0/22,Netflix
+IP-CIDR,210.0.153.0/24,Netflix
 IP-CIDR,218.102.32.0/19,Netflix
 IP-CIDR,219.76.0.0/17,Netflix
+IP-CIDR,23.23.189.144/28,Netflix
 IP-CIDR,23.240.0.0/12,Netflix
 IP-CIDR,23.78.0.0/16,Netflix
 IP-CIDR,3.0.5.224/27,Netflix
@@ -481,6 +495,7 @@ IP-CIDR,3.113.218.112/28,Netflix
 IP-CIDR,3.113.218.128/27,Netflix
 IP-CIDR,3.113.218.68/30,Netflix
 IP-CIDR,3.113.218.72/29,Netflix
+IP-CIDR,3.114.164.0/22,Netflix
 IP-CIDR,3.12.216.0/22,Netflix
 IP-CIDR,3.12.23.88/29,Netflix
 IP-CIDR,3.120.181.224/27,Netflix
@@ -533,6 +548,7 @@ IP-CIDR,3.216.148.0/22,Netflix
 IP-CIDR,3.216.99.160/27,Netflix
 IP-CIDR,3.217.228.0/22,Netflix
 IP-CIDR,3.218.180.0/22,Netflix
+IP-CIDR,3.227.4.0/22,Netflix
 IP-CIDR,3.228.170.0/23,Netflix
 IP-CIDR,3.228.172.0/23,Netflix
 IP-CIDR,3.228.181.0/24,Netflix
@@ -554,6 +570,7 @@ IP-CIDR,3.235.26.0/23,Netflix
 IP-CIDR,3.235.32.0/21,Netflix
 IP-CIDR,3.236.169.192/26,Netflix
 IP-CIDR,3.236.48.0/23,Netflix
+IP-CIDR,3.238.166.0/24,Netflix
 IP-CIDR,3.238.178.100/30,Netflix
 IP-CIDR,3.238.178.104/29,Netflix
 IP-CIDR,3.238.178.112/29,Netflix
@@ -601,6 +618,7 @@ IP-CIDR,3.239.157.64/27,Netflix
 IP-CIDR,3.239.157.8/31,Netflix
 IP-CIDR,3.239.157.96/30,Netflix
 IP-CIDR,3.24.1.208/28,Netflix
+IP-CIDR,3.248.176.0/22,Netflix
 IP-CIDR,3.248.180.128/25,Netflix
 IP-CIDR,3.248.180.40/29,Netflix
 IP-CIDR,3.248.180.64/26,Netflix
@@ -613,6 +631,7 @@ IP-CIDR,3.248.244.240/30,Netflix
 IP-CIDR,3.248.245.0/24,Netflix
 IP-CIDR,3.248.246.0/23,Netflix
 IP-CIDR,3.249.28.0/23,Netflix
+IP-CIDR,3.25.248.0/22,Netflix
 IP-CIDR,3.25.37.128/25,Netflix
 IP-CIDR,3.25.38.0/23,Netflix
 IP-CIDR,3.25.40.0/24,Netflix
@@ -646,6 +665,12 @@ IP-CIDR,3.26.82.240/29,Netflix
 IP-CIDR,3.26.83.0/24,Netflix
 IP-CIDR,3.26.84.0/22,Netflix
 IP-CIDR,3.26.88.0/27,Netflix
+IP-CIDR,3.28.70.48/28,Netflix
+IP-CIDR,3.28.70.96/27,Netflix
+IP-CIDR,3.30.129.0/24,Netflix
+IP-CIDR,3.30.130.0/23,Netflix
+IP-CIDR,3.30.40.84/30,Netflix
+IP-CIDR,3.32.139.0/24,Netflix
 IP-CIDR,3.32.190.244/30,Netflix
 IP-CIDR,3.32.190.248/29,Netflix
 IP-CIDR,3.34.37.0/24,Netflix
@@ -653,6 +678,7 @@ IP-CIDR,3.34.38.0/23,Netflix
 IP-CIDR,3.34.89.192/29,Netflix
 IP-CIDR,3.34.89.64/26,Netflix
 IP-CIDR,3.35.130.128/25,Netflix
+IP-CIDR,3.35.160.0/22,Netflix
 IP-CIDR,3.36.167.128/25,Netflix
 IP-CIDR,3.36.167.28/30,Netflix
 IP-CIDR,3.36.167.48/29,Netflix
@@ -702,6 +728,7 @@ IP-CIDR,3.96.2.68/30,Netflix
 IP-CIDR,3.96.2.72/30,Netflix
 IP-CIDR,3.97.192.112/29,Netflix
 IP-CIDR,3.97.192.128/25,Netflix
+IP-CIDR,3.97.20.0/22,Netflix
 IP-CIDR,3.97.217.0/24,Netflix
 IP-CIDR,3.97.218.0/23,Netflix
 IP-CIDR,3.97.230.0/25,Netflix
@@ -718,6 +745,7 @@ IP-CIDR,3.99.194.0/23,Netflix
 IP-CIDR,3.99.196.0/22,Netflix
 IP-CIDR,34.192.0.0/16,Netflix
 IP-CIDR,34.195.252.0/24,Netflix
+IP-CIDR,34.195.253.0/25,Netflix
 IP-CIDR,34.208.0.0/12,Netflix
 IP-CIDR,34.226.106.180/32,Netflix
 IP-CIDR,34.226.14.0/24,Netflix
@@ -797,6 +825,8 @@ IP-CIDR,35.80.88.0/21,Netflix
 IP-CIDR,35.82.136.192/29,Netflix
 IP-CIDR,35.83.248.40/29,Netflix
 IP-CIDR,35.84.36.0/30,Netflix
+IP-CIDR,35.90.132.0/23,Netflix
+IP-CIDR,35.92.26.0/24,Netflix
 IP-CIDR,37.77.184.0/21,Netflix
 IP-CIDR,38.72.126.0/24,Netflix
 IP-CIDR,44.192.134.240/28,Netflix
@@ -807,6 +837,9 @@ IP-CIDR,44.192.140.64/28,Netflix
 IP-CIDR,44.192.245.160/28,Netflix
 IP-CIDR,44.192.255.128/28,Netflix
 IP-CIDR,44.194.111.224/30,Netflix
+IP-CIDR,44.206.4.0/22,Netflix
+IP-CIDR,44.209.84.0/22,Netflix
+IP-CIDR,44.210.64.0/22,Netflix
 IP-CIDR,44.224.0.0/16,Netflix
 IP-CIDR,44.227.178.0/24,Netflix
 IP-CIDR,44.230.0.0/16,Netflix
@@ -897,6 +930,7 @@ IP-CIDR,54.183.255.128/26,Netflix
 IP-CIDR,54.186.0.0/15,Netflix
 IP-CIDR,54.188.0.0/15,Netflix
 IP-CIDR,54.190.198.32/28,Netflix
+IP-CIDR,54.204.25.0/28,Netflix
 IP-CIDR,54.213.0.0/16,Netflix
 IP-CIDR,54.214.128.0/17,Netflix
 IP-CIDR,54.228.16.0/26,Netflix
@@ -932,6 +966,7 @@ IP-CIDR,65.1.103.192/29,Netflix
 IP-CIDR,65.1.103.200/30,Netflix
 IP-CIDR,65.1.103.208/28,Netflix
 IP-CIDR,65.1.103.224/28,Netflix
+IP-CIDR,65.1.156.0/22,Netflix
 IP-CIDR,65.1.170.0/23,Netflix
 IP-CIDR,65.1.172.0/22,Netflix
 IP-CIDR,66.133.87.0/24,Netflix

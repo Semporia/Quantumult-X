@@ -106,6 +106,7 @@ HOST-SUFFIX,yo9.com,BiliBili
 USER-AGENT,*bili*,BiliBili
 USER-AGENT,Bilibili*,BiliBili
 USER-AGENT,bili*,BiliBili
+USER-AGENT,bili-inter*,BiliBili
 IP-CIDR,106.75.74.76/32,BiliBili
 IP-CIDR,111.206.25.147/32,BiliBili
 IP-CIDR,119.3.238.64/32,BiliBili
@@ -113,3 +114,14 @@ IP-CIDR,120.92.108.182/32,BiliBili
 IP-CIDR,120.92.113.99/32,BiliBili
 IP-CIDR,120.92.153.217/32,BiliBili
 IP-CIDR,134.175.207.130/32,BiliBili
+IP-CIDR,203.107.1.0/24,BiliBili
+
+# NAME: BiliBiliIntl
+
+HOST,apm-misaka.biliapi.net,BiliBiliIntl
+HOST,p-bstarstatic.akamaized.net,BiliBiliIntl
+HOST,p.bstarstatic.com,BiliBiliIntl
+HOST,upos-bstar-mirrorakam.akamaized.net,BiliBiliIntl
+HOST,upos-bstar1-mirrorakam.akamaized.net,BiliBiliIntl
+HOST-SUFFIX,bilibili.tv,BiliBiliIntl
+HOST-SUFFIX,biliintl.com,BiliBiliIntl
