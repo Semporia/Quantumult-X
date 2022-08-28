@@ -1,15 +1,13 @@
 # NAME: DouYin
 
 HOST-SUFFIX,amemv.com,DouYin
-HOST-SUFFIX,ixigua.com,DouYin
-HOST-SUFFIX,ixiguavideo.com,DouYin
-HOST-SUFFIX,pstatp.com,DouYin
-HOST-SUFFIX,snssdk.com,DouYin
-HOST-SUFFIX,toutiao.com,DouYin
-HOST-SUFFIX,toutiaoapi.com,DouYin
-HOST-KEYWORD,core-c-lq,DouYin
-HOST-KEYWORD,core-lq,DouYin
-HOST-KEYWORD,normal-c-lq,DouYin
-HOST-KEYWORD,normal-lq,DouYin
-HOST-KEYWORD,search-quic-lq,DouYin
-HOST-KEYWORD,search-lq,DouYin
+HOST-KEYWORD, ecombdapi, DouYin
+HOST-KEYWORD, zjurl, DouYin
+HOST-KEYWORD, douyinstatic, DouYin
+HOST-KEYWORD, zijieapi, DouYin
+HOST-KEYWORD, douyinvod, DouYin
+HOST-KEYWORD, zjcdn, DouYin
+HOST-KEYWORD, douyinpic, DouYin
+HOST, sf6-sign.douyinstatic.com, DouYin
+HOST, imapi3-normal-lf.zijieapi.com, DouYin
+HOST, p3-sign.douyinpic.com, DouYin
