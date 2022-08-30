@@ -11,7 +11,17 @@
 ***
 ### Configuration
 * [Quantumult X 参考配置](https://github.com/Semporia/Quantumult-X/blob/master/Quantumult-X.conf)  
-* [Quantumult X 参考配置截图预览](https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Quantumult-X.JPEG)
+
+* Quantumult X 参考配置截图预览
+
+![](Quantumult-X.JPEG)
+
+* 图标订阅
+
+```
+https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Semporia.json
+```
+* [图标仓库](https://github.com/Semporia/Hand-Painted-icon)  
 
 ***
 ### Filter
