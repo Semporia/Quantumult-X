@@ -24,6 +24,7 @@ HOST-KEYWORD,telegram,Telegram
 IP-CIDR,109.239.140.0/24,Telegram
 IP-CIDR,149.154.160.0/20,Telegram
 IP-CIDR,185.76.151.0/24,Telegram
+IP-CIDR,5.28.195.163/32,Telegram
 IP-CIDR,5.28.195.205/32,Telegram
 IP-CIDR,91.105.192.0/23,Telegram
 IP-CIDR,91.108.0.0/16,Telegram
@@ -32,3 +33,8 @@ IP6-CIDR,2001:67c:4e8::/48,Telegram
 IP6-CIDR,2001:b28:f23c::/47,Telegram
 IP6-CIDR,2001:b28:f23f::/48,Telegram
 IP6-CIDR,2a0a:f280::/32,Telegram
+IP-ASN,211157,Telegram
+IP-ASN,44907,Telegram
+IP-ASN,59930,Telegram
+IP-ASN,62014,Telegram
+IP-ASN,62041,Telegram
