@@ -1,5 +1,4 @@
 # NAME: GitHub
-
 HOST-SUFFIX,atom.io,GitHub
 HOST-SUFFIX,dependabot.com,GitHub
 HOST-SUFFIX,ghcr.io,GitHub
@@ -26,5 +25,6 @@ HOST-SUFFIX,npmjs.org,GitHub
 HOST-SUFFIX,opensource.guide,GitHub
 HOST-SUFFIX,rawgit.com,GitHub
 HOST-SUFFIX,rawgithub.com,GitHub
+HOST-SUFFIX,repo.new,GitHub
 HOST-SUFFIX,thegithubshop.com,GitHub
 HOST-KEYWORD,github,GitHub
