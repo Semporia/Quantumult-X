@@ -1,5 +1,4 @@
 # NAME: Line
-
 HOST-SUFFIX,lin.ee,Line
 HOST-SUFFIX,line-apps.com,Line
 HOST-SUFFIX,line-cdn.net,Line
@@ -22,3 +21,16 @@ IP-CIDR,203.104.103.0/24,Line
 IP-CIDR,203.104.128.0/19,Line
 IP-CIDR,203.174.66.64/26,Line
 IP-CIDR,203.174.77.0/24,Line
+
+# NAME: LineTV
+
+HOST,d17lx9ucc6k9fc.cloudfront.net,LineTV
+HOST,d3pgb93pk7bvxj.cloudfront.net,LineTV
+HOST,d3vm9lcxb6xcm4.cloudfront.net,LineTV
+HOST-SUFFIX,chocotv.com.tw,LineTV
+HOST-SUFFIX,d3c7rimkq79yfu.cloudfront.net,LineTV
+HOST-SUFFIX,line-cdn.net,LineTV
+HOST-SUFFIX,line-scdn.net,LineTV
+HOST-SUFFIX,linetv.tw,LineTV
+USER-AGENT,LINE%20TV*,LineTV
+USER-AGENT,LINE*,LineTV
