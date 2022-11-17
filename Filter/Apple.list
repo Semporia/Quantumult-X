@@ -1,10 +1,14 @@
-# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
-
-# NAME: AppStore
-HOST,apps.apple.com,AppStore
-HOST,itunes.apple.com,AppStore
 # NAME: Apple
+# AUTHOR: Semporia
+# UPDATED: 2022-11-17 02:08:40
+# HOST: 65
+# HOST-KEYWORD: 5
+# HOST-SUFFIX: 456
+# IP-CIDR: 10
+# USER-AGENT: 7
+# TOTAL: 543
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -45,11 +49,11 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
-HOST,itunes.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -57,10 +61,10 @@ HOST,uts-api.itunes.apple.com,Apple
 HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
+HOST,amp-api.fitness.apple.com,Apple
 HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
 HOST,mask-api.icloud.com,Apple
@@ -156,7 +160,6 @@ HOST-SUFFIX,applepaysupplies.net,Apple
 HOST-SUFFIX,applepaysupplies.tv,Apple
 HOST-SUFFIX,applewallet.com,Apple
 HOST-SUFFIX,applewallet.tv,Apple
-HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.co.id,Apple
 HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,appstore.hk,Apple
@@ -432,9 +435,11 @@ HOST-SUFFIX,ukipad.com,Apple
 HOST-SUFFIX,wwwipodlounge.com,Apple
 HOST-SUFFIX,wwwmacbookair.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
+HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleenews.com,Apple
 HOST-SUFFIX,applemusic.berlin,Apple
 HOST-SUFFIX,applemusic.co,Apple
+HOST-SUFFIX,applemusic.com,Apple
 HOST-SUFFIX,applemusic.com.au,Apple
 HOST-SUFFIX,applemusic.hamburg,Apple
 HOST-SUFFIX,applemusic.wang,Apple
@@ -467,9 +472,8 @@ HOST-SUFFIX,iphoto.se,Apple
 HOST-SUFFIX,iphoto.wang,Apple
 HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
-HOST-SUFFIX,applemusic.com,Apple
-HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,apple-dns.net,Apple
+HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
@@ -546,8 +550,10 @@ IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
 IP-CIDR,63.92.224.0/19,Apple
 IP-CIDR,65.199.22.0/23,Apple
-
 # NAME: AppleDaily
+# UPDATED: 2022-11-03 17:10:09
+# HOST-SUFFIX: 13
+# TOTAL: 13
 HOST-SUFFIX,appledaily.com,AppleDaily
 HOST-SUFFIX,appledaily.com.hk,AppleDaily
 HOST-SUFFIX,appledaily.com.tw,AppleDaily
@@ -561,8 +567,10 @@ HOST-SUFFIX,nextmedia.com,AppleDaily
 HOST-SUFFIX,nextmgz.com,AppleDaily
 HOST-SUFFIX,nexttv.com.tw,AppleDaily
 HOST-SUFFIX,sharpdaily.tw,AppleDaily
-
 # NAME: AppleDev
+# UPDATED: 2022-11-03 17:11:26
+# HOST-SUFFIX: 36
+# TOTAL: 36
 HOST-SUFFIX,apple-cloudkit.com,AppleDev
 HOST-SUFFIX,apple-mapkit.com,AppleDev
 HOST-SUFFIX,apple.com.akadns.net,AppleDev
@@ -599,8 +607,10 @@ HOST-SUFFIX,webkit.org,AppleDev
 HOST-SUFFIX,webkitgtk.org,AppleDev
 HOST-SUFFIX,webobjects.com,AppleDev
 HOST-SUFFIX,wpewebkit.org,AppleDev
-
 # NAME: AppleFirmware
+# UPDATED: 2022-11-03 17:11:26
+# HOST-SUFFIX: 173
+# TOTAL: 173
 HOST-SUFFIX,12diasdepresentesdeitunes.com,AppleFirmware
 HOST-SUFFIX,12diasderegalosdeitunes.cl,AppleFirmware
 HOST-SUFFIX,12diasderegalosdeitunes.co,AppleFirmware
@@ -774,8 +784,10 @@ HOST-SUFFIX,tvappstore.net,AppleFirmware
 HOST-SUFFIX,www-cdn.icloud.com.akadns.net,AppleFirmware
 HOST-SUFFIX,wwwicloud.com,AppleFirmware
 HOST-SUFFIX,wwwitunes.com,AppleFirmware
-
 # NAME: AppleHardware
+# UPDATED: 2022-11-03 17:11:26
+# HOST-SUFFIX: 226
+# TOTAL: 226
 HOST-SUFFIX,aplestore.com,AppleHardware
 HOST-SUFFIX,aplleipods.com,AppleHardware
 HOST-SUFFIX,apple-imac.com,AppleHardware
@@ -1002,12 +1014,16 @@ HOST-SUFFIX,simplyipod.com,AppleHardware
 HOST-SUFFIX,ukipad.com,AppleHardware
 HOST-SUFFIX,wwwipodlounge.com,AppleHardware
 HOST-SUFFIX,wwwmacbookair.com,AppleHardware
-
 # NAME: AppleMail
+# UPDATED: 2022-11-03 17:09:28
+# HOST-SUFFIX: 2
+# TOTAL: 2
 HOST-SUFFIX,mail.icloud.com.cn,AppleMail
 HOST-SUFFIX,mail.me.com,AppleMail
-
 # NAME: AppleMedia
+# UPDATED: 2022-11-03 17:11:26
+# HOST-SUFFIX: 52
+# TOTAL: 52
 HOST-SUFFIX,aod.itunes.apple.com,AppleMedia
 HOST-SUFFIX,apple.comscoreresearch.com,AppleMedia
 HOST-SUFFIX,apple.news,AppleMedia
@@ -1060,8 +1076,12 @@ HOST-SUFFIX,play-edge.itunes.apple.com,AppleMedia
 HOST-SUFFIX,streamingaudio.itunes.apple.com,AppleMedia
 HOST-SUFFIX,tv.apple.com,AppleMedia
 HOST-SUFFIX,wwwapplemusic.com,AppleMedia
-
 # NAME: AppleMusic
+# UPDATED: 2022-11-03 17:09:29
+# HOST: 6
+# HOST-SUFFIX: 3
+# USER-AGENT: 1
+# TOTAL: 10
 HOST,aod-ssl.itunes.apple.com,AppleMusic
 HOST,aod.itunes.apple.com,AppleMusic
 HOST,audio-ssl.itunes.apple.com,AppleMusic
@@ -1072,8 +1092,12 @@ HOST-SUFFIX,applemusic.com,AppleMusic
 HOST-SUFFIX,blobstore.apple.com,AppleMusic
 HOST-SUFFIX,music.apple.com,AppleMusic
 USER-AGENT,Music*,AppleMusic
-
 # NAME: AppleNews
+# UPDATED: 2022-11-03 17:09:29
+# HOST: 8
+# HOST-SUFFIX: 1
+# USER-AGENT: 2
+# TOTAL: 11
 HOST,apple.comscoreresearch.com,AppleNews
 HOST,gateway.icloud.com,AppleNews
 HOST,gspe1-ssl.ls.apple.com,AppleNews
@@ -1085,8 +1109,12 @@ HOST,news-events.apple.com,AppleNews
 HOST-SUFFIX,apple.news,AppleNews
 USER-AGENT,AppleNews*,AppleNews
 USER-AGENT,com.apple.news*,AppleNews
-
 # NAME: AppleProxy
+# UPDATED: 2022-11-03 17:10:14
+# HOST: 9
+# HOST-SUFFIX: 5
+# USER-AGENT: 1
+# TOTAL: 15
 HOST,api-glb-sea.smoot.apple.com,AppleProxy
 HOST,books.itunes.apple.com,AppleProxy
 HOST,cvws.icloud-content.com,AppleProxy
@@ -1102,8 +1130,12 @@ HOST-SUFFIX,appsto.re,AppleProxy
 HOST-SUFFIX,blobstore.apple.com,AppleProxy
 HOST-SUFFIX,digicert.com,AppleProxy
 USER-AGENT,com.apple.trustd*,AppleProxy
-
 # NAME: AppleTV
+# UPDATED: 2022-11-03 17:09:29
+# HOST: 6
+# HOST-SUFFIX: 1
+# USER-AGENT: 2
+# TOTAL: 9
 HOST,hls-amt.itunes.apple.com,AppleTV
 HOST,hls.itunes.apple.com,AppleTV
 HOST,np-edge.itunes.apple.com,AppleTV
@@ -1113,27 +1145,18 @@ HOST,uts-api.itunes.apple.com,AppleTV
 HOST-SUFFIX,tv.apple.com,AppleTV
 USER-AGENT,AppleTV*,AppleTV
 USER-AGENT,com.apple.tv*,AppleTV
-
-# NAME: Siri
-HOST,guzzoni.apple.com,Siri
-
-# NAME: TestFlight
-HOST,beta.apple.com,TestFlight
-HOST,testflight.apple.com,TestFlight
-HOST-KEYWORD,testflight,TestFlight
-
-# NAME: Map
-DOMAIN-SUFFIX,ls.apple.com,Apple
-DOMAIN,gs-loc-cn.apple.com,Apple
-
-# NAME: Update
-DOMAIN,supportdownload.apple.com,Apple
-DOMAIN,appldnld.apple.com,Apple
-DOMAIN,swcdn.apple.com,Apple
-DOMAIN,apptrailers.itunes.apple.com,Apple
-DOMAIN,updates-http.cdn-apple.com,Apple
-
+# NAME: AppStore
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 2
+# TOTAL: 2
+HOST,apps.apple.com,AppStore
+HOST,itunes.apple.com,AppStore
 # NAME: iCloud
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 1
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 57
+# TOTAL: 59
 HOST,www-cdn.icloud.com.akadns.net,iCloud
 HOST-SUFFIX,apple-cloudkit.com,iCloud
 HOST-SUFFIX,apple-icloud.cn,iCloud
@@ -1193,11 +1216,135 @@ HOST-SUFFIX,mylcloud.net,iCloud
 HOST-SUFFIX,www-cdn.icloud.com.akadns.net,iCloud
 HOST-SUFFIX,wwwicloud.com,iCloud
 HOST-KEYWORD,icloud.com.akadns.net,iCloud
-
 # NAME: iCloudPrivateRelay
+# UPDATED: 2022-11-03 17:11:16
+# HOST: 6
+# TOTAL: 6
 HOST,mask-api.fe.apple-dns.net,iCloudPrivateRelay
 HOST,mask-api.icloud.com,iCloudPrivateRelay
 HOST,mask-h2.icloud.com,iCloudPrivateRelay
 HOST,mask-t.apple-dns.net,iCloudPrivateRelay
 HOST,mask.apple-dns.net,iCloudPrivateRelay
 HOST,mask.icloud.com,iCloudPrivateRelay
+# NAME: TestFlight
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 2
+# HOST-KEYWORD: 1
+# TOTAL: 3
+HOST,beta.apple.com,TestFlight
+HOST,testflight.apple.com,TestFlight
+HOST-KEYWORD,testflight,TestFlight
+# NAME: FitnessPlus
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 2
+# TOTAL: 2
+HOST,amp-api.fitness.apple.com,FitnessPlus
+HOST,hls-svod.itunes.apple.com,FitnessPlus
+# NAME: SystemOTA
+# UPDATED: 2022-11-03 17:09:29
+# HOST: 78
+# HOST-SUFFIX: 13
+# TOTAL: 91
+HOST,appldnld-cdn.apple.com.akadns.net,SystemOTA
+HOST,appldnld-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,appldnld-lb.apple.com.akadns.net,SystemOTA
+HOST,appldnld.apple.com,SystemOTA
+HOST,appldnld.apple.com.akadns.net,SystemOTA
+HOST,appldnld.apple.com.mwcname.com,SystemOTA
+HOST,appldnld.g.aaplimg.com,SystemOTA
+HOST,configuration.apple.com,SystemOTA
+HOST,gdmf-cdn.apple.com.akadns.net,SystemOTA
+HOST,gdmf-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,gdmf-lb.apple.com.akadns.net,SystemOTA
+HOST,gdmf.apple.com,SystemOTA
+HOST,gdmf.apple.com.akadns.net,SystemOTA
+HOST,gdmf.apple.com.mwcname.com,SystemOTA
+HOST,gdmf.g.aaplimg.com,SystemOTA
+HOST,gg-cdn.apple.com.akadns.net,SystemOTA
+HOST,gg-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,gg-lb.apple.com.akadns.net,SystemOTA
+HOST,gg.apple.com,SystemOTA
+HOST,gg.apple.com.akadns.net,SystemOTA
+HOST,gg.apple.com.mwcname.com,SystemOTA
+HOST,gg.g.aaplimg.com,SystemOTA
+HOST,gnf-mdn.apple.com,SystemOTA
+HOST,gnf-mr.apple.com,SystemOTA
+HOST,gs.apple.com,SystemOTA
+HOST,ig.apple.com,SystemOTA
+HOST,iphonesubmissions-cdn.apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions-lb.apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions.apple.com,SystemOTA
+HOST,iphonesubmissions.apple.com.akadns.net,SystemOTA
+HOST,iphonesubmissions.apple.com.mwcname.com,SystemOTA
+HOST,iphonesubmissions.g.aaplimg.com,SystemOTA
+HOST,mesu-cdn.apple.com.akadns.net,SystemOTA
+HOST,mesu-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,mesu-lb.apple.com.akadns.net,SystemOTA
+HOST,mesu.apple.com,SystemOTA
+HOST,mesu.apple.com.akadns.net,SystemOTA
+HOST,mesu.apple.com.mwcname.com,SystemOTA
+HOST,mesu.g.aaplimg.com,SystemOTA
+HOST,ns.itunes.apple.com,SystemOTA
+HOST,ocsp-cdn.apple.com.akadns.net,SystemOTA
+HOST,ocsp-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,ocsp-lb.apple.com.akadns.net,SystemOTA
+HOST,ocsp.apple.com,SystemOTA
+HOST,ocsp.apple.com.akadns.net,SystemOTA
+HOST,ocsp.apple.com.mwcname.com,SystemOTA
+HOST,ocsp.g.aaplimg.com,SystemOTA
+HOST,oscdn.apple.com,SystemOTA
+HOST,osrecovery.apple.com,SystemOTA
+HOST,radarsubmissions-cdn.apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions-lb.apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions.apple.com,SystemOTA
+HOST,radarsubmissions.apple.com.akadns.net,SystemOTA
+HOST,radarsubmissions.apple.com.mwcname.com,SystemOTA
+HOST,radarsubmissions.g.aaplimg.com,SystemOTA
+HOST,skl.apple.com,SystemOTA
+HOST,swcdn.apple.com,SystemOTA
+HOST,swdist.apple.com,SystemOTA
+HOST,swdownload.apple.com,SystemOTA
+HOST,swpost.apple.com,SystemOTA
+HOST,swscan-cdn.apple.com.akadns.net,SystemOTA
+HOST,swscan-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,swscan-lb.apple.com.akadns.net,SystemOTA
+HOST,swscan.apple.com,SystemOTA
+HOST,swscan.apple.com.akadns.net,SystemOTA
+HOST,swscan.apple.com.mwcname.com,SystemOTA
+HOST,swscan.g.aaplimg.com,SystemOTA
+HOST,updates-http.cdn-apple.com,SystemOTA
+HOST,updates.cdn-apple.com,SystemOTA
+HOST,xp-cdn.apple.com.akadns.net,SystemOTA
+HOST,xp-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST,xp-lb.apple.com.akadns.net,SystemOTA
+HOST,xp.apple.com,SystemOTA
+HOST,xp.apple.com.akadns.net,SystemOTA
+HOST,xp.apple.com.mwcname.com,SystemOTA
+HOST,xp.g.aaplimg.com,SystemOTA
+HOST-SUFFIX,appldnld-lb.apple.com.akadns.net,SystemOTA
+HOST-SUFFIX,appldnld.apple.com,SystemOTA
+HOST-SUFFIX,appldnld.apple.com.akadns.net,SystemOTA
+HOST-SUFFIX,appldnld.g.aaplimg.com,SystemOTA
+HOST-SUFFIX,gdmf.apple.com,SystemOTA
+HOST-SUFFIX,gdmf.apple.com.akadns.net,SystemOTA
+HOST-SUFFIX,mesu-cdn.apple.com.akadns.net,SystemOTA
+HOST-SUFFIX,mesu-cdn.origin-apple.com.akadns.net,SystemOTA
+HOST-SUFFIX,mesu.apple.com,SystemOTA
+HOST-SUFFIX,mesu.g.aaplimg.com,SystemOTA
+HOST-SUFFIX,ocsp-lb.apple.com.akadns.net,SystemOTA
+HOST-SUFFIX,ocsp.apple.com,SystemOTA
+HOST-SUFFIX,ocsp.g.aaplimg.com,SystemOTA
+# NAME: Siri
+# UPDATED: 2022-11-03 17:09:29
+# HOST: 1
+# TOTAL: 1
+HOST,guzzoni.apple.com,Siri
+# NAME: FindMy
+# UPDATED: 2022-11-03 17:09:29
+# HOST: 3
+# TOTAL: 3
+HOST,fmfmobile.icloud.com,FindMy
+HOST,fmipmobile.icloud.com,FindMy
+HOST,statici.icloud.com,FindMy
