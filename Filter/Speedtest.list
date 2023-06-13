@@ -21,4 +21,5 @@ HOST-SUFFIX,speedtest.net,Speedtest
 HOST-SUFFIX,speedtestcustom.com,Speedtest
 HOST-SUFFIX,webtest.net,Speedtest
 HOST-KEYWORD,speedtest,Speedtest
+HOST-KEYWORD,testspeed,Speedtest
 USER-AGENT,SpeedTest*,Speedtest
