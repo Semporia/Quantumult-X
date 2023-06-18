@@ -550,6 +550,7 @@ IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
 IP-CIDR,63.92.224.0/19,Apple
 IP-CIDR,65.199.22.0/23,Apple
+
 # NAME: AppleDaily
 # UPDATED: 2022-11-03 17:10:09
 # HOST-SUFFIX: 13
@@ -567,6 +568,7 @@ HOST-SUFFIX,nextmedia.com,AppleDaily
 HOST-SUFFIX,nextmgz.com,AppleDaily
 HOST-SUFFIX,nexttv.com.tw,AppleDaily
 HOST-SUFFIX,sharpdaily.tw,AppleDaily
+
 # NAME: AppleDev
 # UPDATED: 2022-11-03 17:11:26
 # HOST-SUFFIX: 36
@@ -607,6 +609,7 @@ HOST-SUFFIX,webkit.org,AppleDev
 HOST-SUFFIX,webkitgtk.org,AppleDev
 HOST-SUFFIX,webobjects.com,AppleDev
 HOST-SUFFIX,wpewebkit.org,AppleDev
+
 # NAME: AppleFirmware
 # UPDATED: 2022-11-03 17:11:26
 # HOST-SUFFIX: 173
@@ -784,6 +787,7 @@ HOST-SUFFIX,tvappstore.net,AppleFirmware
 HOST-SUFFIX,www-cdn.icloud.com.akadns.net,AppleFirmware
 HOST-SUFFIX,wwwicloud.com,AppleFirmware
 HOST-SUFFIX,wwwitunes.com,AppleFirmware
+
 # NAME: AppleHardware
 # UPDATED: 2022-11-03 17:11:26
 # HOST-SUFFIX: 226
@@ -1014,12 +1018,14 @@ HOST-SUFFIX,simplyipod.com,AppleHardware
 HOST-SUFFIX,ukipad.com,AppleHardware
 HOST-SUFFIX,wwwipodlounge.com,AppleHardware
 HOST-SUFFIX,wwwmacbookair.com,AppleHardware
+
 # NAME: AppleMail
 # UPDATED: 2022-11-03 17:09:28
 # HOST-SUFFIX: 2
 # TOTAL: 2
 HOST-SUFFIX,mail.icloud.com.cn,AppleMail
 HOST-SUFFIX,mail.me.com,AppleMail
+
 # NAME: AppleMedia
 # UPDATED: 2022-11-03 17:11:26
 # HOST-SUFFIX: 52
@@ -1076,6 +1082,7 @@ HOST-SUFFIX,play-edge.itunes.apple.com,AppleMedia
 HOST-SUFFIX,streamingaudio.itunes.apple.com,AppleMedia
 HOST-SUFFIX,tv.apple.com,AppleMedia
 HOST-SUFFIX,wwwapplemusic.com,AppleMedia
+
 # NAME: AppleMusic
 # UPDATED: 2022-11-03 17:09:29
 # HOST: 6
@@ -1092,6 +1099,7 @@ HOST-SUFFIX,applemusic.com,AppleMusic
 HOST-SUFFIX,blobstore.apple.com,AppleMusic
 HOST-SUFFIX,music.apple.com,AppleMusic
 USER-AGENT,Music*,AppleMusic
+
 # NAME: AppleNews
 # UPDATED: 2022-11-03 17:09:29
 # HOST: 8
@@ -1109,6 +1117,7 @@ HOST,news-events.apple.com,AppleNews
 HOST-SUFFIX,apple.news,AppleNews
 USER-AGENT,AppleNews*,AppleNews
 USER-AGENT,com.apple.news*,AppleNews
+
 # NAME: AppleProxy
 # UPDATED: 2022-11-03 17:10:14
 # HOST: 9
@@ -1130,6 +1139,7 @@ HOST-SUFFIX,appsto.re,AppleProxy
 HOST-SUFFIX,blobstore.apple.com,AppleProxy
 HOST-SUFFIX,digicert.com,AppleProxy
 USER-AGENT,com.apple.trustd*,AppleProxy
+
 # NAME: AppleTV
 # UPDATED: 2022-11-03 17:09:29
 # HOST: 6
@@ -1145,12 +1155,14 @@ HOST,uts-api.itunes.apple.com,AppleTV
 HOST-SUFFIX,tv.apple.com,AppleTV
 USER-AGENT,AppleTV*,AppleTV
 USER-AGENT,com.apple.tv*,AppleTV
+
 # NAME: AppStore
 # UPDATED: 2022-11-03 17:09:28
 # HOST: 2
 # TOTAL: 2
 HOST,apps.apple.com,AppStore
 HOST,itunes.apple.com,AppStore
+
 # NAME: iCloud
 # UPDATED: 2022-11-03 17:09:28
 # HOST: 1
@@ -1216,6 +1228,7 @@ HOST-SUFFIX,mylcloud.net,iCloud
 HOST-SUFFIX,www-cdn.icloud.com.akadns.net,iCloud
 HOST-SUFFIX,wwwicloud.com,iCloud
 HOST-KEYWORD,icloud.com.akadns.net,iCloud
+
 # NAME: iCloudPrivateRelay
 # UPDATED: 2022-11-03 17:11:16
 # HOST: 6
@@ -1226,6 +1239,7 @@ HOST,mask-h2.icloud.com,iCloudPrivateRelay
 HOST,mask-t.apple-dns.net,iCloudPrivateRelay
 HOST,mask.apple-dns.net,iCloudPrivateRelay
 HOST,mask.icloud.com,iCloudPrivateRelay
+
 # NAME: TestFlight
 # UPDATED: 2022-11-03 17:09:28
 # HOST: 2
@@ -1234,12 +1248,14 @@ HOST,mask.icloud.com,iCloudPrivateRelay
 HOST,beta.apple.com,TestFlight
 HOST,testflight.apple.com,TestFlight
 HOST-KEYWORD,testflight,TestFlight
+
 # NAME: FitnessPlus
 # UPDATED: 2022-11-03 17:09:28
 # HOST: 2
 # TOTAL: 2
 HOST,amp-api.fitness.apple.com,FitnessPlus
 HOST,hls-svod.itunes.apple.com,FitnessPlus
+
 # NAME: SystemOTA
 # UPDATED: 2022-11-03 17:09:29
 # HOST: 78
@@ -1336,11 +1352,13 @@ HOST-SUFFIX,mesu.g.aaplimg.com,SystemOTA
 HOST-SUFFIX,ocsp-lb.apple.com.akadns.net,SystemOTA
 HOST-SUFFIX,ocsp.apple.com,SystemOTA
 HOST-SUFFIX,ocsp.g.aaplimg.com,SystemOTA
+
 # NAME: Siri
 # UPDATED: 2022-11-03 17:09:29
 # HOST: 1
 # TOTAL: 1
 HOST,guzzoni.apple.com,Siri
+
 # NAME: FindMy
 # UPDATED: 2022-11-03 17:09:29
 # HOST: 3
@@ -1348,3 +1366,12 @@ HOST,guzzoni.apple.com,Siri
 HOST,fmfmobile.icloud.com,FindMy
 HOST,fmipmobile.icloud.com,FindMy
 HOST,statici.icloud.com,FindMy
+
+# NAME: AppleID
+# UPDATED: 2023-05-28 18:23:54
+# HOST: 4
+# TOTAL: 4
+HOST,appleid.apple.com,AppleID
+HOST,appleid.cdn-apple.com,AppleID
+HOST,gsa.apple.com,AppleID
+HOST,idmsa.apple.com,AppleID
