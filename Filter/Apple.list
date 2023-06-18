@@ -181,3 +181,9 @@ DOMAIN,appldnld.apple.com,Apple
 DOMAIN,swcdn.apple.com,Apple
 DOMAIN,apptrailers.itunes.apple.com,Apple
 DOMAIN,updates-http.cdn-apple.com,Apple
+
+# NAME: AppleID
+HOST,appleid.apple.com,AppleID
+HOST,appleid.cdn-apple.com,AppleID
+HOST,gsa.apple.com,AppleID
+HOST,idmsa.apple.com,AppleID
