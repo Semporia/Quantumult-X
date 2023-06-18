@@ -1,171 +1,24 @@
-# Google
-HOST,265.com,Google
-HOST,2mdn-cn.net,Google
-HOST,2mdn.net,Google
-HOST,accounts.googlers.com,Google
-HOST,accounts.xn--9trs65b.com,Google
-HOST,accounts.xn--ggle-55da.com,Google
-HOST,admob-cn.com,Google
-HOST,adservice.google.com,Google
-HOST,ai.ytimg.com,Google
-HOST,analytics.google.com,Google
-HOST,app-measurement-cn.com,Google
-HOST,app-measurement.com,Google
-HOST,apps5.oingo.com,Google
-HOST,avail.googleflights.net,Google
-HOST,beacons.gcp.gvt2.com,Google
-HOST,beacons.gvt2.com,Google
-HOST,beacons2.gvt2.com,Google
-HOST,beacons3.gvt2.com,Google
-HOST,borgmon.adz.google.com,Google
-HOST,c.admob.com,Google
-HOST,c.android.clients.google.com,Google
-HOST,cache-management-prod.google.com,Google
-HOST,cache.pack.google.com,Google
-HOST,checkin.gstatic.com,Google
-HOST,clickserve.cc-dt.com,Google
-HOST,clickserve.dartsearch.net,Google
-HOST,clickserver.googleads.com,Google
-HOST,clientservices.googleapis.com,Google
-HOST,cn.widevine.com,Google
-HOST,cnappinstall.googleadapis.com,Google
-HOST,connectivitycheck.gstatic.com,Google
-HOST,content.googleadapis.com,Google
-HOST,corp.google.com,Google
-HOST,corp.googleapis.com,Google
-HOST,crashlyticsreports-pa.googleapis.com,Google
+# NAME: Google
+# AUTHOR: Semporia
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 13
+# HOST-KEYWORD: 6
+# HOST-SUFFIX: 710
+# IP-CIDR: 4
+# IP6-CIDR: 1
+# USER-AGENT: 3
+# TOTAL: 737
 HOST,crl.pki.goog,Google
-HOST,csi.gstatic.com,Google
-HOST,dartsearch-cn.net,Google
-HOST,dg-meta.video.google.com,Google
-HOST,distribution.qatp1.net,Google
-HOST,distribution.qcpp1.net,Google
-HOST,distribution.qpdp1.net,Google
-HOST,dl.google.com,Google
-HOST,dl.l.google.com,Google
-HOST,doubleclick-cn.net,Google
-HOST,doubleclick.net,Google
-HOST,download.mlcc.google.com,Google
-HOST,download.qatp1.net,Google
-HOST,download.qcpp1.net,Google
-HOST,download.qpdp1.net,Google
-HOST,download.tensorflow.google.com,Google
-HOST,emmapplecodevice.googleapis.com,Google
-HOST,firebase-settings.crashlytics.com,Google
-HOST,fontfiles.googleadapis.com,Google
-HOST,fontfiles.googleapis.com,Google
-HOST,fonts.googleadapis.com,Google
 HOST,fonts.googleapis.com,Google
 HOST,fonts.gstatic.com,Google
-HOST,g0.gstatic.com,Google
-HOST,g1.gstatic.com,Google
-HOST,g2.gstatic.com,Google
-HOST,g3.gstatic.com,Google
-HOST,gcpnode.com,Google
-HOST,gonglchuangl.net,Google
-HOST,gongyichuangyi.net,Google
-HOST,google-analytics-cn.com,Google
-HOST,google-analytics.com,Google
-HOST,googleadservices-cn.com,Google
-HOST,googleadservices.com,Google
-HOST,googleanalytics.com,Google
-HOST,googleapis-cn.com,Google
-HOST,googleapps-cn.com,Google
-HOST,googleflights-cn.net,Google
-HOST,googleoptimize-cn.com,Google
-HOST,googleoptimize.com,Google
-HOST,googleplex.com,Google
-HOST,googlesyndication-cn.com,Google
-HOST,googlesyndication.com,Google
-HOST,googletagmanager-cn.com,Google
-HOST,googletagmanager.com,Google
-HOST,googletagservices-cn.com,Google
-HOST,googletagservices.com,Google
-HOST,googletraveladservices-cn.com,Google
-HOST,googletraveladservices.com,Google
-HOST,googlevads-cn.com,Google
-HOST,goto.google.com,Google
-HOST,gstatic-cn.com,Google
-HOST,gstaticadssl.l.google.com,Google
-HOST,gtm.oasisfeng.com,Google
-HOST,gvt1-cn.com,Google
-HOST,gvt2-cn.com,Google
-HOST,imasdk.googleapis.com,Google
-HOST,monitoring.qatp1.net,Google
-HOST,monitoring.qcpp1.net,Google
-HOST,monitoring.qpdp1.net,Google
 HOST,mtalk.google.com,Google
 HOST,ocsp.pki.goog,Google
-HOST,pagead-googlehosted.l.google.com,Google
-HOST,performanceparameters.googleapis.com,Google
-HOST,pki-goog.l.google.com,Google
-HOST,play.1ucrs.com,Google
-HOST,prod-controlbe.floonet.goog,Google
-HOST,prod-databe.floonet.goog,Google
-HOST,prod.databe.floonet.goog,Google
-HOST,qagpublic.qatp1.net,Google
-HOST,qagpublic.qcpp1.net,Google
-HOST,qagpublic.qpdp1.net,Google
-HOST,qgadmin.qatp1.net,Google
-HOST,qgadmin.qcpp1.net,Google
-HOST,qgadmin.qpdp1.net,Google
-HOST,qpx.googleflights.net,Google
-HOST,qualysapi.qatp1.net,Google
-HOST,qualysapi.qcpp1.net,Google
-HOST,qualysapi.qpdp1.net,Google
-HOST,qualysguard.qatp1.net,Google
-HOST,qualysguard.qcpp1.net,Google
-HOST,qualysguard.qpdp1.net,Google
-HOST,recaptcha.net,Google
-HOST,redirector.bdn.dev,Google
 HOST,redirector.c.bigcache.googleapis.com,Google
-HOST,redirector.c.chat.google.com,Google
-HOST,redirector.c.docs.google.com,Google
-HOST,redirector.c.drive.google.com,Google
-HOST,redirector.c.mail.google.com,Google
-HOST,redirector.c.pack.google.com,Google
-HOST,redirector.c.play.google.com,Google
-HOST,redirector.gcpcdn.gvt1.com,Google
 HOST,redirector.gvt1.com,Google
-HOST,redirector.offline-maps.gvt1.com,Google
-HOST,redirector.snap.gvt1.com,Google
-HOST,redirector.xn--ngstr-lra8j.com,Google
-HOST,regioninfo-pa.googleapis.com,Google
 HOST,safebrowsing-cache.google.com,Google
 HOST,safebrowsing.googleapis.com,Google
-HOST,scanservice1.qatp1.net,Google
-HOST,scanservice1.qcpp1.net,Google
-HOST,scanservice1.qpdp1.net,Google
-HOST,service.urchin.com,Google
-HOST,settings.xn--9trs65b.com,Google
-HOST,ssl-google-analytics.l.google.com,Google
-HOST,ssl.gstatic.com,Google
-HOST,staging-controlbe.floonet.goog,Google
-HOST,staging-databe.floonet.goog,Google
-HOST,staging-regioninfo-pa.googleapis.com,Google
-HOST,staging.databe.floonet.goog,Google
-HOST,support.1ucrs.com,Google
-HOST,tac.googleapis.com,Google
-HOST,test.bugs-qa.chromium.org,Google
-HOST,test.gbugs-qa.chromium.org,Google
-HOST,tools.google.com,Google
-HOST,tools.l.google.com,Google
 HOST,translate.googleapis.com,Google
-HOST,up.corp.goog,Google
-HOST,up.gcp.googlers.com,Google
-HOST,update.crashlytics.com,Google
-HOST,update.googleapis.com,Google
 HOST,voice.telephony.goog,Google
-HOST,wear.googleapis.com,Google
-HOST,www-google-analytics.l.google.com,Google
-HOST,www-googletagmanager.l.google.com,Google
-HOST,www.destinationurl.com,Google
-HOST,www.googleadapis.com,Google
-HOST,www.gstatic.com,Google
-HOST,www.pxcc.com,Google
-HOST,www.recaptcha.net,Google
-HOST,xn--9kr7l.com,Google
-HOST,xn--flw351e.com,Google
 HOST,www.googleapis.com,Google
 HOST,lens.l.google.com,Google
 HOST-SUFFIX,0emm.com,Google
@@ -376,8 +229,6 @@ HOST-SUFFIX,fastlane.tools,Google
 HOST-SUFFIX,feedburner.com,Google
 HOST-SUFFIX,fflick.com,Google
 HOST-SUFFIX,financeleadsonline.com,Google
-HOST-SUFFIX,firebase.com,Google
-HOST-SUFFIX,firebase.io,Google
 HOST-SUFFIX,firebaseapp.com,Google
 HOST-SUFFIX,firebaseio.com,Google
 HOST-SUFFIX,flutter.dev,Google
@@ -398,9 +249,7 @@ HOST-SUFFIX,gerritcodereview.com,Google
 HOST-SUFFIX,get.app,Google
 HOST-SUFFIX,get.dev,Google
 HOST-SUFFIX,get.how,Google
-HOST-SUFFIX,get.new,Google
 HOST-SUFFIX,get.page,Google
-HOST-SUFFIX,get.rsvp,Google
 HOST-SUFFIX,getbumptop.com,Google
 HOST-SUFFIX,getmdl.io,Google
 HOST-SUFFIX,getoutline.org,Google
@@ -426,7 +275,6 @@ HOST-SUFFIX,goo.gl,Google
 HOST-SUFFIX,googel.com,Google
 HOST-SUFFIX,googil.com,Google
 HOST-SUFFIX,googl.com,Google
-HOST-SUFFIX,google-access.net,Google
 HOST-SUFFIX,google-analytics-cn.com,Google
 HOST-SUFFIX,google-analytics.com,Google
 HOST-SUFFIX,google-syndication.com,Google
@@ -457,7 +305,6 @@ HOST-SUFFIX,google.ci,Google
 HOST-SUFFIX,google.cl,Google
 HOST-SUFFIX,google.cm,Google
 HOST-SUFFIX,google.cn,Google
-HOST-SUFFIX,google.co,Google
 HOST-SUFFIX,google.co.ao,Google
 HOST-SUFFIX,google.co.bw,Google
 HOST-SUFFIX,google.co.ck,Google
@@ -677,7 +524,6 @@ HOST-SUFFIX,googletraveladservices-cn.com,Google
 HOST-SUFFIX,googletraveladservices.com,Google
 HOST-SUFFIX,googlevads-cn.com,Google
 HOST-SUFFIX,googleventures.com,Google
-HOST-SUFFIX,googlezip.net,Google
 HOST-SUFFIX,googlr.com,Google
 HOST-SUFFIX,goolge.com,Google
 HOST-SUFFIX,gooogle.com,Google
@@ -698,9 +544,7 @@ HOST-SUFFIX,gvt6.com,Google
 HOST-SUFFIX,gvt7.com,Google
 HOST-SUFFIX,gvt9.com,Google
 HOST-SUFFIX,gwtproject.org,Google
-HOST-SUFFIX,haplorrhini.com,Google
 HOST-SUFFIX,hdrplusdata.org,Google
-HOST-SUFFIX,hey.boo,Google
 HOST-SUFFIX,hey.gle,Google
 HOST-SUFFIX,hindiweb.com,Google
 HOST-SUFFIX,howtogetmo.co.uk,Google
@@ -715,7 +559,6 @@ HOST-SUFFIX,j2objc.org,Google
 HOST-SUFFIX,jibemobile.com,Google
 HOST-SUFFIX,kaggle.com,Google
 HOST-SUFFIX,kaggle.io,Google
-HOST-SUFFIX,kaggleusercontent.com,Google
 HOST-SUFFIX,keyhole.com,Google
 HOST-SUFFIX,keytransparency.com,Google
 HOST-SUFFIX,keytransparency.foo,Google
@@ -735,7 +578,6 @@ HOST-SUFFIX,moodstocks.com,Google
 HOST-SUFFIX,near.by,Google
 HOST-SUFFIX,nest.com,Google
 HOST-SUFFIX,neverware.com,Google
-HOST-SUFFIX,new.day,Google
 HOST-SUFFIX,nomulus.foo,Google
 HOST-SUFFIX,oasisfeng.com,Google
 HOST-SUFFIX,oauthz.com,Google
@@ -893,6 +735,7 @@ HOST-KEYWORD,appspot,Google
 HOST-KEYWORD,blogspot,Google
 HOST-KEYWORD,gmail,Google
 HOST-KEYWORD,google,Google
+HOST-KEYWORD,gstatic,Google
 HOST-KEYWORD,recaptcha,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google
@@ -902,8 +745,12 @@ IP-CIDR,173.194.0.0/16,Google
 IP-CIDR,216.73.80.0/20,Google
 IP-CIDR,74.125.0.0/16,Google
 IP6-CIDR,2620:120:e000::/40,Google
-
-# GoogleDrive
+# NAME: GoogleDrive
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 1
+# HOST-SUFFIX: 4
+# USER-AGENT: 3
+# TOTAL: 8
 HOST,www.googleapis.com,GoogleDrive
 HOST-SUFFIX,docs.google.com,GoogleDrive
 HOST-SUFFIX,drive.google.com,GoogleDrive
@@ -912,14 +759,31 @@ HOST-SUFFIX,googleusercontent.com,GoogleDrive
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,GoogleDrive
 USER-AGENT,*com.google.Drive*,GoogleDrive
 USER-AGENT,Google.Drive*,GoogleDrive
-
-# NAME: GoogleSearch
-HOST-KEYWORD,www.google.,GoogleSearch
-
-# NAME: Chromecast
-HOST-KEYWORD,pa.google,Chromecast
-
+# NAME: GoogleEarth
+# UPDATED: 2022-11-03 17:11:28
+# HOST-SUFFIX: 16
+# TOTAL: 16
+HOST-SUFFIX,earth-pa.clients6.google.com,GoogleEarth
+HOST-SUFFIX,earth.google.com,GoogleEarth
+HOST-SUFFIX,kh.google.com,GoogleEarth
+HOST-SUFFIX,khm.google.com,GoogleEarth
+HOST-SUFFIX,khm.googleapis.com,GoogleEarth
+HOST-SUFFIX,khm0.google.com,GoogleEarth
+HOST-SUFFIX,khm0.googleapis.com,GoogleEarth
+HOST-SUFFIX,khm1.google.com,GoogleEarth
+HOST-SUFFIX,khm1.googleapis.com,GoogleEarth
+HOST-SUFFIX,khm2.google.com,GoogleEarth
+HOST-SUFFIX,khm2.googleapis.com,GoogleEarth
+HOST-SUFFIX,khm3.google.com,GoogleEarth
+HOST-SUFFIX,khm3.googleapis.com,GoogleEarth
+HOST-SUFFIX,khmdb.google.com,GoogleEarth
+HOST-SUFFIX,khmdb.googleapis.com,GoogleEarth
+HOST-SUFFIX,mw1.google.com,GoogleEarth
 # NAME: GoogleFCM
+# UPDATED: 2022-11-03 17:11:17
+# HOST: 9
+# IP-CIDR: 26
+# TOTAL: 35
 HOST,alt1-mtalk.google.com,GoogleFCM
 HOST,alt2-mtalk.google.com,GoogleFCM
 HOST,alt3-mtalk.google.com,GoogleFCM
@@ -955,3 +819,18 @@ IP-CIDR,74.125.206.188/32,GoogleFCM
 IP-CIDR,74.125.23.188/32,GoogleFCM
 IP-CIDR,74.125.24.188/32,GoogleFCM
 IP-CIDR,74.125.28.188/32,GoogleFCM
+# NAME: GoogleSearch
+# UPDATED: 2022-11-03 17:11:05
+# HOST-KEYWORD: 1
+# TOTAL: 1
+HOST-KEYWORD,www.google.,GoogleSearch
+# NAME: GoogleVoice
+# UPDATED: 2022-11-03 17:11:05
+# HOST: 1
+# TOTAL: 1
+HOST,lens.l.google.com,GoogleVoice
+# NAME: Chromecast
+# UPDATED: 2022-11-03 17:11:07
+# HOST-KEYWORD: 1
+# TOTAL: 1
+HOST-KEYWORD,pa.google,Chromecast
