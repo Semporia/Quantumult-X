@@ -1,0 +1,13 @@
+# CnnFreight
+
+HOST,cnnfreight.com,CnnFreight
+HOST,cnnfreight.cn,CnnFreight
+HOST,cnnfreight.net,CnnFreight
+
+HOST-SUFFIX,cnnfreight.com,CnnFreight
+
+HOST-KEYWORD,cnnfreight,CnnFreight
+
+USER-AGENT,cnnfreight*,CnnFreight
+
+
