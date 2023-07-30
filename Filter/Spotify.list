@@ -1,4 +1,21 @@
 # NAME: Spotify
+# UPDATED: 2023-05-28 18:21:15
+# HOST: 10
+# HOST-KEYWORD: 2
+# HOST-SUFFIX: 19
+# IP-CIDR: 2
+# USER-AGENT: 1
+# TOTAL: 34
+HOST,adeventtracker.spotify.com,Spotify
+HOST,adstudio-assets.scdn.co,Spotify
+HOST,audio-ak-spotify-com.akamaized.net,Spotify
+HOST,audio4-ak-spotify-com.akamaized.net,Spotify
+HOST,bloodhound.spotify.com,Spotify
+HOST,heads-ak-spotify-com.akamaized.net,Spotify
+HOST,heads4-ak-spotify-com.akamaized.net,Spotify
+HOST,spotify.com.edgesuite.net,Spotify
+HOST,spotify.map.fastly.net,Spotify
+HOST,spotify.map.fastlylb.net,Spotify
 HOST-SUFFIX,audio-ak-spotify-com.akamaized.net,Spotify
 HOST-SUFFIX,byspotify.com,Spotify
 HOST-SUFFIX,heads4-ak-spotify-com.akamaized.net,Spotify
@@ -18,7 +35,8 @@ HOST-SUFFIX,spotifyjobs.com,Spotify
 HOST-SUFFIX,spotifynewsroom.jp,Spotify
 HOST-SUFFIX,spotilocal.com,Spotify
 HOST-SUFFIX,tospotify.com,Spotify
-HOST-KEYWORD,-spotify-com,Spotify
+HOST-KEYWORD,-spotify-,Spotify
 HOST-KEYWORD,spotify.com,Spotify
 USER-AGENT,Spotify*,Spotify
+IP-CIDR,104.154.127.126/32,Spotify
 IP-CIDR,35.186.224.47/32,Spotify
