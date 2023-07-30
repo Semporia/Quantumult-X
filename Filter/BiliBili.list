@@ -1,5 +1,10 @@
 # NAME: BiliBili
-
+# UPDATED: 2023-06-24 02:11:22
+# HOST: 53
+# HOST-SUFFIX: 61
+# IP-CIDR: 8
+# USER-AGENT: 4
+# TOTAL: 126
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,BiliBili
@@ -10,6 +15,7 @@ HOST,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,BiliBili
+HOST,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com,BiliBili
 HOST,112-81-125-43.dhost.00cdn.com,BiliBili
 HOST,113-219-145-1.ksyungslb.com,BiliBili
 HOST,114-236-92-129.ksyungslb.com,BiliBili
@@ -54,6 +60,10 @@ HOST,upos-bstar-mirrorakam.akamaized.net,BiliBili
 HOST,upos-bstar1-mirrorakam.akamaized.net,BiliBili
 HOST-SUFFIX,acg.tv,BiliBili
 HOST-SUFFIX,acgvideo.com,BiliBili
+HOST-SUFFIX,animetamashi.cn,BiliBili
+HOST-SUFFIX,animetamashi.com,BiliBili
+HOST-SUFFIX,anitama.cn,BiliBili
+HOST-SUFFIX,anitama.net,BiliBili
 HOST-SUFFIX,b23.tv,BiliBili
 HOST-SUFFIX,baka.im,BiliBili
 HOST-SUFFIX,bigfun.cn,BiliBili
@@ -68,8 +78,10 @@ HOST-SUFFIX,bilibili.cc,BiliBili
 HOST-SUFFIX,bilibili.cn,BiliBili
 HOST-SUFFIX,bilibili.co,BiliBili
 HOST-SUFFIX,bilibili.com,BiliBili
+HOST-SUFFIX,bilibili.net,BiliBili
 HOST-SUFFIX,bilibili.tv,BiliBili
 HOST-SUFFIX,bilibiligame.cn,BiliBili
+HOST-SUFFIX,bilibiligame.co,BiliBili
 HOST-SUFFIX,bilibiligame.net,BiliBili
 HOST-SUFFIX,bilibilipay.cn,BiliBili
 HOST-SUFFIX,bilibilipay.com,BiliBili
@@ -78,7 +90,9 @@ HOST-SUFFIX,bilicdn2.com,BiliBili
 HOST-SUFFIX,bilicdn3.com,BiliBili
 HOST-SUFFIX,bilicdn4.com,BiliBili
 HOST-SUFFIX,bilicdn5.com,BiliBili
+HOST-SUFFIX,bilicomics.com,BiliBili
 HOST-SUFFIX,biligame.cn,BiliBili
+HOST-SUFFIX,biligame.co,BiliBili
 HOST-SUFFIX,biligame.com,BiliBili
 HOST-SUFFIX,biligame.net,BiliBili
 HOST-SUFFIX,biligo.com,BiliBili
@@ -89,6 +103,7 @@ HOST-SUFFIX,bilivideo.cn,BiliBili
 HOST-SUFFIX,bilivideo.com,BiliBili
 HOST-SUFFIX,bilivideo.net,BiliBili
 HOST-SUFFIX,corari.com,BiliBili
+HOST-SUFFIX,dreamcast.hk,BiliBili
 HOST-SUFFIX,dyhgames.com,BiliBili
 HOST-SUFFIX,hdslb.com,BiliBili
 HOST-SUFFIX,hdslb.com.w.kunlunhuf.com,BiliBili
@@ -96,6 +111,7 @@ HOST-SUFFIX,hdslb.com.w.kunlunpi.com,BiliBili
 HOST-SUFFIX,hdslb.net,BiliBili
 HOST-SUFFIX,hdslb.org,BiliBili
 HOST-SUFFIX,im9.com,BiliBili
+HOST-SUFFIX,maoercdn.com,BiliBili
 HOST-SUFFIX,mcbbs.net,BiliBili
 HOST-SUFFIX,mincdn.com,BiliBili
 HOST-SUFFIX,sharejoytech.com,BiliBili
@@ -117,7 +133,10 @@ IP-CIDR,134.175.207.130/32,BiliBili
 IP-CIDR,203.107.1.0/24,BiliBili
 
 # NAME: BiliBiliIntl
-
+# UPDATED: 2023-05-28 18:22:21
+# HOST: 5
+# HOST-SUFFIX: 2
+# TOTAL: 7
 HOST,apm-misaka.biliapi.net,BiliBiliIntl
 HOST,p-bstarstatic.akamaized.net,BiliBiliIntl
 HOST,p.bstarstatic.com,BiliBiliIntl
@@ -125,3 +144,4 @@ HOST,upos-bstar-mirrorakam.akamaized.net,BiliBiliIntl
 HOST,upos-bstar1-mirrorakam.akamaized.net,BiliBiliIntl
 HOST-SUFFIX,bilibili.tv,BiliBiliIntl
 HOST-SUFFIX,biliintl.com,BiliBiliIntl
+

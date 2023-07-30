@@ -1,10 +1,16 @@
 # NAME: WeChat
-
+# UPDATED: 2023-05-28 18:22:39
+# HOST: 8
+# HOST-SUFFIX: 12
+# IP-CIDR: 10
+# USER-AGENT: 2
+# TOTAL: 32
 HOST,dl.wechat.com,WeChat
 HOST,sgfindershort.wechat.com,WeChat
 HOST,sgilinkshort.wechat.com,WeChat
 HOST,sglong.wechat.com,WeChat
 HOST,sgminorshort.wechat.com,WeChat
+HOST,sgquic.wechat.com,WeChat
 HOST,sgshort.wechat.com,WeChat
 HOST,tencentmap.wechat.com,WeChat
 HOST-SUFFIX,qlogo.cn,WeChat
@@ -19,7 +25,6 @@ HOST-SUFFIX,weixin.qq.com,WeChat
 HOST-SUFFIX,weixinbridge.com,WeChat
 HOST-SUFFIX,weixinsxy.com,WeChat
 HOST-SUFFIX,wxapp.tc.qq.com,WeChat
-HOST-KEYWORD,43.156.222.,WeChat
 USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
 IP-CIDR,101.32.104.4/32,WeChat
@@ -31,3 +36,4 @@ IP-CIDR,101.32.133.209/32,WeChat
 IP-CIDR,101.32.133.53/32,WeChat
 IP-CIDR,129.226.107.244/32,WeChat
 IP-CIDR,129.226.3.47/32,WeChat
+IP-CIDR,162.62.163.63/32,WeChat
