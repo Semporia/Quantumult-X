@@ -8,6 +8,7 @@ HOST,images.ctfassets.net,PUBG
 HOST, bethesda.net,PUBG
 HOST,napubgm.broker.amsoveasea.com,PUBG
 HOST,www.pubgmobile.com,PUBG
+HOST,app-measurement.com,PUBG
 
 HOST-SUFFIX,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,nawzryhwatm.broker.amsoveasea.com,PUBG
@@ -27,6 +28,7 @@ HOST-KEYWORD,proximabeta,PUBG
 HOST-KEYWORD,vasdgame,PUBG
 HOST-KEYWORD,gjacky,PUBG
 HOST-KEYWORD,amsoveasea,PUBG
+HOST-KEYWORD,measurement,PUBG
 
 USER-AGENT,PUBG*,PUBG
 USER-AGENT,*PUBG*,PUBG
