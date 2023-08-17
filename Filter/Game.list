@@ -15,6 +15,7 @@ HOST-SUFFIX,pubgmobile.com,PUBG
 HOST-SUFFIX,pubgmpdrcdn.amsoveasea.com,PUBG
 HOST-KEYWORD,pubg,PUBG
 HOST-KEYWORD,napubgm,PUBG
+HOST-KEYWORD,broker,PUBG
 USER-AGENT,PUBG*,PUBG
 USER-AGENT,*PUBG*,PUBG
 HOST,www.pubgmobile.com,PUBG
