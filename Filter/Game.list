@@ -10,6 +10,8 @@ HOST,napubgm.broker.amsoveasea.com,PUBG
 HOST,www.pubgmobile.com,PUBG
 HOST,app-measurement.com,PUBG
 HOST,cloud.vmp.onezapp.com,PUBG
+HOST,dl.listdl.com,PUBG
+HOST,app.adjust.com,PUBG
 
 HOST-SUFFIX,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,nawzryhwatm.broker.amsoveasea.com,PUBG
