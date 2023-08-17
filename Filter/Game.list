@@ -5,7 +5,7 @@
 HOST,lpc-dl.playbattlegrounds.com,PUBG
 HOST,cdn.contentful.com,PUBG
 HOST,images.ctfassets.net,PUBG
-HOST-SUFFIX, bethesda.net,PUBG
+HOST, bethesda.net,PUBG
 HOST,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,nawzryhwatm.broker.amsoveasea.com,PUBG
