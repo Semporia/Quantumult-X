@@ -2,6 +2,10 @@
 # UPDATED: 2023-08-17 19:25:16
 
 # PUBG 
+HOST,lpc-dl.playbattlegrounds.com,PUBG
+HOST,cdn.contentful.com,PUBG
+HOST,images.ctfassets.net,PUBG
+HOST-SUFFIX, bethesda.net,PUBG
 HOST,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,nawzryhwatm.broker.amsoveasea.com,PUBG
@@ -13,3 +17,4 @@ HOST-KEYWORD,pubg,PUBG
 HOST-KEYWORD,napubgm,PUBG
 USER-AGENT,pubg*,PUBG
 USER-AGENT,*pubg*,PUBG
+
