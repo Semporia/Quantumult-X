@@ -5,5 +5,11 @@
 HOST,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,nawzryhwatm.broker.amsoveasea.com,PUBG
+HOST-SUFFIX,api.club.gpubgm.com,PUBG
+HOST-SUFFIX,cdn.club.gpubgm.com,PUBG
+HOST-SUFFIX,pubgmobile.com,PUBG
+HOST-SUFFIX,pubgmpdrcdn.amsoveasea.com,PUBG
 HOST-KEYWORD,pubg,PUBG
 HOST-KEYWORD,napubgm,PUBG
+USER-AGENT,pubg*,PUBG
+USER-AGENT,*pubg*,PUBG
