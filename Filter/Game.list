@@ -18,10 +18,12 @@ HOST-SUFFIX,pubgmpdrcdn.amsoveasea.com,PUBG
 HOST-SUFFIX,pubgmobile.com,PUBG
 HOST-SUFFIX,vasdgame.com,PUBG
 HOST-SUFFIX,gjacky.com,PUBG
+HOST-SUFFIX,proximabeta.com,PUBG
 
 HOST-KEYWORD,pubg,PUBG
 HOST-KEYWORD,napubgm,PUBG
 HOST-KEYWORD,broker,PUBG
+HOST-KEYWORD,proximabeta,PUBG
 
 USER-AGENT,PUBG*,PUBG
 USER-AGENT,*PUBG*,PUBG
