@@ -9,6 +9,7 @@ HOST, bethesda.net,PUBG
 HOST,napubgm.broker.amsoveasea.com,PUBG
 HOST,www.pubgmobile.com,PUBG
 HOST,app-measurement.com,PUBG
+HOST,cloud.vmp.onezapp.com,PUBG
 
 HOST-SUFFIX,napubgm.broker.amsoveasea.com,PUBG
 HOST-SUFFIX,nawzryhwatm.broker.amsoveasea.com,PUBG
@@ -31,6 +32,8 @@ HOST-KEYWORD,amsoveasea,PUBG
 HOST-KEYWORD,measurement,PUBG
 HOST-KEYWORD,igameecj,PUBG
 HOST-KEYWORD,tdatamaster,PUBG
+HOST-KEYWORD,adjust,PUBG
+HOST-KEYWORD,onezapp,PUBG
 
 USER-AGENT,PUBG*,PUBG
 USER-AGENT,*PUBG*,PUBG
