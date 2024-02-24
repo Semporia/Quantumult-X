@@ -1,24 +1,14 @@
 # NAME: Whatsapp
-# UPDATED: 2023-05-28 18:21:16
 # HOST: 1
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 13
+# HOST-SUFFIX: 4
 # IP-CIDR: 11
-# TOTAL: 26
+# TOTAL: 17
 HOST,graph.facebook.com,Whatsapp
 HOST-SUFFIX,bintray.com,Whatsapp
-HOST-SUFFIX,wa.me,Whatsapp
-HOST-SUFFIX,whatsapp-plus.info,Whatsapp
-HOST-SUFFIX,whatsapp-plus.me,Whatsapp
-HOST-SUFFIX,whatsapp-plus.net,Whatsapp
 HOST-SUFFIX,whatsapp.biz,Whatsapp
-HOST-SUFFIX,whatsapp.cc,Whatsapp
 HOST-SUFFIX,whatsapp.com,Whatsapp
-HOST-SUFFIX,whatsapp.info,Whatsapp
 HOST-SUFFIX,whatsapp.net,Whatsapp
-HOST-SUFFIX,whatsapp.org,Whatsapp
-HOST-SUFFIX,whatsapp.tv,Whatsapp
-HOST-SUFFIX,whatsappbrand.com,Whatsapp
 HOST-KEYWORD,whatsapp,Whatsapp
 IP-CIDR,158.85.224.160/27,Whatsapp
 IP-CIDR,158.85.46.128/27,Whatsapp
