@@ -1,11 +1,9 @@
 # NAME: TencentVideo
-# UPDATED: 2023-05-28 18:21:56
 # HOST: 14
 # HOST-SUFFIX: 5
 # IP-CIDR: 3
 # IP6-CIDR: 29
-# USER-AGENT: 2
-# TOTAL: 53
+# TOTAL: 51
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,TencentVideo
 HOST,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net,TencentVideo
 HOST,apd-pcdnvodstat.teg.tencent-cloud.net,TencentVideo
@@ -25,8 +23,6 @@ HOST-SUFFIX,qqvideo.gtimg.com,TencentVideo
 HOST-SUFFIX,v.qq.com,TencentVideo
 HOST-SUFFIX,v.smtcdns.com,TencentVideo
 HOST-SUFFIX,video.qq.com,TencentVideo
-USER-AGENT,MOO*,TencentVideo
-USER-AGENT,TencentMidasConnect*,TencentVideo
 IP-CIDR,58.49.111.117/32,TencentVideo
 IP-CIDR,58.49.111.79/32,TencentVideo
 IP-CIDR,58.49.111.95/32,TencentVideo
