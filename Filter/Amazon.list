@@ -241,3 +241,10 @@ HOST-SUFFIX,primevideo.tv,AmazonPrimeVideo
 HOST-KEYWORD,avoddashs,AmazonPrimeVideo
 USER-AGENT,InstantVideo.US*,AmazonPrimeVideo
 USER-AGENT,Prime%20Video*,AmazonPrimeVideo
+
+# NAME: AmazonTrust
+# HOST-SUFFIX: 3
+# TOTAL: 3
+HOST-SUFFIX,amazontrust.com,AmazonTrust
+HOST-SUFFIX,awstrust.com,AmazonTrust
+HOST-SUFFIX,ss2.us,AmazonTrust
