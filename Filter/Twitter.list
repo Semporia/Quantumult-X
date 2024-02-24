@@ -1,9 +1,8 @@
 # NAME: Twitter
-# UPDATED: 2023-05-28 18:21:14
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 24
+# HOST-SUFFIX: 25
 # IP-CIDR: 7
-# TOTAL: 32
+# TOTAL: 33
 HOST-SUFFIX,ads-twitter.com,Twitter
 HOST-SUFFIX,cms-twdigitalassets.com,Twitter
 HOST-SUFFIX,periscope.tv,Twitter
@@ -28,6 +27,7 @@ HOST-SUFFIX,twttr.com,Twitter
 HOST-SUFFIX,twttr.net,Twitter
 HOST-SUFFIX,twvid.com,Twitter
 HOST-SUFFIX,vine.co,Twitter
+HOST-SUFFIX,x.com,Twitter
 HOST-KEYWORD,twitter,Twitter
 IP-CIDR,192.133.76.0/22,Twitter
 IP-CIDR,199.16.156.0/22,Twitter
