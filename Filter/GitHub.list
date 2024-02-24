@@ -1,10 +1,7 @@
 # NAME: GitHub
-# UPDATED: 2023-05-28 18:18:43
-# HOST: 1
 # HOST-KEYWORD: 1
 # HOST-SUFFIX: 29
-# TOTAL: 31
-HOST,github-cloud.s3.amazonaws.com,GitHub
+# TOTAL: 30
 HOST-SUFFIX,atom.io,GitHub
 HOST-SUFFIX,dependabot.com,GitHub
 HOST-SUFFIX,ghcr.io,GitHub
