@@ -1,13 +1,13 @@
 # NAME: YouTube
-# UPDATED: 2022-11-03 17:09:27
-# HOST: 2
+# HOST: 3
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 177
+# HOST-SUFFIX: 179
 # HOST-WILDCARD: 3
 # IP-CIDR: 2
 # IP6-CIDR: 1
-# USER-AGENT: 3
-# TOTAL: 189
+# USER-AGENT: 7
+# TOTAL: 196
+HOST,music.youtube.com,YouTube
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
 HOST-SUFFIX,ggpht.cn,YouTube
@@ -16,8 +16,10 @@ HOST-SUFFIX,googlevideo.com,YouTube
 HOST-SUFFIX,gvt1.com,YouTube
 HOST-SUFFIX,gvt2.com,YouTube
 HOST-SUFFIX,video.google.com,YouTube
+HOST-SUFFIX,wide-youtube.l.google.com,YouTube
 HOST-SUFFIX,withyoutube.com,YouTube
 HOST-SUFFIX,youtu.be,YouTube
+HOST-SUFFIX,youtube,YouTube
 HOST-SUFFIX,youtube-nocookie.com,YouTube
 HOST-SUFFIX,youtube-ui.l.google.com,YouTube
 HOST-SUFFIX,youtube.ae,YouTube
@@ -191,14 +193,18 @@ HOST-WILDCARD,youtube.*,YouTube
 HOST-WILDCARD,youtube.*.*,YouTube
 HOST-WILDCARD,youtube.com.*,YouTube
 HOST-KEYWORD,youtube,YouTube
+USER-AGENT,*YouTubeMusic*,YouTube
+USER-AGENT,*com.google.ios.youtubemusic*,YouTube
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
+USER-AGENT,YouTubeMusic*,YouTube
 USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,com.google.ios.youtubemusic*,YouTube
 IP-CIDR,172.110.32.0/21,YouTube
 IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube
+
 # NAME: YouTubeMusic
-# UPDATED: 2022-11-03 17:09:28
 # HOST: 1
 # USER-AGENT: 4
 # TOTAL: 5
