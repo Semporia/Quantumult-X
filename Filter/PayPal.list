@@ -1,6 +1,8 @@
 # NAME: PayPal
-
-HOST,www.paypal-mktg.com,PayPal
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 246
+# USER-AGENT: 1
+# TOTAL: 248
 HOST-SUFFIX,account-paypal.info,PayPal
 HOST-SUFFIX,account-paypal.net,PayPal
 HOST-SUFFIX,account-paypal.org,PayPal
