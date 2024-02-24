@@ -1,13 +1,12 @@
 # NAME: Google
-# AUTHOR: Semporia
-# UPDATED: 2022-11-03 17:09:28
-# HOST: 13
-# HOST-KEYWORD: 6
+# HOST: 14
+# HOST-KEYWORD: 5
 # HOST-SUFFIX: 710
 # IP-CIDR: 4
 # IP6-CIDR: 1
 # USER-AGENT: 3
 # TOTAL: 737
+HOST,clientservices.googleapis.com,Google
 HOST,crl.pki.goog,Google
 HOST,fonts.googleapis.com,Google
 HOST,fonts.gstatic.com,Google
@@ -76,6 +75,7 @@ HOST-SUFFIX,beacons2.gvt2.com,Google
 HOST-SUFFIX,beacons3.gvt2.com,Google
 HOST-SUFFIX,beatthatquote.com,Google
 HOST-SUFFIX,blink.org,Google
+HOST-SUFFIX,blog.google,Google
 HOST-SUFFIX,blogblog.com,Google
 HOST-SUFFIX,blogger.com,Google
 HOST-SUFFIX,blogspot.ae,Google
@@ -669,7 +669,6 @@ HOST-SUFFIX,stxmosquitoproject.net,Google
 HOST-SUFFIX,stxmosquitoproject.org,Google
 HOST-SUFFIX,synergyse.com,Google
 HOST-SUFFIX,teachparentstech.org,Google
-HOST-SUFFIX,telephony.goog,Google
 HOST-SUFFIX,tensorflow.org,Google
 HOST-SUFFIX,tfhub.dev,Google
 HOST-SUFFIX,thecleversense.com,Google
@@ -735,7 +734,6 @@ HOST-KEYWORD,appspot,Google
 HOST-KEYWORD,blogspot,Google
 HOST-KEYWORD,gmail,Google
 HOST-KEYWORD,google,Google
-HOST-KEYWORD,gstatic,Google
 HOST-KEYWORD,recaptcha,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google
@@ -745,8 +743,8 @@ IP-CIDR,173.194.0.0/16,Google
 IP-CIDR,216.73.80.0/20,Google
 IP-CIDR,74.125.0.0/16,Google
 IP6-CIDR,2620:120:e000::/40,Google
+
 # NAME: GoogleDrive
-# UPDATED: 2022-11-03 17:09:28
 # HOST: 1
 # HOST-SUFFIX: 4
 # USER-AGENT: 3
@@ -759,28 +757,23 @@ HOST-SUFFIX,googleusercontent.com,GoogleDrive
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,GoogleDrive
 USER-AGENT,*com.google.Drive*,GoogleDrive
 USER-AGENT,Google.Drive*,GoogleDrive
-# NAME: GoogleEarth
-# UPDATED: 2022-11-03 17:11:28
-# HOST-SUFFIX: 16
-# TOTAL: 16
-HOST-SUFFIX,earth-pa.clients6.google.com,GoogleEarth
-HOST-SUFFIX,earth.google.com,GoogleEarth
-HOST-SUFFIX,kh.google.com,GoogleEarth
-HOST-SUFFIX,khm.google.com,GoogleEarth
-HOST-SUFFIX,khm.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm0.google.com,GoogleEarth
-HOST-SUFFIX,khm0.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm1.google.com,GoogleEarth
-HOST-SUFFIX,khm1.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm2.google.com,GoogleEarth
-HOST-SUFFIX,khm2.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm3.google.com,GoogleEarth
-HOST-SUFFIX,khm3.googleapis.com,GoogleEarth
-HOST-SUFFIX,khmdb.google.com,GoogleEarth
-HOST-SUFFIX,khmdb.googleapis.com,GoogleEarth
-HOST-SUFFIX,mw1.google.com,GoogleEarth
+
+# NAME: GoogleSearch
+# HOST-KEYWORD: 1
+# TOTAL: 1
+HOST-KEYWORD,www.google.,GoogleSearch
+
+# NAME: GoogleVoice
+# HOST: 1
+# TOTAL: 1
+HOST,lens.l.google.com,GoogleVoice
+
+# NAME: Chromecast
+# HOST-KEYWORD: 1
+# TOTAL: 1
+HOST-KEYWORD,pa.google,Chromecast
+
 # NAME: GoogleFCM
-# UPDATED: 2022-11-03 17:11:17
 # HOST: 9
 # IP-CIDR: 26
 # TOTAL: 35
@@ -819,18 +812,16 @@ IP-CIDR,74.125.206.188/32,GoogleFCM
 IP-CIDR,74.125.23.188/32,GoogleFCM
 IP-CIDR,74.125.24.188/32,GoogleFCM
 IP-CIDR,74.125.28.188/32,GoogleFCM
-# NAME: GoogleSearch
-# UPDATED: 2022-11-03 17:11:05
-# HOST-KEYWORD: 1
-# TOTAL: 1
-HOST-KEYWORD,www.google.,GoogleSearch
-# NAME: GoogleVoice
-# UPDATED: 2022-11-03 17:11:05
-# HOST: 1
-# TOTAL: 1
-HOST,lens.l.google.com,GoogleVoice
-# NAME: Chromecast
-# UPDATED: 2022-11-03 17:11:07
-# HOST-KEYWORD: 1
-# TOTAL: 1
-HOST-KEYWORD,pa.google,Chromecast
+
+# NAME: BardAI
+# HOST: 4
+# HOST-SUFFIX: 4
+# TOTAL: 8
+HOST,ai.google.dev,BardAI
+HOST,alkalimakersuite-pa.clients6.google.com,BardAI
+HOST,generativelanguage.googleapis.com,BardAI
+HOST,makersuite.google.com,BardAI
+HOST-SUFFIX,bard.google.com,BardAI
+HOST-SUFFIX,deepmind.com,BardAI
+HOST-SUFFIX,deepmind.google,BardAI
+HOST-SUFFIX,generativeai.google,BardAI
