@@ -1,7 +1,9 @@
-# NAME: GitHub
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 29
-# TOTAL: 30
+# ================================================
+# GitHub
+# Includes: GitHub
+# LastUpdated: 2026-07-10
+# ================================================
+HOST-KEYWORD,github,GitHub
 HOST-SUFFIX,atom.io,GitHub
 HOST-SUFFIX,dependabot.com,GitHub
 HOST-SUFFIX,ghcr.io,GitHub
@@ -16,6 +18,7 @@ HOST-SUFFIX,github.dev,GitHub
 HOST-SUFFIX,github.io,GitHub
 HOST-SUFFIX,githubapp.com,GitHub
 HOST-SUFFIX,githubassets.com,GitHub
+HOST-SUFFIX,githubcopilot.com,GitHub
 HOST-SUFFIX,githubhackathon.com,GitHub
 HOST-SUFFIX,githubnext.com,GitHub
 HOST-SUFFIX,githubpreview.dev,GitHub
@@ -31,4 +34,3 @@ HOST-SUFFIX,rawgit.com,GitHub
 HOST-SUFFIX,rawgithub.com,GitHub
 HOST-SUFFIX,repo.new,GitHub
 HOST-SUFFIX,thegithubshop.com,GitHub
-HOST-KEYWORD,github,GitHub
