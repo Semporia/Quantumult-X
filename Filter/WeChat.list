@@ -1,9 +1,8 @@
-# NAME: WeChat
-# HOST: 18
-# HOST-SUFFIX: 22
-# IP-ASN: 1
-# USER-AGENT: 2
-# TOTAL: 43
+# ================================================
+# WeChat
+# Includes: WeChat
+# LastUpdated: 2026-07-10
+# ================================================
 HOST,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
 HOST,btrace.qq.com,WeChat
 HOST,dl.wechat.com,WeChat
@@ -44,6 +43,6 @@ HOST-SUFFIX,wx.qq.com,WeChat
 HOST-SUFFIX,wxapp.tc.qq.com,WeChat
 HOST-SUFFIX,wxs.qq.com,WeChat
 HOST-SUFFIX,yun-hl.3g.qq.com,WeChat
+IP-ASN,132203,WeChat
 USER-AGENT,MicroMessenger*,WeChat
 USER-AGENT,WeChat*,WeChat
-IP-ASN,132203,WeChat
