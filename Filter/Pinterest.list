@@ -1,5 +1,8 @@
-# NAME: Pinterest
-
+# ================================================
+# Pinterest
+# Includes: Pinterest
+# LastUpdated: 2026-07-10
+# ================================================
 HOST-SUFFIX,pinimg.com,Pinterest
 HOST-SUFFIX,pinterest.at,Pinterest
 HOST-SUFFIX,pinterest.ca,Pinterest
