@@ -1,10 +1,8 @@
-# NAME: BiliBili
-# UPDATED: 2023-06-24 02:11:22
-# HOST: 53
-# HOST-SUFFIX: 61
-# IP-CIDR: 8
-# USER-AGENT: 4
-# TOTAL: 126
+# ================================================
+# BiliBili
+# Includes: BiliBili, BiliBiliIntl
+# LastUpdated: 2026-07-10
+# ================================================
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,BiliBili
@@ -80,6 +78,7 @@ HOST-SUFFIX,bilibili.co,BiliBili
 HOST-SUFFIX,bilibili.com,BiliBili
 HOST-SUFFIX,bilibili.net,BiliBili
 HOST-SUFFIX,bilibili.tv,BiliBili
+HOST-SUFFIX,bilibili.tv,BiliBiliIntl
 HOST-SUFFIX,bilibiligame.cn,BiliBili
 HOST-SUFFIX,bilibiligame.co,BiliBili
 HOST-SUFFIX,bilibiligame.net,BiliBili
@@ -97,6 +96,7 @@ HOST-SUFFIX,biligame.com,BiliBili
 HOST-SUFFIX,biligame.net,BiliBili
 HOST-SUFFIX,biligo.com,BiliBili
 HOST-SUFFIX,biliimg.com,BiliBili
+HOST-SUFFIX,biliintl.co,BiliBili
 HOST-SUFFIX,biliintl.com,BiliBili
 HOST-SUFFIX,biliplus.com,BiliBili
 HOST-SUFFIX,bilivideo.cn,BiliBili
@@ -119,10 +119,6 @@ HOST-SUFFIX,smtcdns.net,BiliBili
 HOST-SUFFIX,upos-hz-mirrorakam.akamaized.net,BiliBili
 HOST-SUFFIX,uposdash-302-bilivideo.yfcdn.net,BiliBili
 HOST-SUFFIX,yo9.com,BiliBili
-USER-AGENT,*bili*,BiliBili
-USER-AGENT,Bilibili*,BiliBili
-USER-AGENT,bili*,BiliBili
-USER-AGENT,bili-inter*,BiliBili
 IP-CIDR,106.75.74.76/32,BiliBili
 IP-CIDR,111.206.25.147/32,BiliBili
 IP-CIDR,119.3.238.64/32,BiliBili
@@ -131,17 +127,7 @@ IP-CIDR,120.92.113.99/32,BiliBili
 IP-CIDR,120.92.153.217/32,BiliBili
 IP-CIDR,134.175.207.130/32,BiliBili
 IP-CIDR,203.107.1.0/24,BiliBili
-
-# NAME: BiliBiliIntl
-# UPDATED: 2023-05-28 18:22:21
-# HOST: 5
-# HOST-SUFFIX: 2
-# TOTAL: 7
-HOST,apm-misaka.biliapi.net,BiliBiliIntl
-HOST,p-bstarstatic.akamaized.net,BiliBiliIntl
-HOST,p.bstarstatic.com,BiliBiliIntl
-HOST,upos-bstar-mirrorakam.akamaized.net,BiliBiliIntl
-HOST,upos-bstar1-mirrorakam.akamaized.net,BiliBiliIntl
-HOST-SUFFIX,bilibili.tv,BiliBiliIntl
-HOST-SUFFIX,biliintl.com,BiliBiliIntl
-
+USER-AGENT,*bili*,BiliBili
+USER-AGENT,Bilibili*,BiliBili
+USER-AGENT,bili*,BiliBili
+USER-AGENT,bili-inter*,BiliBili
