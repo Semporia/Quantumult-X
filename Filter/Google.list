@@ -1,15 +1,18 @@
-# NAME: Google
-# HOST: 14
-# HOST-KEYWORD: 5
-# HOST-SUFFIX: 708
-# IP-CIDR: 4
-# IP6-CIDR: 1
-# USER-AGENT: 3
-# TOTAL: 735
+# ================================================
+# Google
+# Includes: Google, GoogleDrive, GoogleSearch, GoogleVoice, Gemini, Android, Chromecast
+# LastUpdated: 2026-07-10
+# ================================================
+HOST,ai.google.dev,Gemini
+HOST,aida.googleapis.com,Android
+HOST,alkalimakersuite-pa.clients6.google.com,Gemini
 HOST,clientservices.googleapis.com,Google
 HOST,crl.pki.goog,Google
 HOST,fonts.googleapis.com,Google
 HOST,fonts.gstatic.com,Google
+HOST,lens.l.google.com,Google
+HOST,lens.l.google.com,GoogleVoice
+HOST,makersuite.google.com,Gemini
 HOST,mtalk.google.com,Google
 HOST,ocsp.pki.goog,Google
 HOST,redirector.c.bigcache.googleapis.com,Google
@@ -19,7 +22,17 @@ HOST,safebrowsing.googleapis.com,Google
 HOST,translate.googleapis.com,Google
 HOST,voice.telephony.goog,Google
 HOST,www.googleapis.com,Google
-HOST,lens.l.google.com,Google
+HOST,www.googleapis.com,GoogleDrive
+HOST-KEYWORD,appspot,Google
+HOST-KEYWORD,blogspot,Google
+HOST-KEYWORD,colab,Gemini
+HOST-KEYWORD,developerprofiles,Gemini
+HOST-KEYWORD,generativelanguage,Gemini
+HOST-KEYWORD,gmail,Google
+HOST-KEYWORD,google,Google
+HOST-KEYWORD,pa.google,Chromecast
+HOST-KEYWORD,recaptcha,Google
+HOST-KEYWORD,www.google.,GoogleSearch
 HOST-SUFFIX,0emm.com,Google
 HOST-SUFFIX,1e100.net,Google
 HOST-SUFFIX,1ucrs.com,Google
@@ -40,7 +53,6 @@ HOST-SUFFIX,advertiserscommunity.com,Google
 HOST-SUFFIX,adwords-community.com,Google
 HOST-SUFFIX,adwords.com,Google
 HOST-SUFFIX,adwordsexpress.com,Google
-HOST-SUFFIX,ai.ytimg.com,Google
 HOST-SUFFIX,amp.dev,Google
 HOST-SUFFIX,ampproject.com,Google
 HOST-SUFFIX,ampproject.net,Google
@@ -51,6 +63,8 @@ HOST-SUFFIX,androidtv.com,Google
 HOST-SUFFIX,angulardart.org,Google
 HOST-SUFFIX,api.ai,Google
 HOST-SUFFIX,apigee.com,Google
+HOST-SUFFIX,apis.google.com,Gemini
+HOST-SUFFIX,app-analytics-services.com,Google
 HOST-SUFFIX,app-measurement-cn.com,Google
 HOST-SUFFIX,app-measurement.com,Google
 HOST-SUFFIX,app-measurement.net,Google
@@ -65,6 +79,7 @@ HOST-SUFFIX,asp-cc.com,Google
 HOST-SUFFIX,autodraw.com,Google
 HOST-SUFFIX,avail.googleflights.net,Google
 HOST-SUFFIX,bandpage.com,Google
+HOST-SUFFIX,bard.google.com,Gemini
 HOST-SUFFIX,baselinestudy.com,Google
 HOST-SUFFIX,baselinestudy.org,Google
 HOST-SUFFIX,bazel.build,Google
@@ -158,6 +173,7 @@ HOST-SUFFIX,bumptop.com,Google
 HOST-SUFFIX,bumptop.net,Google
 HOST-SUFFIX,bumptop.org,Google
 HOST-SUFFIX,bumptunes.com,Google
+HOST-SUFFIX,c.gle,Google
 HOST-SUFFIX,campuslondon.com,Google
 HOST-SUFFIX,capitalg.com,Google
 HOST-SUFFIX,certificate-transparency.dev,Google
@@ -204,7 +220,9 @@ HOST-SUFFIX,data-vocabulary.org,Google
 HOST-SUFFIX,dataliberation.org,Google
 HOST-SUFFIX,debug.com,Google
 HOST-SUFFIX,debugproject.com,Google
+HOST-SUFFIX,deepmind.com,Gemini
 HOST-SUFFIX,deepmind.com,Google
+HOST-SUFFIX,deepmind.google,Gemini
 HOST-SUFFIX,deja.com,Google
 HOST-SUFFIX,deps.dev,Google
 HOST-SUFFIX,deps.info,Google
@@ -213,15 +231,11 @@ HOST-SUFFIX,dialogflow.com,Google
 HOST-SUFFIX,digisfera.com,Google
 HOST-SUFFIX,digitalassetlinks.org,Google
 HOST-SUFFIX,digitalattackmap.com,Google
-HOST-SUFFIX,distribution.qatp1.net,Google
-HOST-SUFFIX,distribution.qcpp1.net,Google
-HOST-SUFFIX,distribution.qpdp1.net,Google
+HOST-SUFFIX,docs.google.com,GoogleDrive
 HOST-SUFFIX,doubleclick-cn.net,Google
 HOST-SUFFIX,doubleclick.com,Google
 HOST-SUFFIX,doubleclick.net,Google
-HOST-SUFFIX,download.qatp1.net,Google
-HOST-SUFFIX,download.qcpp1.net,Google
-HOST-SUFFIX,download.qpdp1.net,Google
+HOST-SUFFIX,drive.google.com,GoogleDrive
 HOST-SUFFIX,episodic.com,Google
 HOST-SUFFIX,fastlane.ci,Google
 HOST-SUFFIX,fastlane.tools,Google
@@ -243,6 +257,8 @@ HOST-SUFFIX,g.page,Google
 HOST-SUFFIX,gateway.dev,Google
 HOST-SUFFIX,gcp.gvt2.com,Google
 HOST-SUFFIX,gcr.io,Google
+HOST-SUFFIX,gemini.google.com,Gemini
+HOST-SUFFIX,generativeai.google,Gemini
 HOST-SUFFIX,gerritcodereview.com,Google
 HOST-SUFFIX,get.app,Google
 HOST-SUFFIX,get.dev,Google
@@ -492,6 +508,8 @@ HOST-SUFFIX,googlecommerce.com,Google
 HOST-SUFFIX,googlecompare.co.uk,Google
 HOST-SUFFIX,googledanmark.com,Google
 HOST-SUFFIX,googledomains.com,Google
+HOST-SUFFIX,googledrive.com,Google
+HOST-SUFFIX,googledrive.com,GoogleDrive
 HOST-SUFFIX,googlee.com,Google
 HOST-SUFFIX,googleearth.com,Google
 HOST-SUFFIX,googlefiber.com,Google
@@ -506,7 +524,6 @@ HOST-SUFFIX,googleoptimize.com,Google
 HOST-SUFFIX,googlepagecreator.com,Google
 HOST-SUFFIX,googlephotos.com,Google
 HOST-SUFFIX,googleplay.com,Google
-HOST-SUFFIX,googleplex.com,Google
 HOST-SUFFIX,googleplus.com,Google
 HOST-SUFFIX,googlescholar.com,Google
 HOST-SUFFIX,googlesource.com,Google
@@ -520,6 +537,8 @@ HOST-SUFFIX,googletagservices-cn.com,Google
 HOST-SUFFIX,googletagservices.com,Google
 HOST-SUFFIX,googletraveladservices-cn.com,Google
 HOST-SUFFIX,googletraveladservices.com,Google
+HOST-SUFFIX,googleusercontent.com,Google
+HOST-SUFFIX,googleusercontent.com,GoogleDrive
 HOST-SUFFIX,googlevads-cn.com,Google
 HOST-SUFFIX,googleventures.com,Google
 HOST-SUFFIX,googlr.com,Google
@@ -569,9 +588,6 @@ HOST-SUFFIX,mdialog.com,Google
 HOST-SUFFIX,meet.new,Google
 HOST-SUFFIX,mfg-inspector.com,Google
 HOST-SUFFIX,mobileview.page,Google
-HOST-SUFFIX,monitoring.qatp1.net,Google
-HOST-SUFFIX,monitoring.qcpp1.net,Google
-HOST-SUFFIX,monitoring.qpdp1.net,Google
 HOST-SUFFIX,moodstocks.com,Google
 HOST-SUFFIX,near.by,Google
 HOST-SUFFIX,nest.com,Google
@@ -609,26 +625,15 @@ HOST-SUFFIX,polymer-project.org,Google
 HOST-SUFFIX,polymerproject.org,Google
 HOST-SUFFIX,postini.com,Google
 HOST-SUFFIX,privacysandbox.com,Google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,Gemini
 HOST-SUFFIX,prod-controlbe.floonet.goog,Google
 HOST-SUFFIX,prod-databe.floonet.goog,Google
 HOST-SUFFIX,prod.databe.floonet.goog,Google
 HOST-SUFFIX,projectara.com,Google
 HOST-SUFFIX,projectbaseline.com,Google
 HOST-SUFFIX,publishproxy.com,Google
-HOST-SUFFIX,qagpublic.qatp1.net,Google
-HOST-SUFFIX,qagpublic.qcpp1.net,Google
-HOST-SUFFIX,qagpublic.qpdp1.net,Google
-HOST-SUFFIX,qgadmin.qatp1.net,Google
-HOST-SUFFIX,qgadmin.qcpp1.net,Google
-HOST-SUFFIX,qgadmin.qpdp1.net,Google
 HOST-SUFFIX,qiao-cn.com,Google
 HOST-SUFFIX,qpx.googleflights.net,Google
-HOST-SUFFIX,qualysapi.qatp1.net,Google
-HOST-SUFFIX,qualysapi.qcpp1.net,Google
-HOST-SUFFIX,qualysapi.qpdp1.net,Google
-HOST-SUFFIX,qualysguard.qatp1.net,Google
-HOST-SUFFIX,qualysguard.qcpp1.net,Google
-HOST-SUFFIX,qualysguard.qpdp1.net,Google
 HOST-SUFFIX,questvisual.com,Google
 HOST-SUFFIX,quickoffice.com,Google
 HOST-SUFFIX,quiksee.com,Google
@@ -645,9 +650,6 @@ HOST-SUFFIX,ridepenguin.com,Google
 HOST-SUFFIX,run.app,Google
 HOST-SUFFIX,savethedate.foo,Google
 HOST-SUFFIX,saynow.com,Google
-HOST-SUFFIX,scanservice1.qatp1.net,Google
-HOST-SUFFIX,scanservice1.qcpp1.net,Google
-HOST-SUFFIX,scanservice1.qpdp1.net,Google
 HOST-SUFFIX,schema.org,Google
 HOST-SUFFIX,schemer.com,Google
 HOST-SUFFIX,screenwisetrends.com,Google
@@ -726,141 +728,14 @@ HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Google
 HOST-SUFFIX,xplr.co,Google
 HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google
-HOST-SUFFIX,googledrive.com,Google
-HOST-SUFFIX,googleusercontent.com,Google
-HOST-KEYWORD,appspot,Google
-HOST-KEYWORD,blogspot,Google
-HOST-KEYWORD,gmail,Google
-HOST-KEYWORD,google,Google
-HOST-KEYWORD,recaptcha,Google
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
-USER-AGENT,*com.google.Drive*,Google
-USER-AGENT,Google.Drive*,Google
 IP-CIDR,172.110.32.0/21,Google
 IP-CIDR,173.194.0.0/16,Google
 IP-CIDR,216.73.80.0/20,Google
 IP-CIDR,74.125.0.0/16,Google
 IP6-CIDR,2620:120:e000::/40,Google
-
-# NAME: GoogleDrive
-# HOST: 1
-# HOST-SUFFIX: 4
-# USER-AGENT: 3
-# TOTAL: 8
-HOST,www.googleapis.com,GoogleDrive
-HOST-SUFFIX,docs.google.com,GoogleDrive
-HOST-SUFFIX,drive.google.com,GoogleDrive
-HOST-SUFFIX,googledrive.com,GoogleDrive
-HOST-SUFFIX,googleusercontent.com,GoogleDrive
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,GoogleDrive
+USER-AGENT,*com.google.Drive*,Google
 USER-AGENT,*com.google.Drive*,GoogleDrive
+USER-AGENT,Google.Drive*,Google
 USER-AGENT,Google.Drive*,GoogleDrive
-
-# NAME: GoogleSearch
-# HOST-KEYWORD: 1
-# TOTAL: 1
-HOST-KEYWORD,www.google.,GoogleSearch
-
-# NAME: GoogleVoice
-# HOST: 1
-# TOTAL: 1
-HOST,lens.l.google.com,GoogleVoice
-
-# NAME: Chromecast
-# HOST-KEYWORD: 1
-# TOTAL: 1
-HOST-KEYWORD,pa.google,Chromecast
-
-# NAME: GoogleFCM
-# HOST: 9
-# IP-CIDR: 26
-# TOTAL: 35
-HOST,alt1-mtalk.google.com,GoogleFCM
-HOST,alt2-mtalk.google.com,GoogleFCM
-HOST,alt3-mtalk.google.com,GoogleFCM
-HOST,alt4-mtalk.google.com,GoogleFCM
-HOST,alt5-mtalk.google.com,GoogleFCM
-HOST,alt6-mtalk.google.com,GoogleFCM
-HOST,alt7-mtalk.google.com,GoogleFCM
-HOST,alt8-mtalk.google.com,GoogleFCM
-HOST,mtalk.google.com,GoogleFCM
-IP-CIDR,108.177.125.188/32,GoogleFCM
-IP-CIDR,142.250.10.188/32,GoogleFCM
-IP-CIDR,142.250.31.188/32,GoogleFCM
-IP-CIDR,142.250.4.188/32,GoogleFCM
-IP-CIDR,142.250.96.188/32,GoogleFCM
-IP-CIDR,172.217.194.188/32,GoogleFCM
-IP-CIDR,172.217.218.188/32,GoogleFCM
-IP-CIDR,172.217.219.188/32,GoogleFCM
-IP-CIDR,172.253.122.188/32,GoogleFCM
-IP-CIDR,172.253.63.188/32,GoogleFCM
-IP-CIDR,173.194.175.188/32,GoogleFCM
-IP-CIDR,173.194.218.188/32,GoogleFCM
-IP-CIDR,209.85.233.188/32,GoogleFCM
-IP-CIDR,64.233.177.188/32,GoogleFCM
-IP-CIDR,64.233.186.188/32,GoogleFCM
-IP-CIDR,64.233.187.188/32,GoogleFCM
-IP-CIDR,64.233.188.188/32,GoogleFCM
-IP-CIDR,64.233.189.188/32,GoogleFCM
-IP-CIDR,74.125.127.188/32,GoogleFCM
-IP-CIDR,74.125.137.188/32,GoogleFCM
-IP-CIDR,74.125.203.188/32,GoogleFCM
-IP-CIDR,74.125.204.188/32,GoogleFCM
-IP-CIDR,74.125.206.188/32,GoogleFCM
-IP-CIDR,74.125.23.188/32,GoogleFCM
-IP-CIDR,74.125.24.188/32,GoogleFCM
-IP-CIDR,74.125.28.188/32,GoogleFCM
-
-# NAME: BardAI
-# HOST: 4
-# HOST-SUFFIX: 6
-# TOTAL: 10
-HOST,ai.google.dev,BardAI
-HOST,alkalimakersuite-pa.clients6.google.com,BardAI
-HOST,generativelanguage.googleapis.com,BardAI
-HOST,makersuite.google.com,BardAI
-HOST-SUFFIX,bard.google.com,BardAI
-HOST-SUFFIX,deepmind.com,BardAI
-HOST-SUFFIX,deepmind.google,BardAI
-HOST-SUFFIX,gemini.google.com,BardAI
-HOST-SUFFIX,generativeai.google,BardAI
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,BardAI
-
-# NAME: Gemini
-# HOST: 3
-# HOST-KEYWORD: 3
-# HOST-SUFFIX: 7
-# TOTAL: 13
-HOST,ai.google.dev,Gemini
-HOST,alkalimakersuite-pa.clients6.google.com,Gemini
-HOST,makersuite.google.com,Gemini
-HOST-SUFFIX,bard.google.com,Gemini
-HOST-SUFFIX,deepmind.com,Gemini
-HOST-SUFFIX,deepmind.google,Gemini
-HOST-SUFFIX,gemini.google.com,Gemini
-HOST-SUFFIX,generativeai.google,Gemini
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,Gemini
-HOST-SUFFIX,apis.google.com,Gemini
-HOST-KEYWORD,colab,Gemini
-HOST-KEYWORD,developerprofiles,Gemini
-HOST-KEYWORD,generativelanguage,Gemini
-
-# NAME: GoogleEarth
-# HOST-SUFFIX: 16
-# TOTAL: 16
-HOST-SUFFIX,earth-pa.clients6.google.com,GoogleEarth
-HOST-SUFFIX,earth.google.com,GoogleEarth
-HOST-SUFFIX,kh.google.com,GoogleEarth
-HOST-SUFFIX,khm.google.com,GoogleEarth
-HOST-SUFFIX,khm.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm0.google.com,GoogleEarth
-HOST-SUFFIX,khm0.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm1.google.com,GoogleEarth
-HOST-SUFFIX,khm1.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm2.google.com,GoogleEarth
-HOST-SUFFIX,khm2.googleapis.com,GoogleEarth
-HOST-SUFFIX,khm3.google.com,GoogleEarth
-HOST-SUFFIX,khm3.googleapis.com,GoogleEarth
-HOST-SUFFIX,khmdb.google.com,GoogleEarth
-HOST-SUFFIX,khmdb.googleapis.com,GoogleEarth
-HOST-SUFFIX,mw1.google.com,GoogleEarth
