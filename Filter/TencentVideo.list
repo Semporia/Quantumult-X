@@ -1,9 +1,8 @@
-# NAME: TencentVideo
-# HOST: 14
-# HOST-SUFFIX: 5
-# IP-CIDR: 3
-# IP6-CIDR: 29
-# TOTAL: 51
+# ================================================
+# TencentVideo
+# Includes: TencentVideo
+# LastUpdated: 2026-07-10
+# ================================================
 HOST,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,TencentVideo
 HOST,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net,TencentVideo
 HOST,apd-pcdnvodstat.teg.tencent-cloud.net,TencentVideo
