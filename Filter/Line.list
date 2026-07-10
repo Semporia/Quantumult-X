@@ -1,7 +1,8 @@
-# NAME: Line
-# HOST-SUFFIX: 8
-# IP-CIDR: 16
-# TOTAL: 24
+# ================================================
+# Line
+# Includes: Line
+# LastUpdated: 2026-07-10
+# ================================================
 HOST-SUFFIX,lin.ee,Line
 HOST-SUFFIX,line-apps.com,Line
 HOST-SUFFIX,line-cdn.net,Line

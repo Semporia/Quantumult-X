@@ -1,7 +1,8 @@
-# NAME: XiaoHongShu
-# UPDATED: 2024-07-03 16:17:40
-# HOST-SUFFIX: 4
-# TOTAL: 4
+# ================================================
+# XiaoHongShu
+# Includes: XiaoHongShu
+# LastUpdated: 2026-07-10
+# ================================================
 HOST-SUFFIX,fengkongcloud.com,XiaoHongShu
 HOST-SUFFIX,xhscdn.com,XiaoHongShu
 HOST-SUFFIX,xhscdn.net,XiaoHongShu
