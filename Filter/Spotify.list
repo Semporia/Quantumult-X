@@ -1,16 +1,15 @@
-# NAME: Spotify
-# HOST: 6
-# HOST-KEYWORD: 2
-# HOST-SUFFIX: 19
-# IP-CIDR: 2
-# USER-AGENT: 1
-# TOTAL: 30
+# ================================================
+# Spotify
+# Includes: Spotify
+# LastUpdated: 2026-07-10
+# ================================================
 HOST,audio4-ak-spotify-com.akamaized.net,Spotify
 HOST,cdn-spotify-experiments.conductrics.com,Spotify
 HOST,heads-ak-spotify-com.akamaized.net,Spotify
 HOST,spotify.com.edgesuite.net,Spotify
 HOST,spotify.map.fastly.net,Spotify
 HOST,spotify.map.fastlylb.net,Spotify
+HOST-KEYWORD,spotify,Spotify
 HOST-SUFFIX,audio-ak-spotify-com.akamaized.net,Spotify
 HOST-SUFFIX,byspotify.com,Spotify
 HOST-SUFFIX,heads4-ak-spotify-com.akamaized.net,Spotify
@@ -19,6 +18,7 @@ HOST-SUFFIX,scdn.co,Spotify
 HOST-SUFFIX,spoti.fi,Spotify
 HOST-SUFFIX,spotify-com.akamaized.net,Spotify
 HOST-SUFFIX,spotify-everywhere.com,Spotify
+HOST-SUFFIX,spotify.app.link,Spotify
 HOST-SUFFIX,spotify.com,Spotify
 HOST-SUFFIX,spotify.design,Spotify
 HOST-SUFFIX,spotifycdn.com,Spotify
@@ -30,8 +30,6 @@ HOST-SUFFIX,spotifyjobs.com,Spotify
 HOST-SUFFIX,spotifynewsroom.jp,Spotify
 HOST-SUFFIX,spotilocal.com,Spotify
 HOST-SUFFIX,tospotify.com,Spotify
-HOST-KEYWORD,-spotify-,Spotify
-HOST-KEYWORD,spotify.com,Spotify
-USER-AGENT,Spotify*,Spotify
 IP-CIDR,104.154.127.126/32,Spotify
 IP-CIDR,35.186.224.47/32,Spotify
+USER-AGENT,Spotify*,Spotify
