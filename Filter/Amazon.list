@@ -1,9 +1,20 @@
-# NAME: Amazon
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 186
-# IP-CIDR: 15
-# USER-AGENT: 2
-# TOTAL: 204
+# ================================================
+# Amazon
+# Includes: Amazon, PrimeVideo, Twitch
+# LastUpdated: 2026-07-10
+# ================================================
+HOST,atv-ps.amazon.com,PrimeVideo
+HOST,avodmp4s3ww-a.akamaihd.net,PrimeVideo
+HOST,d1v5ir2lpwr8os.cloudfront.net,PrimeVideo
+HOST,d22qjgkvxw22r6.cloudfront.net,PrimeVideo
+HOST,d25xi40x97liuc.cloudfront.net,PrimeVideo
+HOST,d27xxe7juh1us6.cloudfront.net,PrimeVideo
+HOST,dmqdd6hw24ucf.cloudfront.net,PrimeVideo
+HOST,fls-na.amazon.com,PrimeVideo
+HOST,www.amazon.com,PrimeVideo
+HOST-KEYWORD,avoddashs,Amazon
+HOST-KEYWORD,avoddashs,PrimeVideo
+HOST-KEYWORD,ttvnw,Twitch
 HOST-SUFFIX,a2z.com,Amazon
 HOST-SUFFIX,aboutamazon.cn,Amazon
 HOST-SUFFIX,aboutamazon.co.uk,Amazon
@@ -21,7 +32,9 @@ HOST-SUFFIX,acmvalidations.com,Amazon
 HOST-SUFFIX,acmvalidationsaws.com,Amazon
 HOST-SUFFIX,aesworkshops.com,Amazon
 HOST-SUFFIX,aiv-cdn.net,Amazon
+HOST-SUFFIX,aiv-cdn.net,PrimeVideo
 HOST-SUFFIX,aiv-delivery.net,Amazon
+HOST-SUFFIX,aiv-delivery.net,PrimeVideo
 HOST-SUFFIX,alexa.com,Amazon
 HOST-SUFFIX,alexafund.cn,Amazon
 HOST-SUFFIX,alexafund.com.cn,Amazon
@@ -94,6 +107,7 @@ HOST-SUFFIX,amazontrust.com,Amazon
 HOST-SUFFIX,amazonuniversity.jobs,Amazon
 HOST-SUFFIX,amazonvideo.cc,Amazon
 HOST-SUFFIX,amazonvideo.com,Amazon
+HOST-SUFFIX,amazonvideo.com,PrimeVideo
 HOST-SUFFIX,amazonvideodirect.com,Amazon
 HOST-SUFFIX,amazonworkdocs.cn,Amazon
 HOST-SUFFIX,amazonworkdocs.com,Amazon
@@ -132,12 +146,14 @@ HOST-SUFFIX,cloudfront.net,Amazon
 HOST-SUFFIX,containersonaws.com,Amazon
 HOST-SUFFIX,createspace.com,Amazon
 HOST-SUFFIX,elasticbeanstalk.com,Amazon
+HOST-SUFFIX,ext-twitch.tv,Twitch
 HOST-SUFFIX,gameon-masters.com,Amazon
 HOST-SUFFIX,gdansk-amazon.com,Amazon
 HOST-SUFFIX,images-amazon.com,Amazon
 HOST-SUFFIX,imdb,Amazon
 HOST-SUFFIX,imdb.com,Amazon
 HOST-SUFFIX,imdb.to,Amazon
+HOST-SUFFIX,jtvnw.net,Twitch
 HOST-SUFFIX,kindle,Amazon
 HOST-SUFFIX,kindle.cn,Amazon
 HOST-SUFFIX,kindle.co.jp,Amazon
@@ -158,8 +174,10 @@ HOST-SUFFIX,kindleoasis.org,Amazon
 HOST-SUFFIX,kindleoasis.us,Amazon
 HOST-SUFFIX,kindleoasisnews.com,Amazon
 HOST-SUFFIX,kindleproject.com,Amazon
+HOST-SUFFIX,live-video.net,Twitch
 HOST-SUFFIX,llnwd.net,Amazon
 HOST-SUFFIX,media-amazon.com,Amazon
+HOST-SUFFIX,media-amazon.com,PrimeVideo
 HOST-SUFFIX,media-imdb.com,Amazon
 HOST-SUFFIX,prime-video.com,Amazon
 HOST-SUFFIX,primeday.cn,Amazon
@@ -167,14 +185,21 @@ HOST-SUFFIX,primeday.com.cn,Amazon
 HOST-SUFFIX,primeday.info,Amazon
 HOST-SUFFIX,primevideo.cc,Amazon
 HOST-SUFFIX,primevideo.com,Amazon
+HOST-SUFFIX,primevideo.com,PrimeVideo
 HOST-SUFFIX,primevideo.info,Amazon
 HOST-SUFFIX,primevideo.org,Amazon
 HOST-SUFFIX,primevideo.tv,Amazon
 HOST-SUFFIX,pv-cdn.net,Amazon
+HOST-SUFFIX,pv-cdn.net,PrimeVideo
 HOST-SUFFIX,seattlespheres.com,Amazon
 HOST-SUFFIX,siege-amazon.com,Amazon
 HOST-SUFFIX,ssl-images-amazon.com,Amazon
 HOST-SUFFIX,thinkboxsoftware.com,Amazon
+HOST-SUFFIX,ttvnw.net,Twitch
+HOST-SUFFIX,twitch-ext.rootonline.de,Twitch
+HOST-SUFFIX,twitch.tv,Twitch
+HOST-SUFFIX,twitchcdn.net,Twitch
+HOST-SUFFIX,twitchsvc.net,Twitch
 HOST-SUFFIX,ueberamazon.de,Amazon
 HOST-SUFFIX,wfm.com,Amazon
 HOST-SUFFIX,wholecitiesfoundation.org,Amazon
@@ -190,16 +215,28 @@ HOST-SUFFIX,yamaxun.cn,Amazon
 HOST-SUFFIX,yamaxun.com,Amazon
 HOST-SUFFIX,z.cn,Amazon
 HOST-SUFFIX,zappos,Amazon
-HOST-KEYWORD,avoddashs,Amazon
-USER-AGENT,InstantVideo.US*,Amazon
-USER-AGENT,Prime%20Video*,Amazon
+HOST-WILDCARD,aboutamazon*,Amazon
+HOST-WILDCARD,amazon.*,Amazon
+HOST-WILDCARD,amazonaws.*,Amazon
+HOST-WILDCARD,kindle.*,Amazon
+HOST-WILDCARD,kindleoasis.*,Amazon
+IP-CIDR,103.53.48.0/23,Twitch
 IP-CIDR,13.32.0.0/15,Amazon
 IP-CIDR,13.35.0.0/17,Amazon
 IP-CIDR,18.184.0.0/15,Amazon
 IP-CIDR,18.194.0.0/15,Amazon
 IP-CIDR,18.208.0.0/13,Amazon
 IP-CIDR,18.232.0.0/14,Amazon
+IP-CIDR,185.42.204.0/22,Twitch
+IP-CIDR,192.108.239.0/24,Twitch
+IP-CIDR,192.16.64.0/21,Twitch
+IP-CIDR,199.9.248.0/21,Twitch
+IP-CIDR,23.160.0.0/24,Twitch
+IP-CIDR,45.113.128.0/22,Twitch
 IP-CIDR,52.200.0.0/13,Amazon
+IP-CIDR,52.223.192.0/20,Twitch
+IP-CIDR,52.223.208.0/21,Twitch
+IP-CIDR,52.223.224.0/19,Twitch
 IP-CIDR,52.58.0.0/15,Amazon
 IP-CIDR,52.74.0.0/16,Amazon
 IP-CIDR,52.77.0.0/16,Amazon
@@ -208,43 +245,9 @@ IP-CIDR,54.156.0.0/14,Amazon
 IP-CIDR,54.226.0.0/15,Amazon
 IP-CIDR,54.230.156.0/22,Amazon
 IP-CIDR,54.93.0.0/16,Amazon
-
-# NAME: AmazonPrimeVideo
-# HOST: 5
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 18
-# USER-AGENT: 2
-# TOTAL: 26
-HOST,d1v5ir2lpwr8os.cloudfront.net,AmazonPrimeVideo
-HOST,d22qjgkvxw22r6.cloudfront.net,AmazonPrimeVideo
-HOST,d25xi40x97liuc.cloudfront.net,AmazonPrimeVideo
-HOST,d27xxe7juh1us6.cloudfront.net,AmazonPrimeVideo
-HOST,dmqdd6hw24ucf.cloudfront.net,AmazonPrimeVideo
-HOST-SUFFIX,aiv-cdn.net,AmazonPrimeVideo
-HOST-SUFFIX,aiv-delivery.net,AmazonPrimeVideo
-HOST-SUFFIX,amazonprimevideo.cn,AmazonPrimeVideo
-HOST-SUFFIX,amazonprimevideo.com.cn,AmazonPrimeVideo
-HOST-SUFFIX,amazonprimevideos.com,AmazonPrimeVideo
-HOST-SUFFIX,amazonvideo.cc,AmazonPrimeVideo
-HOST-SUFFIX,amazonvideo.com,AmazonPrimeVideo
-HOST-SUFFIX,atv-ps.amazon.com,AmazonPrimeVideo
-HOST-SUFFIX,avodmp4s3ww-a.akamaihd.net,AmazonPrimeVideo
-HOST-SUFFIX,fls-na.amazon.com,AmazonPrimeVideo
-HOST-SUFFIX,llnwd.net,AmazonPrimeVideo
-HOST-SUFFIX,media-amazon.com,AmazonPrimeVideo
-HOST-SUFFIX,prime-video.com,AmazonPrimeVideo
-HOST-SUFFIX,primevideo.cc,AmazonPrimeVideo
-HOST-SUFFIX,primevideo.com,AmazonPrimeVideo
-HOST-SUFFIX,primevideo.info,AmazonPrimeVideo
-HOST-SUFFIX,primevideo.org,AmazonPrimeVideo
-HOST-SUFFIX,primevideo.tv,AmazonPrimeVideo
-HOST-KEYWORD,avoddashs,AmazonPrimeVideo
-USER-AGENT,InstantVideo.US*,AmazonPrimeVideo
-USER-AGENT,Prime%20Video*,AmazonPrimeVideo
-
-# NAME: AmazonTrust
-# HOST-SUFFIX: 3
-# TOTAL: 3
-HOST-SUFFIX,amazontrust.com,AmazonTrust
-HOST-SUFFIX,awstrust.com,AmazonTrust
-HOST-SUFFIX,ss2.us,AmazonTrust
+IP-CIDR,99.181.64.0/18,Twitch
+IP6-CIDR,2402:2a80::/32,Twitch
+USER-AGENT,InstantVideo.US*,Amazon
+USER-AGENT,InstantVideo.US*,PrimeVideo
+USER-AGENT,Prime%20Video*,Amazon
+USER-AGENT,Prime%20Video*,PrimeVideo
