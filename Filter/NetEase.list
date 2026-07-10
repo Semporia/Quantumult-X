@@ -1,9 +1,8 @@
-# NAME: NetEase
-# UPDATED: 2025-06-06 09:17:29
-# HOST: 1
-# HOST-SUFFIX: 114
-# IP-CIDR: 28
-# TOTAL: 143
+# ================================================
+# NetEase
+# Includes: NetEase
+# LastUpdated: 2026-07-10
+# ================================================
 HOST,netease.ugcvideoss.ourdvs.com,NetEase
 HOST-SUFFIX,126.am,NetEase
 HOST-SUFFIX,126.com,NetEase
@@ -45,6 +44,8 @@ HOST-SUFFIX,dingwei.link,NetEase
 HOST-SUFFIX,easebar.com,NetEase
 HOST-SUFFIX,easebar.net,NetEase
 HOST-SUFFIX,gamehaopu.com,NetEase
+HOST-SUFFIX,gameviewer.cn,NetEase
+HOST-SUFFIX,gameviewer.com,NetEase
 HOST-SUFFIX,haowu.link,NetEase
 HOST-SUFFIX,huihui.cn,NetEase
 HOST-SUFFIX,hukeck.com,NetEase
@@ -63,6 +64,7 @@ HOST-SUFFIX,icourse163.org,NetEase
 HOST-SUFFIX,icourses163.cn,NetEase
 HOST-SUFFIX,icourses163.com,NetEase
 HOST-SUFFIX,icourses163.org,NetEase
+HOST-SUFFIX,infiniteborders3kingdoms.com,NetEase
 HOST-SUFFIX,kada.com,NetEase
 HOST-SUFFIX,kada163.com,NetEase
 HOST-SUFFIX,laiqukankan.com,NetEase
