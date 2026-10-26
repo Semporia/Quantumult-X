@@ -1,7 +1,7 @@
 # ================================================
 # Apple
 # Includes: Apple, AppleDaily, AppleDev, AppleFirmware, AppleHardware, AppleID, AppleMail, AppleMedia, AppleMusic, AppleNews, AppleProxy, AppleTV, AppStore, iCloud, iCloudPrivateRelay, TestFlight, FitnessPlus, Siri, FindMy, SystemOTA, Beats
-# LastUpdated: 2026-07-10
+# LastUpdated: 2026-10-26
 # ================================================
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
@@ -2208,7 +2208,6 @@ HOST-SUFFIX,icloud.apple.com,iCloud
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.ch,AppleFirmware
 HOST-SUFFIX,icloud.ch,iCloud
-HOST-SUFFIX,icloud.cn,Apple
 HOST-SUFFIX,icloud.cn,iCloud
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com,AppleFirmware
